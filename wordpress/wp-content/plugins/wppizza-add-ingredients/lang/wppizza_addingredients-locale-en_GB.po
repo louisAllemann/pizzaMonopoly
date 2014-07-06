@@ -1,0 +1,1208 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPPizza Add Ingredients\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-27 16:11-0000\n"
+"PO-Revision-Date: 2014-05-27 16:11-0000\n"
+"Last-Translator: ollybach <dev@1000db.com>\n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../ajax/admin-get-json.php:24 ../inc/admin.echo.get_ingredients.inc.php:36
+msgid "copy"
+msgstr "copy"
+
+#: ../ajax/admin-get-json.php:89
+msgid "ingredients added"
+msgstr "ingredients added"
+
+#: ../ajax/admin-get-json.php:116
+msgid ""
+"Sorry, you cannot have the same ingredient for the same menu item in more "
+"than one custom group. Duplicate Ingredient for"
+msgstr ""
+"Sorry, you cannot have the same ingredient for the same menu item in more "
+"than one custom group. Duplicate Ingredient for"
+
+#: ../ajax/admin-get-json.php:135
+#: ../inc/admin.echo.settings.input.fields.inc.php:132
+msgid "Group"
+msgstr "Group"
+
+#: ../ajax/admin-get-json.php:136
+msgid "Ingredient"
+msgstr "Ingredient"
+
+#: ../ajax/admin-get-json.php:137
+msgid "Menu Item"
+msgstr "Menu Item"
+
+#: ../ajax/get-json.php:1336
+msgid "cheating , are we ?"
+msgstr "cheating , are we ?"
+
+#: ../inc/admin.echo.get_ingredients.inc.php:32
+msgid "on/off"
+msgstr "on/off"
+
+#: ../inc/admin.echo.get_ingredients.inc.php:32
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:157
+msgid "enabled"
+msgstr "enabled"
+
+#: ../inc/admin.echo.get_ingredients.inc.php:33
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:233
+msgid "delete"
+msgstr "delete"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:24
+msgid "Sort"
+msgstr "Sort"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:31
+msgid "Label [i.e \"comments\" etc]"
+msgstr "Label [i.e \"comments\" etc]"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:33
+#: ../inc/admin.echo.metaboxes.inc.php:116
+msgid "Group Label"
+msgstr "Group Label"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:41
+msgid "Additional Info (after label)"
+msgstr "Additional Info (after label)"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:43
+msgid "Additional Info (after group label)"
+msgstr "Additional Info (after group label)"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:52
+msgid "Display after all Groups ?"
+msgstr "Display after all Groups ?"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:54
+msgid "Display After Regular Groups (if any) ?"
+msgstr "Display After Regular Groups (if any) ?"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:57
+msgid "By default custom groups will be displayed BEFORE any regular groups"
+msgstr "By default custom groups will be displayed BEFORE any regular groups"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:66
+msgid "Do not display prices after individual ingredients"
+msgstr "Do not display prices after individual ingredients"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:73
+msgid "Sort by price first"
+msgstr "Sort by price first"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:83
+msgid ""
+"Ingredients can only be applied to whole menu item even if half and/or "
+"quarters are enabled (has no effect when only whole is enabled)"
+msgstr ""
+"Ingredients can only be applied to whole menu item even if half and/or "
+"quarters are enabled (has no effect when only whole is enabled)"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:89
+msgid "Custom Group Type"
+msgstr "Custom Group Type"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:91
+msgid "Default - [just like regular groups]"
+msgstr "Default - [just like regular groups]"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:92
+msgid ""
+"Group must have one - *and only one ingredient one time* - selected (radio "
+"input)"
+msgstr ""
+"Group must have one - *and only one ingredient one time* - selected (radio "
+"input)"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:93
+msgid ""
+"Group must have one - *and only one* ingredient - selected, but can be "
+"select multiple times "
+msgstr ""
+"Group must have one - *and only one* ingredient - selected, but can be "
+"select multiple times "
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:94
+msgid ""
+"Group must have *AT LEAST* minimum number of ingredient selected below "
+"(multiple allowed - but no more than 1x per ingredient)"
+msgstr ""
+"Group must have *AT LEAST* minimum number of ingredient selected below "
+"(multiple allowed - but no more than 1x per ingredient)"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:95
+msgid ""
+"Group must have *AT LEAST* minimum number of ingredient selected below "
+"(multiple allowed and multiple per ingredient)"
+msgstr ""
+"Group must have *AT LEAST* minimum number of ingredient selected below "
+"(multiple allowed and multiple per ingredient)"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:96
+msgid ""
+"EXCLUDE ingredient (any one selected here will be EXCLUDED from this group "
+"and for this/these item(s) - regardless of any other settings)"
+msgstr ""
+"EXCLUDE ingredient (any one selected here will be EXCLUDED from this group "
+"and for this/these item(s) - regardless of any other settings)"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:97
+msgid ""
+"PRESELECT (preselect ingredient with price added to the base price. If "
+"another custom group allows no more than one, first will be selected)"
+msgstr ""
+"PRESELECT (preselect ingredient with price added to the base price. If "
+"another custom group allows no more than one, first will be selected)"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:106
+msgid ""
+"Preselected Ingredients Prices are 0 [any *additional* selection of the "
+"same, pre-selected ingredient will be added by price set]"
+msgstr ""
+"Preselected Ingredients Prices are 0 [any *additional* selection of the "
+"same, pre-selected ingredient will be added by price set]"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:115
+msgid ""
+"<b>Minimum</b> number of <b>different</b> ingredients to select in this "
+"group (0 or more, but cannot be > *Maximum* number of *different* "
+"ingredients below [unless this is set to 0])"
+msgstr ""
+"<b>Minimum</b> number of <b>different</b> ingredients to select in this "
+"group (0 or more, but cannot be > *Maximum* number of *different* "
+"ingredients below [unless this is set to 0])"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:124
+msgid ""
+"<b>Maximum</b> number of <b>different</b> ingredients to select in this "
+"group [0 for unlimited]"
+msgstr ""
+"<b>Maximum</b> number of <b>different</b> ingredients to select in this "
+"group [0 for unlimited]"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:133
+msgid ""
+"Maximum number of <b>the same</b> ingredient selectable [0 for unlimited]"
+msgstr ""
+"Maximum number of <b>the same</b> ingredient selectable [0 for unlimited]"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:138
+msgid ""
+"Maximum <b>total sum of all</b> ingredients selected in this group [0 to "
+"ignore]"
+msgstr ""
+"Maximum <b>total sum of all</b> ingredients selected in this group [0 to "
+"ignore]"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:144
+msgid ""
+"Minimum <b>total sum of all</b> ingredients that have to be selected in this "
+"group [0 to ignore. must be less or equal to Maximum <b>total sum</b>]"
+msgstr ""
+"Minimum <b>total sum of all</b> ingredients that have to be selected in this "
+"group [0 to ignore. must be less or equal to Maximum <b>total sum</b>]"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:165
+msgid "Available Ingredients for this group"
+msgstr "Available Ingredients for this group"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:169
+msgid ""
+"IMPORTANT: Any Ingredients selected here will be taken out of any \"Standard"
+"\" Groups and must be enabled."
+msgstr ""
+"IMPORTANT: Any Ingredients selected here will be taken out of any \"Standard"
+"\" Groups and must be enabled."
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:171
+msgid "Sorry, there are no ingredients available and/or enabled for this group"
+msgstr ""
+"Sorry, there are no ingredients available and/or enabled for this group"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:183
+msgid "Assign to the following menu item(s)"
+msgstr "Assign to the following menu item(s)"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:209
+msgid "Ctrl+Click to select more than one"
+msgstr "Ctrl+Click to select more than one"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:224
+msgid "Select Group to Customise"
+msgstr "Select Group to Customise"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:226
+msgid "Select Group"
+msgstr "Select Group"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:231
+msgid "Add Textbox to Item"
+msgstr "Add Textbox to Item"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:234
+msgid "show/hide details"
+msgstr "show/hide details"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:241
+msgid "Current:"
+msgstr "Current:"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:254
+#: ../inc/admin.echo.metaboxes.inc.php:94
+msgid "Exclude Ingredients"
+msgstr "Exclude Ingredients"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:255
+#: ../inc/admin.echo.metaboxes.inc.php:95
+msgid "Preselect Ingredients"
+msgstr "Preselect Ingredients"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:257
+#: ../inc/admin.echo.metaboxes.inc.php:100
+msgid "Textbox"
+msgstr "Textbox"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:264
+msgid "Position:"
+msgstr "Position:"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:268
+msgid "post"
+msgstr "post"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:270
+msgid "pre"
+msgstr "pre"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:277
+msgid "Items:"
+msgstr "Items:"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:279
+msgid "--"
+msgstr "--"
+
+#: ../inc/admin.echo.get_ingredients_groups.inc.php:289
+#: ../inc/admin.echo.settings.input.fields.inc.php:124
+msgid "Menu Items"
+msgstr "Menu Items"
+
+#: ../inc/admin.echo.metaboxes.inc.php:21
+msgid "whole"
+msgstr "whole"
+
+#: ../inc/admin.echo.metaboxes.inc.php:22
+msgid "halfs"
+msgstr "halfs"
+
+#: ../inc/admin.echo.metaboxes.inc.php:23
+msgid "quarters"
+msgstr "quarters"
+
+#: ../inc/admin.echo.metaboxes.inc.php:34
+msgid ""
+"Sorry, there are no ingredients associated with the price tier chosen for "
+"this item yet,"
+msgstr ""
+"Sorry, there are no ingredients associated with the price tier chosen for "
+"this item yet,"
+
+#: ../inc/admin.echo.metaboxes.inc.php:35
+msgid ""
+"If you wish to enable this option for this item, either create (and enable) "
+"at least one ingredient for this pricetier or select(and save) a different "
+"tier for this item."
+msgstr ""
+"If you wish to enable this option for this item, either create (and enable) "
+"at least one ingredient for this pricetier or select(and save) a different "
+"tier for this item."
+
+#: ../inc/admin.echo.metaboxes.inc.php:47
+msgid "allow customers to add additional ingredients to this item ?"
+msgstr "allow customers to add additional ingredients to this item ?"
+
+#: ../inc/admin.echo.metaboxes.inc.php:49
+msgid "yes/no "
+msgstr "yes/no "
+
+#: ../inc/admin.echo.metaboxes.inc.php:58
+msgid "Allow Ingredients to be selected for"
+msgstr "Allow Ingredients to be selected for"
+
+#: ../inc/admin.echo.metaboxes.inc.php:74
+msgid "Ingredient price (in %)"
+msgstr "Ingredient price (in %)"
+
+#: ../inc/admin.echo.metaboxes.inc.php:87
+msgid "Custom Groups applied"
+msgstr "Custom Groups applied"
+
+#: ../inc/admin.echo.metaboxes.inc.php:111
+msgid "none"
+msgstr "none"
+
+#: ../inc/admin.echo.metaboxes.inc.php:112
+msgid "show/hide"
+msgstr "show/hide"
+
+#: ../inc/admin.echo.metaboxes.inc.php:117
+#: ../inc/admin.echo.register.submenu.pages.inc.php:21
+#: ../wppizza-addingredients.php:519 ../wppizza-addingredients.php:623
+msgid "Ingredients"
+msgstr "Ingredients"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:11
+msgid "Manage Ingredients"
+msgstr "Manage Ingredients"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:11
+msgid "&#8919; Ingredients"
+msgstr "&#8919; Ingredients"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:20
+msgid "Version"
+msgstr "Version"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:26
+msgid "Show Ingredients in a popup window/layer ?"
+msgstr "Show Ingredients in a popup window/layer ?"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:27
+msgid "Sticky Added Ingredients"
+msgstr "Sticky Added Ingredients"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:28
+msgid "Popup Width"
+msgstr "Popup Width"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:29
+msgid "Popup Animation Speed"
+msgstr "Popup Animation Speed"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:30
+msgid "Show count on ingredient when adding ?"
+msgstr "Show count on ingredient when adding ?"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:31
+msgid "Omit \"1x\" in cart, order and account hostory?"
+msgstr "Omit \"1x\" in cart, order and account hostory?"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:32
+msgid "Show 'add to cart' button alongside everywhere/half/quarters ?"
+msgstr "Show 'add to cart' button alongside everywhere/half/quarters ?"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:33
+msgid "*Added* ingredients display options"
+msgstr "*Added* ingredients display options"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:34
+msgid "Show de-selected pre-selected ingredients ?"
+msgstr "Show de-selected pre-selected ingredients ?"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:39
+msgid "Custom Ingredients Groups"
+msgstr "Custom Ingredients Groups"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:44
+#: ../wppizza-addingredients.php:626
+msgid "Localization"
+msgstr "Localization"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:49
+msgid "Set Access Rights"
+msgstr "Set Access Rights"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:54
+msgid "How To Use Custom Groups:"
+msgstr "How To Use Custom Groups:"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:59
+msgid "Manage your license:"
+msgstr "Manage your license:"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:25
+msgid "Show only Ingredients for"
+msgstr "Show only Ingredients for"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:27
+msgid "All Groups"
+msgstr "All Groups"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:45
+#: ../inc/admin.setup.default.options.inc.php:176
+msgid "add"
+msgstr "add"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:48
+#: ../inc/admin.echo.settings.input.fields.inc.php:66
+msgid "copy group ingredients"
+msgstr "copy group ingredients"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:49
+msgid "from"
+msgstr "from"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:51
+msgid "--select source--"
+msgstr "--select source--"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:58
+msgid "to"
+msgstr "to"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:60
+msgid "--select destination--"
+msgstr "--select destination--"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:78
+msgid "Set the roles that are allowed to access these pages"
+msgstr "Set the roles that are allowed to access these pages"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:103
+msgid "Show Price if 0.00 ?"
+msgstr "Show Price if 0.00 ?"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:105
+msgid ""
+"By default Ingredients in custom groups have their price displayed after the "
+"ingredient even if it is 0.00. Uncheck this box if you do NOT want to "
+"display prices that are 0.00"
+msgstr ""
+"By default Ingredients in custom groups have their price displayed after the "
+"ingredient even if it is 0.00. Uncheck this box if you do NOT want to "
+"display prices that are 0.00"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:109
+msgid "Alternative text if ingredient price is 0.00"
+msgstr "Alternative text if ingredient price is 0.00"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:111
+msgid ""
+"if you want to display alternative text (such as \"free\") for prices that "
+"are 0.00 enter it here. (make sure \"Show Price if 0.00\" above is checked)"
+msgstr ""
+"if you want to display alternative text (such as \"free\") for prices that "
+"are 0.00 enter it here. (make sure \"Show Price if 0.00\" above is checked)"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:116
+msgid "Your Custom Ingredients Groups:"
+msgstr "Your Custom Ingredients Groups:"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:118
+msgid "Show only Groups that apply to"
+msgstr "Show only Groups that apply to"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:151
+msgid "Add Custom Ingredients Group"
+msgstr "Add Custom Ingredients Group"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:159
+msgid ""
+"Keep added ingredients \"sticky\" when using popup. [if you have a lot of "
+"ingredients, you probably want to turn this off to improve usability on "
+"small handheld devices]"
+msgstr ""
+"Keep added ingredients \"sticky\" when using popup. [if you have a lot of "
+"ingredients, you probably want to turn this off to improve usability on "
+"small handheld devices]"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:167
+msgid ""
+"popup width [in percent]. You probably want to leave this at 100%. The popup "
+"gets dynamically resized depending on device used"
+msgstr ""
+"popup width [in percent]. You probably want to leave this at 100%. The popup "
+"gets dynamically resized depending on device used"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:171
+msgid "animation speed of popup [in ms]"
+msgstr "animation speed of popup [in ms]"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:176
+msgid ""
+"you can choose to also display a count in the list of ingredients available "
+"to indicate there too how often it has been added"
+msgstr ""
+"you can choose to also display a count in the list of ingredients available "
+"to indicate there too how often it has been added"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:181
+msgid ""
+"shows an additional button to directly add item to cart without selecting "
+"ingredients (only displayed if there are no mandatory or preselected "
+"ingredients and there are choices between halfs/quarters etc)"
+msgstr ""
+"shows an additional button to directly add item to cart without selecting "
+"ingredients (only displayed if there are no mandatory or preselected "
+"ingredients and there are choices between halfs/quarters etc)"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:186
+msgid ""
+"do not show \"1x\" count in cart, order and users account history if an "
+"ingredient has only been added 1 time (multiple selections will always have "
+"their count displayed)"
+msgstr ""
+"do not show \"1x\" count in cart, order and users account history if an "
+"ingredient has only been added 1 time (multiple selections will always have "
+"their count displayed)"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:192
+msgid ""
+"if you have pre-selected a specific ingredient (for example \"Onions\") but "
+"the customer chose to not have any onions, you can display this in the cart, "
+"orderpage and emails as \"No Onions\" as opposed to just omitting this "
+"ingredient"
+msgstr ""
+"if you have pre-selected a specific ingredient (for example \"Onions\") but "
+"the customer chose to not have any onions, you can display this in the cart, "
+"orderpage and emails as \"No Onions\" as opposed to just omitting this "
+"ingredient"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:195
+msgid ""
+"Display After Selected. By default these will be displayed before any "
+"actually selected ingredients. If you want them displayed after, check this "
+"box"
+msgstr ""
+"Display After Selected. By default these will be displayed before any "
+"actually selected ingredients. If you want them displayed after, check this "
+"box"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:198
+msgid ""
+"prefix for pre-selected ingredients that were de-selected such as \"NO\" or "
+"\"0x\" for example so it would read \"No Onions\" or \"0x Onions\" "
+msgstr ""
+"prefix for pre-selected ingredients that were de-selected such as \"NO\" or "
+"\"0x\" for example so it would read \"No Onions\" or \"0x Onions\" "
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:205
+msgid "sort added ingredients by price"
+msgstr "sort added ingredients by price"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:207
+msgid "display the price next to each ingredient *added*. "
+msgstr "display the price next to each ingredient *added*. "
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:209
+msgid "but do NOT display prices that are zero"
+msgstr "but do NOT display prices that are zero"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:211
+msgid ""
+"alternative label if zero [has no effect if \"do not display prices that are "
+"zero\" in enabled]"
+msgstr ""
+"alternative label if zero [has no effect if \"do not display prices that are "
+"zero\" in enabled]"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:233
+msgid "A note about Whole/Half/Quarter <b>ICONS</b>:"
+msgstr "A note about Whole/Half/Quarter <b>ICONS</b>:"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:234
+msgid ""
+"if you would like to use images as icons, use css declarations as decribed "
+"close to the bottom of the css file as the icons set here will still print "
+"in emails !"
+msgstr ""
+"if you would like to use images as icons, use css declarations as decribed "
+"close to the bottom of the css file as the icons set here will still print "
+"in emails !"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:237
+msgid "Label and Text for Selection Buttons (if enabled)"
+msgstr "Label and Text for Selection Buttons (if enabled)"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:237
+msgid "Whole:  Icons and Tab - Currently not in use"
+msgstr "Whole:  Icons and Tab - Currently not in use"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:237
+msgid "Halfs: Icons and Tabs"
+msgstr "Halfs: Icons and Tabs"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:237
+msgid "Quarters: Icons and Tabs"
+msgstr "Quarters: Icons and Tabs"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:237
+msgid "General"
+msgstr "General"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:258
+msgid "Enter your license key"
+msgstr "Enter your license key"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:259
+msgid "License Key"
+msgstr "License Key"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:262
+msgid "De-Activate License"
+msgstr "De-Activate License"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:263
+msgid "License active"
+msgstr "License active"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:265
+msgid "Activate License"
+msgstr "Activate License"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:266
+msgid "License in-active"
+msgstr "License in-active"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:268
+msgid ""
+"Please note: entering and activating the license is optional, but if you "
+"choose not to do so, you will not be informed of any future bugfixes and/or "
+"updates."
+msgstr ""
+"Please note: entering and activating the license is optional, but if you "
+"choose not to do so, you will not be informed of any future bugfixes and/or "
+"updates."
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:274
+msgid "ERROR"
+msgstr "ERROR"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:276
+msgid ""
+"There was a connection error, when trying to activate your license.<br /"
+">Please try again."
+msgstr ""
+"There was a connection error, when trying to activate your license.<br /"
+">Please try again."
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:279
+msgid ""
+"There was a connection error, when trying to de-activate your license.<br /"
+">Please try again."
+msgstr ""
+"There was a connection error, when trying to de-activate your license.<br /"
+">Please try again."
+
+#: ../inc/admin.echo.settings.text.header.inc.php:4
+msgid ""
+"if you seem to encounter a limit as to how many ingredients or custom groups "
+"you can add, <a href=\"http://www.wp-pizza.com/downloads/wppizza-add-"
+"ingredients/\" target=\"_blank\">please read this faq/troubleshooting guide</"
+"a>"
+msgstr ""
+"if you seem to encounter a limit as to how many ingredients or custom groups "
+"you can add, <a href=\"http://www.wp-pizza.com/downloads/wppizza-add-"
+"ingredients/\" target=\"_blank\">please read this faq/troubleshooting guide</"
+"a>"
+
+#: ../inc/admin.echo.settings.text.header.inc.php:7
+msgid ""
+"If you want to allow customers to add extra ingredients to a meal (adding "
+"extra cheese to a pizza for example), add all possible ingredients here, and "
+"enable \"allow extra ingredients\" on that particular meal.<br/>Only items "
+"checked here will be available to be selected by the customer."
+msgstr ""
+"If you want to allow customers to add extra ingredients to a meal (adding "
+"extra cheese to a pizza for example), add all possible ingredients here, and "
+"enable \"allow extra ingredients\" on that particular meal.<br/>Only items "
+"checked here will be available to be selected by the customer."
+
+#: ../inc/admin.setup.default.options.inc.php:8
+msgid "Anchovies"
+msgstr "Anchovies"
+
+#: ../inc/admin.setup.default.options.inc.php:9
+msgid "Artichokes"
+msgstr "Artichokes"
+
+#: ../inc/admin.setup.default.options.inc.php:10
+msgid "Asparagus"
+msgstr "Asparagus"
+
+#: ../inc/admin.setup.default.options.inc.php:11
+msgid "Broccoli"
+msgstr "Broccoli"
+
+#: ../inc/admin.setup.default.options.inc.php:12
+msgid "Egg"
+msgstr "Egg"
+
+#: ../inc/admin.setup.default.options.inc.php:13
+msgid "extra Cheese"
+msgstr "extra Cheese"
+
+#: ../inc/admin.setup.default.options.inc.php:14
+msgid "extra Garlic"
+msgstr "extra Garlic"
+
+#: ../inc/admin.setup.default.options.inc.php:15
+msgid "extra spicy"
+msgstr "extra spicy"
+
+#: ../inc/admin.setup.default.options.inc.php:16
+msgid "fresh Mushrooms"
+msgstr "fresh Mushrooms"
+
+#: ../inc/admin.setup.default.options.inc.php:17
+msgid "fresh Tomatoes"
+msgstr "fresh Tomatoes"
+
+#: ../inc/admin.setup.default.options.inc.php:18
+msgid "Goats Cheese"
+msgstr "Goats Cheese"
+
+#: ../inc/admin.setup.default.options.inc.php:19
+msgid "Gorgonzola"
+msgstr "Gorgonzola"
+
+#: ../inc/admin.setup.default.options.inc.php:20
+msgid "Ham"
+msgstr "Ham"
+
+#: ../inc/admin.setup.default.options.inc.php:21
+msgid "Jalapeño"
+msgstr "Jalapeño"
+
+#: ../inc/admin.setup.default.options.inc.php:22
+msgid "Kapers"
+msgstr "Kapers"
+
+#: ../inc/admin.setup.default.options.inc.php:23
+msgid "Mozarella"
+msgstr "Mozarella"
+
+#: ../inc/admin.setup.default.options.inc.php:24
+msgid "Olives"
+msgstr "Olives"
+
+#: ../inc/admin.setup.default.options.inc.php:25
+msgid "Onions"
+msgstr "Onions"
+
+#: ../inc/admin.setup.default.options.inc.php:26
+msgid "Parmaham"
+msgstr "Parmaham"
+
+#: ../inc/admin.setup.default.options.inc.php:27
+msgid "Parmesancheese"
+msgstr "Parmesancheese"
+
+#: ../inc/admin.setup.default.options.inc.php:28
+msgid "Pineapple"
+msgstr "Pineapple"
+
+#: ../inc/admin.setup.default.options.inc.php:29
+msgid "Rocket"
+msgstr "Rocket"
+
+#: ../inc/admin.setup.default.options.inc.php:30
+msgid "Salami"
+msgstr "Salami"
+
+#: ../inc/admin.setup.default.options.inc.php:31
+msgid "Scampi"
+msgstr "Scampi"
+
+#: ../inc/admin.setup.default.options.inc.php:32
+msgid "Spinach"
+msgstr "Spinach"
+
+#: ../inc/admin.setup.default.options.inc.php:33
+msgid "Sweetcorn"
+msgstr "Sweetcorn"
+
+#: ../inc/admin.setup.default.options.inc.php:34
+msgid "Tuna"
+msgstr "Tuna"
+
+#: ../inc/admin.setup.default.options.inc.php:148
+msgid "No"
+msgstr "No"
+
+#: ../inc/admin.setup.default.options.inc.php:169
+msgid ""
+"Sorry, you have reached tha maximum number of ingredients you can add from "
+"this group"
+msgstr ""
+"Sorry, you have reached tha maximum number of ingredients you can add from "
+"this group"
+
+#: ../inc/admin.setup.default.options.inc.php:169
+msgid ""
+"alert when trying to add more than the allowed maximum number of *distinct "
+"ingredients* for a group"
+msgstr ""
+"alert when trying to add more than the allowed maximum number of *distinct "
+"ingredients* for a group"
+
+#: ../inc/admin.setup.default.options.inc.php:170
+msgid "Sorry, you cannot add any more of this particular ingredient"
+msgstr "Sorry, you cannot add any more of this particular ingredient"
+
+#: ../inc/admin.setup.default.options.inc.php:170
+msgid ""
+"alert when trying to add more than the allowed maximum number of *the same "
+"ingredient*"
+msgstr ""
+"alert when trying to add more than the allowed maximum number of *the same "
+"ingredient*"
+
+#: ../inc/admin.setup.default.options.inc.php:171
+msgid "add ingredients"
+msgstr "add ingredients"
+
+#: ../inc/admin.setup.default.options.inc.php:171
+msgid "label for container that holds all selectable ingredients when shown"
+msgstr "label for container that holds all selectable ingredients when shown"
+
+#: ../inc/admin.setup.default.options.inc.php:172
+msgid "no extra ingredients"
+msgstr "no extra ingredients"
+
+#: ../inc/admin.setup.default.options.inc.php:172
+msgid "text to show when no ingredient has been added to item"
+msgstr "text to show when no ingredient has been added to item"
+
+#: ../inc/admin.setup.default.options.inc.php:173
+msgid "total"
+msgstr "total"
+
+#: ../inc/admin.setup.default.options.inc.php:173
+msgid "label before total price of baseprice plus any added ingredients"
+msgstr "label before total price of baseprice plus any added ingredients"
+
+#: ../inc/admin.setup.default.options.inc.php:174
+msgid "ingredients for"
+msgstr "ingredients for"
+
+#: ../inc/admin.setup.default.options.inc.php:174
+msgid "label for ingredients price tier (i.e. \"ingredients for\" 0.50)"
+msgstr "label for ingredients price tier (i.e. \"ingredients for\" 0.50)"
+
+#: ../inc/admin.setup.default.options.inc.php:175
+msgid "cancel"
+msgstr "cancel"
+
+#: ../inc/admin.setup.default.options.inc.php:175
+msgid "text shown on hover over icon for cancelling adding ingredients"
+msgstr "text shown on hover over icon for cancelling adding ingredients"
+
+#: ../inc/admin.setup.default.options.inc.php:176
+msgid "text shown on hover over icon used for adding ingredients"
+msgstr "text shown on hover over icon used for adding ingredients"
+
+#: ../inc/admin.setup.default.options.inc.php:177
+msgid "remove"
+msgstr "remove"
+
+#: ../inc/admin.setup.default.options.inc.php:177
+msgid ""
+"text shown on hover over icon used for removing already added ingredients"
+msgstr ""
+"text shown on hover over icon used for removing already added ingredients"
+
+#: ../inc/admin.setup.default.options.inc.php:178
+msgid "add to cart"
+msgstr "add to cart"
+
+#: ../inc/admin.setup.default.options.inc.php:178
+msgid "button label adding to cart when finished adding ingredients"
+msgstr "button label adding to cart when finished adding ingredients"
+
+#: ../inc/admin.setup.default.options.inc.php:179
+msgid ""
+"Please select the required ingredient before adding the item to the cart."
+msgstr ""
+"Please select the required ingredient before adding the item to the cart."
+
+#: ../inc/admin.setup.default.options.inc.php:179
+msgid "alert if required ingredient has not been selected"
+msgstr "alert if required ingredient has not been selected"
+
+#: ../inc/admin.setup.default.options.inc.php:180
+msgid "show/hide comments"
+msgstr "show/hide comments"
+
+#: ../inc/admin.setup.default.options.inc.php:180
+msgid ""
+"label to toggle comments in cart (if any added via textbox custom group)"
+msgstr ""
+"label to toggle comments in cart (if any added via textbox custom group)"
+
+#: ../inc/admin.setup.default.options.inc.php:181
+msgid "Just add to cart"
+msgstr "Just add to cart"
+
+#: ../inc/admin.setup.default.options.inc.php:181
+msgid "button label adding to cart without choosing ingredients (if enabled)"
+msgstr "button label adding to cart without choosing ingredients (if enabled)"
+
+#: ../inc/admin.setup.default.options.inc.php:182
+#: ../inc/admin.setup.default.options.inc.php:183
+msgid "first gratis"
+msgstr "first gratis"
+
+#: ../inc/admin.setup.default.options.inc.php:182
+msgid ""
+"text to display next to any preselected ingredient when initial price is "
+"zero but regular price >0 [non-custom groups]"
+msgstr ""
+"text to display next to any preselected ingredient when initial price is "
+"zero but regular price >0 [non-custom groups]"
+
+#: ../inc/admin.setup.default.options.inc.php:183
+msgid ""
+"text to display next to any preselected ingredient when initial price is "
+"zero but regular price >0 [custom groups]"
+msgstr ""
+"text to display next to any preselected ingredient when initial price is "
+"zero but regular price >0 [custom groups]"
+
+#: ../inc/admin.setup.default.options.inc.php:186
+msgid ""
+"Whole/Halfs/Quarters - Label Main: Label next to ingredients for whole menu "
+"items if more than one choices are available"
+msgstr ""
+"Whole/Halfs/Quarters - Label Main: Label next to ingredients for whole menu "
+"items if more than one choices are available"
+
+#: ../inc/admin.setup.default.options.inc.php:187
+msgid "How would you like your Ingredients ?"
+msgstr "How would you like your Ingredients ?"
+
+#: ../inc/admin.setup.default.options.inc.php:190
+msgid ""
+"Whole/Halfs/Quarters - Label Button [1] Whole: Icon next to ingredients for "
+"whole menu items if more than one choices are available"
+msgstr ""
+"Whole/Halfs/Quarters - Label Button [1] Whole: Icon next to ingredients for "
+"whole menu items if more than one choices are available"
+
+#: ../inc/admin.setup.default.options.inc.php:191
+msgid "Everywhere"
+msgstr "Everywhere"
+
+#: ../inc/admin.setup.default.options.inc.php:194
+msgid ""
+"Whole/Halfs/Quarters - Label Button [2] Halfs: Icon next to ingredients for "
+"whole menu items if more than one choices are available"
+msgstr ""
+"Whole/Halfs/Quarters - Label Button [2] Halfs: Icon next to ingredients for "
+"whole menu items if more than one choices are available"
+
+#: ../inc/admin.setup.default.options.inc.php:195
+msgid "Half & Half"
+msgstr "Half & Half"
+
+#: ../inc/admin.setup.default.options.inc.php:198
+msgid ""
+"Whole/Halfs/Quarters - Label Button [4] Quarters: Icon next to ingredients "
+"for whole menu items if more than one choices are available"
+msgstr ""
+"Whole/Halfs/Quarters - Label Button [4] Quarters: Icon next to ingredients "
+"for whole menu items if more than one choices are available"
+
+#: ../inc/admin.setup.default.options.inc.php:199
+msgid "Four Quarters"
+msgstr "Four Quarters"
+
+#: ../inc/admin.setup.default.options.inc.php:203
+msgid ""
+"Whole/Halfs/Quarters - [1] Label Whole [Icon]: Icon next to ingredients for "
+"whole menu items if more than one choices are available <b>(currently "
+"unused)</b>"
+msgstr ""
+"Whole/Halfs/Quarters - [1] Label Whole [Icon]: Icon next to ingredients for "
+"whole menu items if more than one choices are available <b>(currently "
+"unused)</b>"
+
+#: ../inc/admin.setup.default.options.inc.php:207
+msgid ""
+"Whole/Halfs/Quarters - [1] Label Whole [Tab]: Text to use in tab "
+"<b>(currently unused)</b>"
+msgstr ""
+"Whole/Halfs/Quarters - [1] Label Whole [Tab]: Text to use in tab "
+"<b>(currently unused)</b>"
+
+#: ../inc/admin.setup.default.options.inc.php:212
+msgid ""
+"Whole/Halfs/Quarters - [2] Label First Half [Icon]: Icon next to ingredients "
+"for whole menu items if more than one choices are available"
+msgstr ""
+"Whole/Halfs/Quarters - [2] Label First Half [Icon]: Icon next to ingredients "
+"for whole menu items if more than one choices are available"
+
+#: ../inc/admin.setup.default.options.inc.php:213
+msgid "&#9680;: "
+msgstr "&#9680;: "
+
+#: ../inc/admin.setup.default.options.inc.php:216
+msgid "Whole/Halfs/Quarters - [2] Label First Half [Tab]: Text to use in tab "
+msgstr "Whole/Halfs/Quarters - [2] Label First Half [Tab]: Text to use in tab "
+
+#: ../inc/admin.setup.default.options.inc.php:217
+msgid "Left Half"
+msgstr "Left Half"
+
+#: ../inc/admin.setup.default.options.inc.php:220
+msgid ""
+"Whole/Halfs/Quarters - [2] Label Second Half [Icon]: Icon next to "
+"ingredients for whole menu items if more than one choices are available"
+msgstr ""
+"Whole/Halfs/Quarters - [2] Label Second Half [Icon]: Icon next to "
+"ingredients for whole menu items if more than one choices are available"
+
+#: ../inc/admin.setup.default.options.inc.php:221
+msgid "&#9681;: "
+msgstr "&#9681;: "
+
+#: ../inc/admin.setup.default.options.inc.php:224
+msgid "Whole/Halfs/Quarters - [2] Label Second Half [Tab]: Text to use in tab "
+msgstr ""
+"Whole/Halfs/Quarters - [2] Label Second Half [Tab]: Text to use in tab "
+
+#: ../inc/admin.setup.default.options.inc.php:225
+msgid "Right Half"
+msgstr "Right Half"
+
+#: ../inc/admin.setup.default.options.inc.php:229
+msgid ""
+"Whole/Halfs/Quarters - [4] Label First Quarter [Icon]: Icon next to "
+"ingredients for whole menu items if more than one choices are available"
+msgstr ""
+"Whole/Halfs/Quarters - [4] Label First Quarter [Icon]: Icon next to "
+"ingredients for whole menu items if more than one choices are available"
+
+#: ../inc/admin.setup.default.options.inc.php:230
+#: ../inc/admin.setup.default.options.inc.php:238
+#: ../inc/admin.setup.default.options.inc.php:246
+#: ../inc/admin.setup.default.options.inc.php:254
+msgid "&#9684;: "
+msgstr "&#9684;: "
+
+#: ../inc/admin.setup.default.options.inc.php:233
+msgid ""
+"Whole/Halfs/Quarters - [4] Label First Quarter [Tab]: Text to use in tab "
+msgstr ""
+"Whole/Halfs/Quarters - [4] Label First Quarter [Tab]: Text to use in tab "
+
+#: ../inc/admin.setup.default.options.inc.php:234
+msgid "1st Quarter"
+msgstr "1st Quarter"
+
+#: ../inc/admin.setup.default.options.inc.php:237
+msgid ""
+"Whole/Halfs/Quarters - [4] Label Second Quarter [Icon]: Icon next to "
+"ingredients for whole menu items if more than one choices are available"
+msgstr ""
+"Whole/Halfs/Quarters - [4] Label Second Quarter [Icon]: Icon next to "
+"ingredients for whole menu items if more than one choices are available"
+
+#: ../inc/admin.setup.default.options.inc.php:241
+msgid ""
+"Whole/Halfs/Quarters - [4] Label Second Quarter [Tab]: Text to use in tab "
+msgstr ""
+"Whole/Halfs/Quarters - [4] Label Second Quarter [Tab]: Text to use in tab "
+
+#: ../inc/admin.setup.default.options.inc.php:242
+msgid "2nd Quarter"
+msgstr "2nd Quarter"
+
+#: ../inc/admin.setup.default.options.inc.php:245
+msgid ""
+"Whole/Halfs/Quarters - [4] Label Third Quarter [Icon]: Icon next to "
+"ingredients for whole menu items if more than one choices are available"
+msgstr ""
+"Whole/Halfs/Quarters - [4] Label Third Quarter [Icon]: Icon next to "
+"ingredients for whole menu items if more than one choices are available"
+
+#: ../inc/admin.setup.default.options.inc.php:249
+msgid ""
+"Whole/Halfs/Quarters - [4] Label Third Quarter [Tab]: Text to use in tab "
+msgstr ""
+"Whole/Halfs/Quarters - [4] Label Third Quarter [Tab]: Text to use in tab "
+
+#: ../inc/admin.setup.default.options.inc.php:250
+msgid "3rd Quarter"
+msgstr "3rd Quarter"
+
+#: ../inc/admin.setup.default.options.inc.php:253
+msgid ""
+"Whole/Halfs/Quarters - [4] Label Fourth Quarter [Icon]: Icon next to "
+"ingredients for whole menu items if more than one choices are available"
+msgstr ""
+"Whole/Halfs/Quarters - [4] Label Fourth Quarter [Icon]: Icon next to "
+"ingredients for whole menu items if more than one choices are available"
+
+#: ../inc/admin.setup.default.options.inc.php:257
+msgid ""
+"Whole/Halfs/Quarters - [4] Label Fourth Quarter [Tab]: Text to use in tab "
+msgstr ""
+"Whole/Halfs/Quarters - [4] Label Fourth Quarter [Tab]: Text to use in tab "
+
+#: ../inc/admin.setup.default.options.inc.php:258
+msgid "4th Quarter"
+msgstr "4th Quarter"
+
+#: ../wppizza-addingredients.php:86
+msgid ""
+"Extends WPPizza to allow adding of additional ingredients to any given menu "
+"item by the customer. Requires WPPizza 2.6.5+"
+msgstr ""
+"Extends WPPizza to allow adding of additional ingredients to any given menu "
+"item by the customer. Requires WPPizza 2.6.5+"
+
+#: ../wppizza-addingredients.php:180
+msgid ""
+"<strong>\"WPPizza Add Ingredients\"</strong> requires the server on which "
+"your site resides to be running PHP 5.2 or higher. As of version 3.2, "
+"WordPress itself will also <a href=\"http://wordpress.org/news/2010/07/eol-"
+"for-php4-and-mysql4\">have this requirement</a>. You should get in touch "
+"with your web hosting provider and ask them to update PHP.<br /><br /><a "
+"href=\""
+msgstr ""
+"<strong>\"WPPizza Add Ingredients\"</strong> requires the server on which "
+"your site resides to be running PHP 5.2 or higher. As of version 3.2, "
+"WordPress itself will also <a href=\"http://wordpress.org/news/2010/07/eol-"
+"for-php4-and-mysql4\">have this requirement</a>. You should get in touch "
+"with your web hosting provider and ask them to update PHP.<br /><br /><a "
+"href=\""
+
+#: ../wppizza-addingredients.php:536
+msgid "Allow to add ingredients ?"
+msgstr "Allow to add ingredients ?"
+
+#: ../wppizza-addingredients.php:624
+msgid "Options"
+msgstr "Options"
+
+#: ../wppizza-addingredients.php:625
+msgid "Custom Groups"
+msgstr "Custom Groups"
+
+#: ../wppizza-addingredients.php:627
+msgid "Access Rights"
+msgstr "Access Rights"
+
+#: ../wppizza-addingredients.php:628
+msgid "License"
+msgstr "License"
+
+#: ../wppizza-addingredients.php:629
+msgid "How To"
+msgstr "How To"

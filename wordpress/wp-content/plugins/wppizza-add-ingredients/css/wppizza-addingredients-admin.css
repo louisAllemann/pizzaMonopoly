@@ -1,0 +1,32 @@
+#wppizza-settings.wppizza_addingredients-ingredients .form-table th,
+#wppizza-settings.wppizza_addingredients-access-level .form-table th,
+#wppizza-settings.wppizza_addingredients-license .form-table th
+{width:200px}
+#wppizza-settings.wppizza_addingredients-custom-groups .form-table th,
+#wppizza-settings.wppizza_addingredients-localization .form-table th,
+#wppizza-settings.wppizza_addingredients-manual .form-table th
+{display:none}
+#wppizza_addingredients_custom_groups_label{overflow-y:auto;overflow-x:hidden;margin-bottom:3px;position:relative;}
+#wppizza_addingredients_custom_groups_filter_wrap{float:right;position:relative;top:0}
+#wppizza_ingredients_custom_groups_options .wppizza_option{margin-bottom:15px;border:1px solid #CECECE;border-bottom:none;border-top:none}
+#wppizza_ingredients_custom_groups_options .wppizza-custom-groups-header {padding:2px 5px;background-color:#EFEFEF;width:100%;min-height:50px;}
+#wppizza_ingredients_custom_groups_options .wppizza-custom-groups-header-info{font-size:90%;margin:0;padding:3px 0 0 0;line-height: 90%;clear:both}
+#wppizza_ingredients_custom_groups_options .wppizza-custom-groups-header-info>b{color:#999999;font-weight:normal}
+#wppizza_ingredients_custom_groups_options .wppizza-custom-groups-header-info>span{color:#AAAAAA}
+#wppizza_ingredients_custom_groups_options .wppizza-ingr-cg-highlight{border:1px solid red}
+.wppizza-custom-groups-details>div{padding:5px 5px;border-bottom: 1px dotted #CFCFCF}
+.wppizza-ingr-access{overflow:auto;}
+.wppizza-ingr-access>ul{display:block;}
+.wppizza-ingr-access>ul>li{display:inline;list-style: none;float:left;padding-right:10px}
+/**custom group summary menu item*/
+.wppizza_ingr_summary_toggle{color:blue;cursor:pointer;}
+table.wppizza_ingr_summary{border:1px dotted #CCC;}
+table.wppizza_ingr_summary tbody>tr:nth-child(even) {background: #FAFAFA}
+table.wppizza_ingr_summary tbody>tr:nth-child(odd) {background: #EFEFEF}
+table.wppizza_ingr_summary tr>td{padding:1px 3px}
+table.wppizza_ingr_summary thead>tr{background: #CECECE;font-weight:bold}
+.wppizza_ingr_copy{padding-left:5px;cursor:pointer}
+.wppizza_ingr_copy:hover{color:blue}
+#wppizza_ingredients_copy_fs{border:1px dotted #CCC;background: #FAFAFA;margin-top:10px;padding:5px}
+/**options form**/
+#wppizza_addingredients-options-form table th,#wppizza_addingredients-options-form table td{padding:5px 10px 5px 0}

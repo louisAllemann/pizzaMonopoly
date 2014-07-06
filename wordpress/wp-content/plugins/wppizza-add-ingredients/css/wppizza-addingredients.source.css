@@ -1,0 +1,397 @@
+/***********************************************************************************************************************************************************************************************
+*
+*	[wppizza add ingredients css - source]
+*
+*	the plugin uses a minified version of this file called wppizza-addingredients.min.css (minified via http://cssminifier.com/ )
+*	if you want to customise the css you should - preferably - create a file called wppizza-addingredients-custom.css in your theme directory and overwrite only what you need to overwrite.
+*	as it will be read AFTER the main css.
+*	However, if you really want to, you can also create a file called wppizza-addingredients.css in your theme directory which will then be loaded INSTEAD OF wppizza-addingredients.min.css	
+*
+*
+***********************************************************************************************************************************************************************************************/
+/**thickbox ADDED IN VERSION 3.2*/
+#TB_overlay{position:fixed;z-index:1000 !important;top:0;right:0;left:0;bottom:0;background:#FFFFFF;overflow:auto;height:auto;width:auto;}/**thickbox overwrite-> ADDED/AMENDED IN VERSION 4.2*/
+#TB_window.wppizza-add-ingredients-tbw{z-index:1000 !important;padding:0 !important;overflow-y:auto !important}
+#TB_ajaxWindowTitle.wppizza-add-ingredients-tbttl{white-space:nowrap}/*ADDED IN VERSION 4.2 */
+#TB_ajaxContent.wppizza-add-ingredients-tbc{overflow:hidden;padding: 0 15px 0 15px;}/*ADDED IN VERSION 4.2 */
+#TB_ajaxContent #wppizza-cart-cancel{display:none}/*no need for that in popup as theres a close in the title ADDED IN VERSION 4.2 */
+#TB_ajaxContent .wppizza-ingredients{background:#FFFFFF;background-color:#FFFFFF;color:#000000;}
+#wppizza-ai-cover{margin:0px;padding:0;position: fixed;z-index: 1; background:inherit}/*a small div to make the bottom of the popup a bit nicer when scrolling (popup only). do not edit other than 'color/background' and/or 'display' properties ADDED IN VERSION 4.2 */
+
+/***wrapper containers***/
+#wppizza-ingr-form{margin:0}
+.wppizza-ingredients,.wppizza-ingredients-multi{overflow:auto;padding:15px 5px 0;position:relative;clear:both;}/*AMENDED 4.2*/
+/**loading ingredients icon**/
+.wppizza-ingredients-loading{display:none;position:relative;top:0;bottom:0;left: 0;right: 0;background:url('img/ajax-loader.gif') center center no-repeat;min-height:150px;padding:0;margin:0;background-color:#FFFFFF;}
+/**cancel adding ingredients icon**/
+#wppizza-cart-cancel{font-family: Verdana;margin:0 5px 0 0;cursor:pointer;}
+
+/***container that lists ingredients currently selected as well as subtotal price***/
+#wppizza-ingredients-selected{overflow:auto;margin-top:0;margin-bottom:10px;background-color:#FCFCFC;border:1px dotted #CECECE;border-top:none;width:100%}
+
+/*currently selected ingredients*/
+.wppizza-current-ingredients{margin:0;display:block;overflow:auto;line-height:normal;padding:2px;min-height:20px}/*ADDED PADDING IN VERSION 2.0, ADDED MIN HEIGHT 4.2*/
+.wppizza-current-ingredients>p{margin:0;padding:0}
+.wppizza-current-ingredients>ul{margin:0 !important;}
+.wppizza-current-ingredients>ul>li{float:left;padding:0 0 4px 0;margin:0 2px;border:none;overflow:auto;font-size:100%}
+.wppizza-current-ingredients .wppizza-remove-ingredient{font-family: Verdana;cursor:pointer;border:1px solid #CECECE;background:#EFEFEF;padding:0 3px 0 4px;line-height:90%;font-size:90%;margin-right:3px;color:#000000}
+
+/**sticky currently added ingredients in popup ADDED IN VERSION 4.0.1**/
+.wppizza-current-ingredients-sticky{background:inherit;padding-bottom:3px}/*make right at least 15px to account for possible scrollbars. DO NOT SET top,left,right etc : AMENDED IN VERSION 4.2*/
+.wppizza-current-ingredients-sticky legend{width:100%;overflow:auto;padding:5px 2px}
+.wppizza-current-ingredients-sticky #wppizza-ingredients-selected{padding:2px 0 0 0;margin-bottom:0}/*AMENDED IN VERSION 4.2 */
+
+/*total of baseprice plus added ingredients*/
+#wppizza-current-sum{font-weight:600;float:right;white-space:nowrap}/*AMENDED IN VERSION 4.2 */
+#wppizza-current-total{margin-left:3px}/*price*/
+/**button to add to cart**/
+#wppizza-diy-to-cart{float:right;width:auto;padding:4px 7px !important;margin:0 0 0 10px;line-height:100%;font-size:90%}
+
+/***container that lists all available ingredients for selection***/
+.wppizza-list-ingredients{margin:25px 0 5px 0;padding:0;position:relative}
+.wppizza-list-ingredients>ul{margin:0 !important;}
+.wppizza-list-ingredients>ul>li:before{content:''}
+/**slow servers might not return stuff quickly enough for the js to be able to validate, so distinctly deselect groups by adding a covering div and removing it again when the server manages to finally respond**/
+.wppizza-ingredients-disable-click{position:absolute;margin:0;padding:0;top:0;right:0;bottom:0;left:0;background:transparent}
+
+
+/*selecttable ingredients grouped by price**/
+.wppizza-ingredients fieldset{display:block;overflow:visible;border:none}/*CHANGED formfield to fieldset and ADDED overflow:visible for IE7  IN VERSION 2.0*/
+.wppizza-ingredients ul{list-style:none !important;margin:0;padding:0;}
+.wppizza-ingredients legend{border-bottom:1px dotted #CECECE;width:100%;font-weight:600;display:block;line-height:200%;padding:0}
+.wppizza-ingredients ul>li{margin:0;padding:3px 0 2px 0;width:32%;float:left;list-style-type:none !important;font-size:90%;list-style-image:none !important}
+.wppizza-ingredients ul>li>.wppizza-doingredient{font-family: Verdana;cursor:pointer;border:1px solid #CECECE;background:#EFEFEF;padding:1px 4px;line-height:90%;font-size:90%;margin-right:3px;color:#000000}
+/***added in 4.2.3******/
+.wppizza-ingredient-count{padding:0 3px;}
+/**********************************************************************
+*
+*	[following declarations ADDED IN VERSION 2.0
+*	to allow for custom groups (and to make it prettier out of the box
+*
+***********************************************************************/
+/**additional info next to custom group label*/
+.wppizza-list-ingredients>legend>span{font-size:80%;font-weight:normal}
+.wppizza-list-ingredients>legend>span:before{content:'('}
+.wppizza-list-ingredients>legend>span:after{content:')'}
+
+/**highlight on error when no ingredient of a required group has been selected*/
+.wppizza-list-ingredients>ul{padding:2px;}/*might need to try overflow:auto; here*/
+.wppizza-list-ingredients-hilight{background-color:#FCFCFC;border:1px dotted #CECECE;border-top:none;overflow:auto;}
+.wppizza-multi-tab-hilight{}
+.wppizza-multi-tab-hilight:before{content:'*';color:#FF0000;padding:0 3px;}
+
+/**price next to any individual ingredient - only relevant in custom groups**/
+.wppizza-doingredient-price{font-size:80%;}
+.wppizza-doingredient-price:before{content:'('}
+.wppizza-doingredient-price:after{content:')'}
+
+/**all buttons/boxes before ingredients**/
+
+/*padding: 1px 6px 2px 2px;
+	width: 18px;
+	height: 18px;
+*/
+.wppizza-current-ingredients .wppizza-remove-ingredient,
+.wppizza-ingredients ul>li>.wppizza-doingredient,
+.wppizza-ingredients ul>li>.wppizza-ingr-0,
+.wppizza-ingredients ul>li>.wppizza-ingr-1,
+.wppizza-ingredients ul>li>.wppizza-ingr-2,
+.wppizza-ingredients ul>li>.wppizza-ingr-3,
+.wppizza-ingredients ul>li>.wppizza-ingr-4{
+	font-family: Verdana;
+	padding:0;
+	line-height: 12px;
+	font-size: 20px;
+	vertical-align: middle;
+	border: 1px solid #CECECE;
+	display: inline-block;
+	margin-top:-4px;
+	color: #333;
+	text-align: center;
+	vertical-align: middle;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+    background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #ccc;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-bottom-color: #b3b3b3;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+}
+
+/*******all square boxes********/
+.wppizza-ingredients ul>li>.wppizza-doingredient,
+.wppizza-ingredients ul>li>.wppizza-ingr-0,
+.wppizza-ingredients ul>li>.wppizza-ingr-2,
+.wppizza-ingredients ul>li>.wppizza-ingr-3,
+.wppizza-ingredients ul>li>.wppizza-ingr-4{
+	margin-top:-2px;
+    padding: 1px 4px 3px 4px;
+    font-size: 12px;
+    line-height: 12px;
+}
+/*plus (+) symbol in square boxes when unselected*/
+.wppizza-ingredients ul>li>.wppizza-ingr-0:before,
+.wppizza-ingredients ul>li>.wppizza-ingr-2:before,
+.wppizza-ingredients ul>li>.wppizza-ingr-3:before,
+.wppizza-ingredients ul>li>.wppizza-ingr-4:before{
+	content:'+';
+}
+
+/*plus (+) symbol in square boxes if selected (case 3 has tick symbol below)*/
+.wppizza-ingredients ul>li>.wppizza-ingr-0-selected:before,
+.wppizza-ingredients ul>li>.wppizza-ingr-2-selected:before,
+.wppizza-ingredients ul>li>.wppizza-ingr-4-selected:before{
+	content:'+';
+}
+
+/******radio (round) if one and only one ingredient required *************/
+.wppizza-ingredients ul>li>.wppizza-ingr-1,
+.wppizza-ingredients ul>li>.wppizza-ingr-1-selected{
+	-webkit-border-radius: 16px;
+	-moz-border-radius: 16px;
+	border-radius: 16px;
+	width:16px;
+	height:16px;
+	line-height:12px;
+    margin:0px 3px 4px 0;
+    padding:0;
+    text-align:center;
+}
+.wppizza-ingredients ul>li>.wppizza-ingr-1-selected{}
+/******radio (round) if selected**************/
+.wppizza-ingredients ul>li>.wppizza-ingr-1-selected:before{content:'\2022';font-size:30px;padding:0;margin:0;line-height:12px;
+	/* try uncommenting this is your theme renders the black dot in a strange place
+	position:relative;
+	top:-1px;
+	left:-1px;
+	*/
+}
+
+/******checkbox checked -> (tick symbol) if ingredient can only be choosen once*************/
+.wppizza-ingredients ul>li>.wppizza-ingr-3-selected{margin-top:-2px;padding: 0px 0px 0px 3px;font-size: 12px;line-height: 12px;text-indent:-3px;}
+.wppizza-ingredients ul>li>.wppizza-ingr-3-selected:before{content:'\2713';font-size:16px;line-height:16px;}
+
+/*****remove ingredients (minus symbol)******/
+.wppizza-current-ingredients .wppizza-remove-ingredient{padding: 1px 4px 3px 4px;font-size: 17px;}
+.wppizza-current-ingredients .wppizza-remove-ingredient:before{content:'-';}
+
+/*all: inverted colours when active**/
+.wppizza-ingredients ul>li>.wppizza-ingredient-selected,
+.wppizza-ingredients ul>li>.wppizza-ingr-0-selected,
+.wppizza-ingredients ul>li>.wppizza-ingr-1-selected,
+.wppizza-ingredients ul>li>.wppizza-ingr-2-selected,
+.wppizza-ingredients ul>li>.wppizza-ingr-3-selected,
+.wppizza-ingredients ul>li>.wppizza-ingr-4-selected{
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+    background-color:#e0e0e0;
+}
+/**hide all hardcoded (+)symbols and inputs so we can use them as fallback for IE7**/
+.wppizza-doingredient>b,.wppizza-remove-ingredient>b{display:none}
+
+/******************************************************************************************************/
+.wppizza-article p{margin:0}
+
+/***********button styles when ingredients for halfs/quarters are available*******************************/
+.wppizza-multiselect-main{padding-bottom:10px !important}/**amended IN VERSION 4.3.3*/
+#TB_ajaxContent .wppizza-multiselect-main{float:none;margin:50px 2px;}/**using thickbox ADDED IN VERSION 4.2*/
+#TB_ajaxContent .wppizza-multiselect-main-lbl,.wppizza-multiselect-main-lbl{display:block;margin:10px 0; text-align:center}/**using thickbox ADDED IN VERSION 4.2*/
+#TB_ajaxContent input.wppizza-multi-button-main{margin:4px;}/**using thickbox ADDED IN VERSION 4.2*/
+span.wppizza-multi-button-main,.wppizza-cart-button input.wppizza-multi-button-main{
+	font-size: 80%;display: inline-block;cursor:pointer;padding:4px 7px 3px 7px;margin:0 4px;min-width:75px;text-align: center;	line-height:100%;
+/* uncomment below if you want the buttons grey
+	color: #333;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+    background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #ccc;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-bottom-color: #b3b3b3;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.2),0 1px 2px rgba(0,0,0,0.05);
+*/
+}
+/****************************************************************************
+	not really in use a the moment as the buttons get hidden when selected
+*****************************************************************************/
+/*
+.wppizza-multi-button-main-selected{
+    background-image: none;
+    outline: 0;
+    -webkit-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+    -moz-box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.15),0 1px 2px rgba(0,0,0,0.05);
+    background-color:#e0e0e0;
+}
+*/
+/**container holding ingredients that are only selectable for whole item if halfs/quarters are offered**/
+div.wppizza-iwhole{border:1px solid #e0e0e0;padding:5px}
+div.wppizza-iwhole>fieldset{margin:0;padding:0}
+div.wppizza-iwhole-pre{margin:5px 0 10px 0}/*before other groups*/
+div.wppizza-iwhole-post{margin:10px 0 5px 0}/*after other groups*/
+
+/**container holding ingredients for selected half.quarter**/
+div.wppizza-imulti{border:1px solid #e0e0e0;border-top:none;padding:5px}
+/**first ingredient group in container**/
+div.wppizza-imulti>fieldset:first-child{margin-top:0}
+
+/*********comment/textboxes pre/post ingredients***********************************************/
+.wppizza-ingredients .wppizza-ingr-comments{margin:3px 0;width:100%;padding-left:0;padding-right:0}/**comment boxes pre/post ingredients*/
+.wppizza-ingredients .wppizza-ingr-comments>legend{border: none;width: 100%;font-weight: 600;display: block;line-height: 200%;padding: 0;}
+.wppizza-ingredients .wppizza-ingr-comments>legend>span{font-size: 80%;font-weight: normal;}
+.wppizza-ingredients .wppizza-ingr-comments>div{border:1px solid #E0E0E0;margin:0;padding:0;position:relative;left:1px;right:1px;top:1px;bottom:1px;height:100px}
+.wppizza-ingredients .wppizza-ingr-comments>div>textarea{border:none;margin:0;width:100%;height:100%;box-sizing: border-box;-moz-box-sizing: border-box;-webkit-box-sizing: border-box;}
+
+.wppizza-ingredients #wppizza-ingr-comments-pre{margin-bottom:20px}/*before ingredients*/
+.wppizza-ingredients #wppizza-ingr-comments-post{margin-top:10px}/*after ingredients*/
+
+.wppizza-cart-contents .wppizza-ingredients-comments{display:none;padding:0;margin:0;font-style:italic;}/*comments in cart**/
+.wppizza-cart-contents .wppizza-ingr-comment-toggle{cursor:pointer;clear:both;margin:0}
+.wppizza-cart-contents .wppizza-ingr-comment-toggle:before{padding-right:2px;font-style:normal;}
+.wppizza-cart-contents .wppizza-ingr-comment-toggle:before{content:'\25B6';}
+.wppizza-cart-contents .wppizza-ingr-comment-toggle-sel:before{content:'\25BC';}
+
+
+#wppizza-send-order .wppizza-ingredients-comments{font-style:italic;font-size: 90%;}/*comments in order page**/
+#wppizza-send-order .wppizza-ingredients-comments:before{content:'"';}
+#wppizza-send-order .wppizza-ingredients-comments:after{content:'"';}
+#wppizza-send-order .wppizza-ingredients-comments{}
+
+.wppizza-ingrinfo-0{display:inline}/*make first line inline to line up with + icon**/
+/**********tabs**********************************************************/
+ul.wppizza-multiselect-tabs{list-style: none;margin:0;padding:0;border-bottom:1px solid #e0e0e0;}
+ul.wppizza-multiselect-tabs>li:before{content:''}
+ul>li.wppizza-multi-tab{cursor:pointer;position:relative;top:1px;border-top:1px solid #e0e0e0;border-left:1px solid #e0e0e0;display:inline;float:none;width:auto;font-size: 90%;padding:2px 5px;min-width:75px;display:inline-block;text-align:center;margin:0;}
+ul>li.wppizza-multi-tab:last-child{border-right:1px solid #e0e0e0}
+ul>li.wppizza-multi-tab-selected{background-color:#e0e0e0;}
+
+
+/**icons before selected ingredients list**/
+.wppizza-current-ingredients>ul{overflow:auto;}
+.wppizza-current-ingredients>ul>li:before{content:''}
+.wppizza-multi-icon{font-family:Verdana;}
+/**icons for half/quarter in ingredients selected**/
+.wppizza-current-ingredients .wppizza-multi-icon{font-size:100%;padding:2px 5px 0 0;float:left;}
+/**icons for half/quarter in cart**/
+.wppizza-cart-contents .wppizza-multi-icon{font-size:120%;}
+/**icons for half/quarter on order page**/
+#wppizza-send-order .wppizza-multi-icon{font-size:110%;}
+/*************************************************************************
+*
+*	if you want to replace the icons with images try the below adding the
+*	images as required (or use :before, or whatever)
+*
+*	(1-2,2_1) //left half
+*	(2-2,2_2) //right half
+*	(1-4,4_1) //1st quarter
+*	(2-4,4_2) //2nd quarter
+*	(3-4,4_3) //3rd quarter
+*	(4-4,4_4) //4th quarter
+*************************************************************************/
+/* all whole/half/quarter icons */
+/*
+	.wppizza-multi-icon{text-indent:-999px;float:left}
+*/
+/*cart and orderpage*/
+/*
+.wppizza_multi_icon_2_1{url(path/to/image)}
+.wppizza_multi_icon_2_2{url(path/to/image)}
+.wppizza_multi_icon_4_1{url(path/to/image)}
+.wppizza_multi_icon_4_2{url(path/to/image)}
+.wppizza_multi_icon_4_3{url(path/to/image)}
+.wppizza_multi_icon_4_4{url(path/to/image)}
+*/
+/*selected ingredients when adding*/
+/*
+.wppizza-multi-icon-1-2{url(path/to/image)}
+.wppizza-multi-icon-2-2{url(path/to/image)}
+.wppizza-multi-icon-1-4{url(path/to/image)}
+.wppizza-multi-icon-2-4{url(path/to/image)}
+.wppizza-multi-icon-3-4{url(path/to/image)}
+.wppizza-multi-icon-4-4{url(path/to/image)}
+*/
+/***example with 16x16 img first of half and half icons on item 
+.wppizza-multi-icon-1-2{
+	text-indent:-20px;
+	background:url('http://www.domain.com/image.png') 2px 2px no-repeat;
+	width:16px;
+	height:16px;
+}
+***/
+/*********************************************************************************************************
+*	[uncomment the following declarations if you ALWAYS want to show browser native
+*	radio/checkboxes (where they make sense)
+*	[you might have to adjust them a bit here and there to work in your theme]
+*	[as IE 7 does not understand pseudo before/after, they will always be used there (with conditional css]
+**********************************************************************************************************/
+/*
+.wppizza-ingredients ul>li>.wppizza-input-native{width:18px;margin:-2px 0 0 0;padding:0;background-color:transparent;background-image:none;border:none;-webkit-box-shadow:none;-moz-box-shadow: none;box-shadow:none}
+.wppizza-ingredients ul>li>.wppizza-input-native:before{content:''}
+.wppizza-ingredients ul>li>.wppizza-input-native>b{display:block;text-align:left;text-shadow:none;text-indent:0}
+.wppizza-ingredients ul>li>.wppizza-input-native>b>input{margin:0;}
+.wppizza-ingredients ul>li>.wppizza-input-native>b>input[type=checkbox]{margin-left:2px}
+*/
+
+/***handheld/small screen devices***/
+@media screen and (min-resolution: 160dpi) {
+	#TB_ajaxContent .wppizza-multiselect-main-lbl{/**full, half quarter button label*/
+		font-size:150%;		
+	}
+	#TB_ajaxContent .wppizza-multi-button-main{/**full, half quarter buttons*/
+		padding:7px 7px !important;
+		font-size:120%;
+	}	
+	/*make buttons bigger for high resolution devices*/
+	.wppizza-current-ingredients .wppizza-remove-ingredient,
+	.wppizza-ingredients ul>li>.wppizza-doingredient, 
+	.wppizza-ingredients ul>li>.wppizza-ingr-0, 
+	.wppizza-ingredients ul>li>.wppizza-ingr-2, 
+	.wppizza-ingredients ul>li>.wppizza-ingr-3, 
+	.wppizza-ingredients ul>li>.wppizza-ingr-4,
+	.wppizza-multi-button-main {
+		padding:5px 8px !important;margin-right:3px
+	}
+	/*radio*/
+	.wppizza-ingredients ul>li>.wppizza-ingr-1,
+	.wppizza-ingredients ul>li>.wppizza-ingr-1-selected{
+		padding: 3px 4px !important;
+	}	
+	.wppizza-ingredients ul>li>.wppizza-ingr-1-selected:before{
+		padding: 0 !important;
+		font-size:50px;
+		line-height: 22px;
+		margin-left:0;	
+	}
+	/*multi icons*/
+	.wppizza-current-ingredients .wppizza-multi-icon{
+		font-size:130%;
+		line-height:130%;
+	}
+	
+}
+@media screen and (max-width: 400px){
+	/**small device->only 2 ingredients per row*/
+	.wppizza-ingredients ul>li{width:49% !important;padding:5px 0}
+}

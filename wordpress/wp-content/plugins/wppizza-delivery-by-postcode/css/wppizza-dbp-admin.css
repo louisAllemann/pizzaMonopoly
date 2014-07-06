@@ -1,0 +1,22 @@
+.wppizza_wppizza_dbp_admin_access_caps{overflow:auto;}
+.wppizza_wppizza_dbp_admin_access_caps{display:block;margin:0;padding:5px}
+.wppizza_wppizza_dbp_admin_access_caps:nth-child(odd){background:#EFEFEF;}
+.wppizza_wppizza_dbp_admin_access_caps:nth-child(even){background:#FFFFFF;}
+.wppizza_wppizza_dbp_admin_access_caps>li{display:inline;list-style: none;float:left;padding-right:10px}
+
+
+/******************
+	[dbp]
+*******************/
+#wppizza_dbp_areas th{vertical-align:top; width:auto !important; background-color:#DEDEDE;text-shadow:none;padding:5px;margin:5px;}
+#wppizza_dbp_areas th>.description{color:red;font-weight:400}
+#wppizza_dbp_areas {border:1px solid #999999;margin-bottom:10px}
+#wppizza_dbp_areas tr:nth-child(odd){background:#EFEFEF;}
+#wppizza_dbp_areas tr:nth-child(even){background:#FFFFFF;}
+#wppizza_dbp_areas tr>td{padding:5px;margin:5px}
+
+#wppizza_dbp-settings .form-table {width:auto !important;border:1px solid #999999;margin-bottom:10px;background-color:#FFFFFF;border-collapse:separate;}
+#wppizza_dbp-settings .form-table th{vertical-align:top; width:auto !important; text-shadow:none;padding:5px;margin:5px;}
+#wppizza_dbp-settings .form-table tr:nth-child(odd){background:#EFEFEF;}
+#wppizza_dbp-settings .form-table tr:nth-child(even){background:#FFFFFF;}
+#wppizza_dbp-settings .form-table tr>td{padding:5px;margin:5px}

@@ -1,0 +1,404 @@
+/***********************
+*
+*	[shopping cart]
+*
+***********************/
+.wppizza-cart-nocache{margin:0;padding:0;border:none}
+.wppizza-cart-nocacheinner{height:250px;position: relative;z-index: 999;left: 0;right: 0;padding:0;margin:0;background-color:inherit;border:none}
+.wppizza-cart{height:250px;position: relative;z-index: 999;left: 0;right: 0;padding:0;margin:0;background-color:inherit;border: 1px solid #ccc;}
+.wppizza-cart-fixed{position:fixed;left:auto;right:auto;}/**-----amended in version 2.8.7 background and margin now set via WPPizza -> layout----***/
+
+/*opening hours top/bottom*/
+.wppizza-opening-hours{text-align:center}
+
+/*available discounts and delivery info***/
+#wppizza-orders-info{text-align:center !important;list-style-position:inside;list-style:none;margin:5px 0 !important;}
+#wppizza-orders-info>li{margin:0;padding:0;font-size:90%;line-height:110%;border:0;background:none;}
+
+
+
+/**-----new in version 1.4.1----***/
+/*self pickup checkbox and label under cart and or order page (if displayed)*/
+.wppizza-order-pickup-choice{margin:2px 0;padding:0;font-size:90%;line-height:110%;border:0;background:none;}
+.wppizza-order-pickup-choice input[type=checkbox]{vertical-align: middle;position: relative;bottom: 1px;}
+/*self pickup text in cart under totals**/
+#wppizza-cart-self-pickup{text-align:center;color:#FF6666;padding-bottom:2px;display:block}
+/*self pickup info on order page*/
+#wppizza-self-pickup{font-weight:600;color:#FF6666;padding-top:5px;}
+/**-----end new 1.4.1-----------***/
+
+
+/*delivery and discounts info under bottom of cart*/
+.wppizza-deliverydiscounts{position: relative;z-index: 999;left: 0;right: 0;padding:0;margin:0;background-color:#EFEFEF;border: 1px solid #ccc;text-align:center;color:#000000;font-size:80%;}
+.wppizza-delivery>div:before,.wppizza-discounts>div:before{content: '\2022\a0';}
+.wppizza-delivery>div>span,.wppizza-discounts>div>span{font-weight:bold}
+.wppizza-delivery>div{margin:0 3px;}
+.wppizza-discounts>div{display:inline;margin:0 3px;}
+
+/**buy now and empty cart buttons below cart*/
+.wppizza-cart-button{font-weight:600;;padding:0;text-align:center;margin:2px}
+.wppizza-cart-button input{margin:0 1px;width:auto;height:auto !important; padding:4px 6px !important;line-height:100%;float:none}
+
+
+/**buy now button in order page*/
+.wppizza-send-order{display:block}
+/*paypal buy now button*/
+.wppizza-button-wrap-paypal{text-align:center}
+
+
+/**items in cart -> if the button below is quite big and makes the whole info spill into the cart contents, increase "bottom" size of .wppizza-order and adjust ".wppizza-cart" height **/
+/*NEW IN VERSION 2.0: changed bottom:100px to 108px to allow space for tax*/
+.wppizza-order{position:absolute;bottom:108px;top:0px;left:0;right:0;margin:0;border-bottom:1px dotted #999999;overflow:auto;}/*change bottom to allow more/less space for button*/
+.wppizza-order>p{text-align:center;}
+.wppizza-order>ul.wppizza-cart-contents{margin: 0 !important;padding: 0 !important;list-style: none;width:auto;}
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item {text-align:left;background: none !important; margin:0 auto !important; padding:2px 0 !important;clear:both;border-bottom:1px dotted #DEDEDE;overflow:auto;font-size:90%;width:99%;line-height:110%}
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item:before {content:'';}
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item:after {content:'';}
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-item-category{width:100%;background:#FCFCFC;padding:0; margin:0;border:none;line-height:150% }/**added 2.8.9.4*/
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-item-category>span{font-weight:normal;font-size:80%;margin:0;line-height:100%;padding:2px;border:none;}
+
+/*lets also try to remove before and after if in sidebar*/
+#sidebar .wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item:before {content:'';}
+#sidebar .wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item:after {content:'';}
+
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item>.wppizza-remove-from-cart{
+	cursor:pointer;
+	font-family: Verdana;
+	float:left;
+	padding:1px 0 0 0;
+	line-height: 11px;
+	height:14px;width:14px;
+	font-size: 11px;
+	vertical-align: middle;
+	border: 1px solid #CECECE;
+	display: block;
+	margin:0 3px 2px 0;
+	color: #333;
+	text-align: center;
+	vertical-align: middle;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+    background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #ccc;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-bottom-color: #b3b3b3;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item>.wppizza-cart-item-price{float:right;margin-right:3px;white-space:nowrap}
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item>.wppizza-cart-item-size{font-size:80%}
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item>.wppizza-cart-item-size:before{content: '[';}
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item>.wppizza-cart-item-size:after{content: ']';}
+/**additional info cart**/
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item>.wppizza-item-additional-info{margin:0;padding:0;width:100%;clear:both}
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item>.wppizza-item-additional-info>.wppizza-item-additional-info-icon{float:left;}
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item>.wppizza-item-additional-info>.wppizza-item-additional-info-icon:before{content:'\00a0+';}
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item>.wppizza-item-additional-info>.wppizza-item-additional-info-pad{padding:0 0 0 18px;}
+.wppizza-order>ul.wppizza-cart-contents>.wppizza-cart-item>.wppizza-item-additional-info>.wppizza-item-additional-info-pad>span{margin-right:3px;font-size:90%;display:inline-table}
+
+/**-----NEW IN VERSION 2.5----***/
+/*text input increase/decrease and respective button in cart**/
+.wppizza-cart-item>.wppizza-cart-increment{
+	cursor:pointer;
+	font-family: Verdana;
+	padding:0;
+	line-height: 17px;
+	font-size: 14px;
+	vertical-align: middle;
+	border: 1px solid #CECECE;
+	display: inline-block;
+	width:16px;
+	margin:-3px 2px 0 1px;
+	color: #333;
+	text-align: center;
+	vertical-align: middle;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+    background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #ccc;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-bottom-color: #b3b3b3;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.wppizza-cart-item>.wppizza-cart-incr{padding:2px;margin:0;font-size:90%;width:20px !important;}
+
+/**-----END NEW IN VERSION 2.5----***/
+
+/**total price breakdown***/
+.wppizza-price-details{position:absolute;bottom:0;left:7px;right:7px;margin:0 ;padding:0;font-size:90%;border:1px solid #009900}
+.wppizza-price-details>div{text-align:left;margin:0;padding:0;line-height:100%}
+.wppizza-price-details>div>span{display:inline-block;width:70px;font-size:90%;float:right;text-align:right}
+.wppizza-price-details .wppizza-total{font-weight:600}
+
+/**info minimum order (not)reached and price summary below cart contents*/
+.wppizza-cart-info{position:absolute;bottom:0;left:5px;right:5px;margin:0;padding:0;line-height:120%;font-size:90%}
+.wppizza-cart-info>.wppizza-cart-nocheckout{color:red;text-align:center;line-height:30px}
+.wppizza-cart-info>span{display:block;text-align:left}
+.wppizza-cart-info .wppizza-cart-info-price{float:right;font-size:100%;white-space:nowrap}
+.wppizza-cart-info .wppizza-cart-total{font-weight:600}
+
+
+/**-----AMENDED IN VERSION 2.8.9.2----***/
+.wppizza-order-item-tax-itemsonly{border-top:1px dotted #CECECE}
+.wppizza-car-tax-itemsonly{border-top:1px dotted #CECECE}
+
+
+
+
+
+/**ajax loading gif***/
+.wppizza-cart .loading{background:url('img/ajax-loader.gif') center center no-repeat;}
+#wppizza-loading{background:url('img/ajax-loader.gif') center center no-repeat;position: absolute;z-index: 1000;top:0;bottom:0;left: 0;right: 0;padding:0;margin:0;background-color:#FFFFFF;}
+
+
+#wppizza-order-received{width:100%;min-height:250px;border:1px dotted #CECECE;}
+#wppizza-order-received>.mailSuccess{margin:20px}
+/************************************************
+* minus sign before discounts/ negative numbers
+************************************************/
+.wppizza-minus:before{content:'-';}
+
+/*************************************************
+*
+*	final page before hitting send order button
+*
+**************************************************/
+#wppizza-send-order{position:relative}
+#wppizza-send-order>fieldset{border:1px dotted #CECECE;padding:10px}
+/**note: you might want to set the background color for the legend explicitly to work with your theme to make this work in IE and not have ugly lines going THROUGH the legend (or just take out the border above)*/
+#wppizza-send-order>fieldset>legend{margin:0 20px;padding:10px 20px;font-weight:600;width:auto;border:none;background-color:inherit;}
+#wppizza-send-order>fieldset>label{display:block}
+#wppizza-send-order>fieldset label.error{color:#FF0000;padding:0 0 5px 0;font-size:90%}
+#wppizza-send-order>fieldset>input,#wppizza-send-order>fieldset>select,#wppizza-send-order>fieldset>textarea{margin-bottom:3px;width:100%;min-width:100%;padding-left:0;padding-right:0;}
+#wppizza-send-order>fieldset>textarea{height:75px}
+/**order page -> nocheckout (instead of send order button) as minimum values etc have not been reached NEW 2.5.3*/
+#wppizza-send-order>fieldset>.wppizza-order-nocheckout{color:red;text-align:center;line-height:30px}
+/**required label in order page NEW 2.6.5.3*/
+.wppizza-order-label-required:after{content:'*';color:red;padding-left:5px;}
+/*tips/gratuities field and button NEW IN VERSION 2.8.4 to have the error/validation message in a sensible place we have to mess around with floats etc **/
+#wppizza-send-order #wppizza-ctips-wrap-outer{overflow:auto;}
+#wppizza-send-order #wppizza-ctips-wrap-inner{float:left}
+#wppizza-send-order #ctips{float:right}
+#wppizza-send-order #wppizza-ctips-btn{margin:2px 1px;width:auto;min-width:0;height:auto !important; padding:5px 7px !important;line-height:100%;float:right}
+#wppizza-send-order #wppizza-ctips-wrap-inner label.error{display:block}
+
+/*NEW IN VERSION 2.8.9*/
+/*************************************************
+*
+*		order page: login, login cancel , continue as guest or register elements
+*
+**************************************************/
+#wppizza-user-register-info{display:none;font-size:80%}
+#wppizza-user-register-info>.wppizza-login-error{font-size:120%}
+.wppizza-login-error{border-left: 4px solid #dd3d36;padding:5px;margin:5px;}
+#wppizza-user-login{overflow:auto;}
+#wppizza-user-login-action{border:1px dotted #CECECE;padding:5px;position:relative}
+#wppizza-login-frm{overflow:auto;}
+#wppizza-login-frm>span{display:inline-block;float:left;padding:5px 5px 5px 0;margin:0;}
+#wppizza-login-frm>span>div{font-size:80%;margin:0;padding:0;padding-left:5px}
+#wppizza-user-login-option span{display:inline-block;}
+#wppizza-user-login-action input{float:left;}
+#wppizza-user-login-action label.error{float:left;clear:both;color:#FF0000;padding:0 0 5px 0;font-size:90%}
+
+
+
+
+#wppizza-cart-contents{border:1px dotted #CECECE;padding:10px;}
+#wppizza-cart-contents>ul{margin:0 0 10px 0 ;padding:0;list-style-position:inside}
+#wppizza-cart-contents>ul>li{margin:0;line-height:130%;clear:both}
+#wppizza-cart-contents>ul>li.wppizza-item-category{list-style-type: none;border-bottom:1px dotted #cecece;display:inline-block;margin-top:5px;padding:0}
+#wppizza-cart-contents>ul>li>span{float:right}
+#wppizza-cart-contents>ul>li>span.wppizza-price-single{float:none}
+
+
+#wppizza-cart-subtotals{list-style:none;}
+#wppizza-cart-subtotals>li{margin-left:15px;line-height:130%}
+/*#wppizza-cart-subtotals>li.wppizza-order-discount{border-bottom:1px dotted #CECECE;}*/
+#wppizza-cart-total{font-weight:600;border-top:1px solid #CECECE;margin-top:10px;padding-top:3px;line-height:130%}
+#wppizza-cart-total>span{white-space:nowrap}
+
+
+
+
+/*NEW IN VERSION 2.1*/
+#wppizza-cart-contents.wppizza-cart-thankyou{padding:0;margin:15px auto;width:95%;border:none;}/*if displaying order on thank you page*/
+#wppizza-transaction-head{font-weight:bold;border-bottom:1px dotted #CECECE;}
+#wppizza-transaction-time{font-size:90%}/*if displaying order on thank you page*/
+#wppizza-transaction-id{float:right;font-size:80%;font-weight:normal}/*if displaying order on thank you page*/
+.wppizza-cart-thankyou .wppizza-order-textarea{margin-left:20px}/*any textarea displayed in order on thank you page*/
+.wppizza-cart-thankyou #wppizza-customer-details{list-style: none;}
+.wppizza-cart-thankyou #wppizza-customer-details>li{text-align:right}
+.wppizza-cart-thankyou #wppizza-customer-details>li>label{float:left}
+.wppizza-cart-thankyou #wppizza-item-details{margin:40px 0 20px 0}
+.wppizza-item-additionalinfo{padding-left:25px;padding-bottom:5px;font-size:90%}/*[additional info for ordered items on "order page" and "thank you" page (if enabled)]*/
+.wppizza-item-additionalinfo:before{content:'+ ';margin-left:-10px;}/*[additional info for ordered items on "order page" and "thank you" page (if enabled)]*/
+/*END NEW IN VERSION 2.1*/
+
+
+/*NEW IN VERSION 2.8.9.8*/
+/*************************************************
+*
+*	final, final confirmatiom page (if enabled)
+*
+**************************************************/
+.wppizza-confirm-label-required:after{content:'*';color:red;padding:5px;}
+#wppizza-confirm-legal label.error{float:right}
+.wppizza-confirm-order fieldset{position:relative}
+.wppizza-confirm-dochange{padding-left:10px;font-size:80%}
+.wppizza-confirm-button{overflow:hidden}
+.wppizza-confirm-button>.wppizza-ordernow{float:right}
+/*itemised table*/
+.wppizza-confirm-itemised-th{border:none; border-bottom:1px solid #CECECE;}
+#wppizza-confirm-itemmised-details{padding:0;margin: 5px 0;border:none;}
+#wppizza-confirm-itemmised-details th{font-weight:600;}
+#wppizza-confirm-itemmised-details th,#wppizza-confirm-itemmised-details td{padding:3px;margin:3px;border:none; border-bottom:1px solid #CECECE;}
+.wppizza-confirm-item-price-total-th,.wppizza-confirm-item-price-total{text-align:right;padding:}
+.wppizza-confirm-item-price,.wppizza-confirm-item-price-total,.wppizza-confirm-item-quantity{white-space:nowrap}
+/**sub total table*/
+#wppizza-confirm-cart-subtotals-wrap{overflow:auto;margin:0;padding:0}
+#wppizza-confirm-cart-subtotals{border:none;width:auto;float:right;padding:0;margin:5px 0 5px 0}
+#wppizza-confirm-cart-subtotals tr{margin:3px 0;padding:0;height:auto;line-height:100%}
+#wppizza-confirm-cart-subtotals td{margin:0;padding:3px 3px 3px 5px;border:none;height:auto;line-height:100%;font-size:110%}
+#wppizza-confirm-cart-subtotals td:nth-child(2){text-align:right}
+#wppizza-confirm-cart-subtotals .wppizza-cart-total{border-top: 1px solid #CECECE;}
+#wppizza-confirm-cart-subtotals .wppizza-cart-total>td{font-weight:600;}
+#wppizza-confirm-subtotals-after{margin:0;padding:5px;line-height:100%;font-size:90%;text-align:right}
+
+/************************
+*
+*	[menu items]
+*
+************************/
+/****headers*****/
+.wppizza-header .wppizza-title{margin-bottom:0}
+/****layout*****/
+.wppizza-article{width:98%;clear:both;overflow:hidden;padding:5px 0 !important;margin:0 auto 10px auto;}
+.wppizza-article-tiers{float:right;margin:0 0 0 10px;}
+/****thumbnails*****/
+.wppizza-article-img{float:left;text-align:center;}
+.wppizza-article-img .wppizza-article-img-thumb,.wppizza-article-img .wppizza-article-img-placeholder{padding:5px;margin:3px 10px 0 0 !important;border:1px dotted #CECECE;}
+.wppizza-article-img-placeholder{width:75px;height:75px;background:url('img/no_image.png') center center no-repeat;}
+.wppizza-article-img .wppizza-article-img-thumb{width:auto;max-width:none !important}
+/****info/txt/*****/
+.wppizza-article-info{}
+.wppizza-article-info h2,.wppizza-article-info h3{display:inline;display:inline-block;padding-bottom:0;margin:0}
+.wppizza-article-additives{font-size:60%;margin:0 5px}
+/****prices and labels*****/
+.wppizza-article-price{float:left;text-align:center;padding:3px;font-size:120%;}
+.wppizza-article-price:hover{cursor:pointer;}
+.wppizza-article-price>span{margin:0 !important;padding:0;display:inline !important;}
+.wppizza-article-price>span:hover{text-decoration:underline}
+.wppizza-article-price-lbl{font-size:60%;text-align:center;white-space: nowrap;}
+.wppizza-article-price-lbl:hover{text-decoration:underline}
+.wppizza-article-price-lbl:after{content: url('img/cart-black-12-12.png');position: relative;top: 2px;margin-left: 2px;}
+
+/**feedback when item added to cart-> ADDED v2.8.7.3*/
+.wppizza-item-added-feedback{margin:0;padding:0;font-size:60%;text-align:center;}
+.wppizza-item-added-feedback>div{font-size:180%;}
+
+
+/*hide cart icon if set in settings overriding above class*/
+.wppizza-no-cart:after{content:'' !important;}
+/*add cursor if we allow trigger by menu title*/
+.wppizza-trigger-click{cursor:pointer;}
+
+.wppizza-article-price-currency{font-size:160%;line-height:200%;margin:0 10px;}
+.wppizza-article-currency-left{float:left;}
+/***footnotes (additives etc)**/
+.wppizza-contains-additives{text-align:center;font-size:80%;margin:50px 0 0 0;}
+.wppizza-contains-additives>span{margin-right:10px}
+
+/************************
+*
+*	[category navigation ul]
+*
+************************/
+#wppizza-categories,#wppizza-categories ul,.wppizza-categories, .wppizza-categories ul{list-style: none ;margin-top:0;;margin-bottom:0;}
+#wppizza-categories,.wppizza-categories{margin: 0;padding: 0;}
+
+/************************
+*
+*	[gateway items/buttons/selections in "order page" NEW IN VERSION 2.0]
+*
+************************/
+.wppizza-gateways{margin:5px 0}
+.wppizza-gw-button{position:relative;margin-bottom:3px;padding:10px 5px;color: #5e5e5e;background-color: #ebebeb;background-repeat: repeat-x;background-image: -moz-linear-gradient(top, #f9f9f9, #ebebeb);background-image: -ms-linear-gradient(top, #f9f9f9, #ebebeb);background-image: -webkit-linear-gradient(top, #f9f9f9, #ebebeb);background-image: -o-linear-gradient(top, #f9f9f9, #ebebeb);background-image: linear-gradient(top, #f9f9f9, #ebebeb);border: 1px solid #d2d2d2;border-radius: 3px;box-shadow: 0 1px 2px rgba(64, 64, 64, 0.1);}
+.wppizza-gw-button>label{cursor:pointer}
+.wppizza-gateway-img{vertical-align:bottom;margin-right:5px}
+.wppizza-gateway-addinfo{display:block;font-size:80%;padding-left:25px}
+
+
+/**-----NEW IN VERSION 2.9----***/
+/************************
+*
+*	[history orders]
+*
+************************/
+.wppizza-history{border:1px dotted #CECECE;padding:10px;background:inherit;margin:0 0 30px 0}
+.wppizza-history-legend{margin:0;padding:0px 20px;font-weight:600;width:auto;border:none;background-color:inherit;}
+#wppizza-history-wrap .wppizza-item-details{margin:0 0 10px 0;padding: 0;list-style-position: inside;}
+#wppizza-history-wrap .wppizza-item-details>li{margin:0;padding:0}
+#wppizza-history-wrap .wppizza-item-category{list-style-type: none;border-bottom: 1px dotted #cecece;display: inline-block;margin-top: 5px;padding: 0;}
+#wppizza-history-wrap .wppizza-price-item-total{float: right;}
+#wppizza-history-wrap .wppizza-history-subtotals{margin:0;padding:0}
+#wppizza-history-wrap .wppizza-history-subtotals>li{list-style:none;margin:0;padding:0}
+#wppizza-history-wrap .wppizza-history-subtotals>li>span {float: right;}
+#wppizza-history-wrap .wppizza-history-payment{margin:0;padding:0;text-align:right;font-size:90%;display:none}
+#wppizza-history-wrap .wppizza-item-additionalinfo{padding-left:25px;padding-bottom:5px;font-size:90%}/*[additional info for ordered items history ]*/
+
+
+/************************
+*
+*	[history pagination]
+*
+************************/
+.wppizza-history-pagination-wrap{text-align:center;margin:50px 0;padding:0}
+.wppizza-history-pagination,.wppizza-history-pagination-selected,.wppizza-history-pagination-txt,.wppizza-history-pagination-txt-disabled{
+	cursor:pointer;
+	text-decoration:none;
+	font-family: Verdana;
+	padding:5px;
+	line-height: 17px;
+	font-size: 10px;
+	vertical-align: middle;
+	border: 1px solid #CECECE;
+	display: inline-block;
+	min-width:16px;
+	margin:2px;
+	color: #333;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 3px;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.75);
+    background-color: #f5f5f5;
+    background-image: -moz-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -webkit-gradient(linear,0 0,0 100%,from(#fff),to(#e6e6e6));
+    background-image: -webkit-linear-gradient(top,#fff,#e6e6e6);
+    background-image: -o-linear-gradient(top,#fff,#e6e6e6);
+    background-image: linear-gradient(to bottom,#fff,#e6e6e6);
+    background-repeat: repeat-x;
+    border: 1px solid #ccc;
+    border-color: #e6e6e6 #e6e6e6 #bfbfbf;
+    border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
+    border-bottom-color: #b3b3b3;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff',endColorstr='#ffe6e6e6',GradientType=0);
+    filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
+}
+.wppizza-history-pagination-selected,a.wppizza-history-pagination:hover,a.wppizza-history-pagination-txt:hover{font-weight:bold;color:#333}
+.wppizza-history-pagination-selected{cursor:default}
+.wppizza-history-pagination-txt,.wppizza-history-pagination-txt-disabled{padding-left:15px;padding-right:15px;}
+.wppizza-history-pagination-txt-disabled,.wppizza-history-pagination-txt-disabled:hover{color:#AAAAAA;cursor:default}

@@ -1,0 +1,18 @@
+/************************************************************************************
+*	to edit/amend/change the declarations below:
+*	
+*	[create a file called wppizza-tm-custom.css in your theme directory and overwrite 
+*	specific declarations as neccessary]
+*	[however, if you must, you can also copy this whole file as is (i.e as wppizza-tm.css) 
+*	to your theme - which will then be loaded instead - and edit as required]
+*
+************************************************************************************/
+
+/******************
+	[item not available]
+*******************/
+.main-navigation li ul.sub-menu{z-index:100}/*make sure menu dropdowns cover non available item divs**/
+.wppizza_tm_nawrap{position:relative;}
+.wppizza_tm_na{z-index:98;opacity:0.9;position:absolute;top:0;right:0;bottom:0;left:0;background-color:#FFFFFF;padding:0;margin:0}
+.wppizza_tm_na_inner{position:absolute;z-index:99;top:0;right:0;bottom:0;left:0;padding:0;margin:0 auto;overflow:hidden;background:transparent;}
+.wppizza_tm_na_inner>div{position:absolute;top:50%;left:-40%;width:100%;text-align:center;font-size:90%;background-color:#EFEFEF;margin-top:-11px;height:20px;line-height:20px;padding:2px 5px;transform: rotate(-40deg);-ms-transform: rotate(-40deg); -webkit-transform: rotate(-40deg);}

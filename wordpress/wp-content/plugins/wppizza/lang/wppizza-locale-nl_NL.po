@@ -1,0 +1,3412 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPPizza v2.9.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-05-24 16:03-0000\n"
+"PO-Revision-Date: 2014-06-08 22:56:27+0000\n"
+"Last-Translator: ollybach <dev@1000db.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Textdomain-Support: yes"
+
+#: ajax/admin-get-json.php:56
+#@ wppizza-locale
+msgid "order deleted"
+msgstr "Bestelling verwijderd"
+
+#: ajax/admin-get-json.php:74
+#@ wppizza-locale
+msgid "Done"
+msgstr "Klaar"
+
+#: ajax/admin-get-json.php:146
+#@ wppizza-locale
+msgid "Note: deleting an order will <b>ONLY</b> delete it from the database table. It will <b>NOT</b> issue any refunds, cancel the order, send emails etc."
+msgstr "Opmerking: verwijderen van een bestelling zal deze <b>ALLEEN</b> verwijderen uit de database table. Het zal <b>GEEN</b> geen bestelling ongedaan kunnen maken of het versturen van emails etc. meer kunnen uitvoeren."
+
+#: ajax/admin-get-json.php:148
+#@ wppizza-locale
+msgid "\"Status\" is solely for your internal reference. Updating/changing the value will have no other effects but might help you to identify which orders have not been processed."
+msgstr "\"Status\" is uitsluitend voor uw interne referentie. Updaten / wijzigen van de waarde zal geen andere effecten hebben, maar kan u helpen om te bepalen welke orders niet zijn verwerkt."
+
+#: ajax/admin-get-json.php:152
+#@ wppizza-locale
+msgid "Order"
+msgstr "bestelling"
+
+#: ajax/admin-get-json.php:155
+#@ wppizza-locale
+msgid "Customer Details"
+msgstr "Klantgegevens"
+
+#: ajax/admin-get-json.php:158
+#@ wppizza-locale
+msgid "Order Details"
+msgstr "Bestelgegevens"
+
+#: ajax/admin-get-json.php:186
+#: ajax/admin-get-json.php:188
+#@ wppizza-locale
+msgid "Payment By"
+msgstr "Betaling Via"
+
+#: ajax/admin-get-json.php:199
+#@ wppizza-locale
+msgid "Status"
+msgstr "Status"
+
+#: ajax/admin-get-json.php:212
+#@ wppizza-locale
+msgid "Last Status Update"
+msgstr "Laatste Status Update"
+
+#: ajax/admin-get-json.php:233
+#: inc/admin.echo.get_additives.inc.php:16
+#: inc/admin.echo.get_mealsizes.inc.php:55
+#: inc/admin.echo.get_openingtimes.inc.php:14
+#: inc/admin.echo.get_timesclosed.inc.php:22
+#@ wppizza-locale
+msgid "delete"
+msgstr "verwijder"
+
+#: ajax/admin-get-json.php:237
+#@ wppizza-locale
+msgid "print order"
+msgstr "uw bestelling"
+
+#: ajax/admin-get-json.php:245
+#@ wppizza-locale
+msgid "add notes"
+msgstr "add notes"
+
+#: ajax/admin-get-json.php:252
+#@ wppizza-locale
+msgid "notes:"
+msgstr "notes:"
+
+#: ajax/admin-get-json.php:253
+#: inc/admin.setup.default.options.inc.php:623
+#@ wppizza-locale
+msgid "ok"
+msgstr "ok"
+
+#: ajax/admin-get-json.php:259
+#@ wppizza-locale
+msgid "no orders yet :("
+msgstr "nog geen bestellingen :("
+
+#: ajax/admin-get-json.php:264
+#@ wppizza-locale
+msgid "Total of shown orders"
+msgstr "Totaal van getoonde bestellingen"
+
+#: ajax/admin-get-json.php:265
+#@ wppizza-locale
+msgid "show total of all orders"
+msgstr "bekijk totaal van alle bestellingen"
+
+#: ajax/admin-get-json.php:287
+#@ wppizza-locale
+msgid "total all orders"
+msgstr "totaal alle bestellingen"
+
+#: ajax/get-json.php:410
+#@ wppizza-locale
+msgid "Sorry, we could not find this order."
+msgstr "We kunnen helaas deze bestelling niet vinden."
+
+#: ajax/get-json.php:438
+#@ wppizza-locale
+msgid "This order has already been processed"
+msgstr "Deze bestelling is al verwerkt"
+
+#: ajax/get-json.php:447
+#@ wppizza-locale
+msgid "SUCCESS"
+msgstr "SUCCES"
+
+#: ajax/get-json.php:452
+#@ wppizza-locale
+msgid "FAILED: Sending of Mail Failed"
+msgstr "MISLUKT: Het verzenden van de email is mislukt"
+
+#: classes/wppizza-gateway-cod.php:9
+#@ wppizza-locale
+msgid "Cash on Delivery"
+msgstr "Afhalen"
+
+#: classes/wppizza.actions.inc.php:190
+#@ default
+msgid "<strong>ERROR</strong>: Invalid username or incorrect password."
+msgstr "<strong>FOUT</strong>: Ongeldige gebruikersnaam of verkeerd wachtwoord."
+
+#: classes/wppizza.actions.inc.php:200
+#: classes/wppizza.actions.inc.php:207
+#@ default
+msgid "Log In"
+msgstr "Inloggen"
+
+#: classes/wppizza.actions.inc.php:201
+#@ default
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: classes/wppizza.actions.inc.php:205
+#@ default
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: classes/wppizza.actions.inc.php:206
+#@ default
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: classes/wppizza.actions.inc.php:346
+#@ wppizza-locale
+msgid "Additional information"
+msgstr "Extra Plugin Informatie"
+
+#: classes/wppizza.actions.inc.php:481
+#@ wppizza-locale
+msgid "ATTENTION:"
+msgstr "LET OP:"
+
+#: classes/wppizza.actions.inc.php:482
+#@ wppizza-locale
+msgid "WPPizza requires the <b>\"mbstring\"</b> extension in your php installation to be available/installed to work reliably. Please enable this module. If you do not know how to, speak to your hostinng provider"
+msgstr "WPPizza requires the <b>\"mbstring\"</b> extension in your php installation to be available/installed to work reliably. Please enable this module. If you do not know how to, speak to your hostinng provider"
+
+#: classes/wppizza.actions.inc.php:483
+#@ wppizza-locale
+msgid "This notice will disappear as soon as mbstring is available."
+msgstr "This notice will disappear as soon as mbstring is available."
+
+#: classes/wppizza.actions.inc.php:687
+#@ wppizza-locale
+msgid "Set Item Options"
+msgstr "Stel de item opties in"
+
+#: classes/wppizza.actions.inc.php:827
+#: inc/admin.echo.register.submenu.pages.inc.php:3
+#@ wppizza-locale
+msgid "Settings"
+msgstr "Instellingen"
+
+#: classes/wppizza.actions.inc.php:828
+#@ wppizza-locale
+msgid "Order Settings"
+msgstr "Bestel Instellingen"
+
+#: classes/wppizza.actions.inc.php:829
+#@ wppizza-locale
+msgid "Gateways"
+msgstr "Beheren Gateways"
+
+#: classes/wppizza.actions.inc.php:830
+#@ wppizza-locale
+msgid "Order Form Settings"
+msgstr "Bestelformulier Instellingen"
+
+#: classes/wppizza.actions.inc.php:831
+#: inc/admin.echo.manage_opening_times.inc.php:3
+#@ wppizza-locale
+msgid "Opening Times"
+msgstr "Openingstijden"
+
+#: classes/wppizza.actions.inc.php:832
+#: inc/admin.echo.manage_meal_sizes.inc.php:3
+#@ wppizza-locale
+msgid "Meal Sizes"
+msgstr "Maaltijd grootten"
+
+#: classes/wppizza.actions.inc.php:833
+#: inc/admin.echo.manage_additives.inc.php:4
+#@ wppizza-locale
+msgid "Additives"
+msgstr "Toevoegingen"
+
+#: classes/wppizza.actions.inc.php:834
+#: inc/admin.echo.manage_layout.inc.php:3
+#@ wppizza-locale
+msgid "Layout"
+msgstr "Opmaak"
+
+#: classes/wppizza.actions.inc.php:835
+#: inc/admin.echo.settings.input.fields.inc.php:448
+#@ wppizza-locale
+msgid "Localization"
+msgstr "Beheer Lokalisatie"
+
+#: classes/wppizza.actions.inc.php:836
+#: inc/admin.echo.manage_order_history.inc.php:3
+#@ wppizza-locale
+msgid "Order History"
+msgstr "Bestellings geschiedenis"
+
+#: classes/wppizza.actions.inc.php:837
+#: inc/admin.echo.manage_access_rights.inc.php:3
+#@ wppizza-locale
+msgid "Access Rights"
+msgstr "Toegangsrechten"
+
+#: classes/wppizza.actions.inc.php:838
+#: inc/admin.echo.manage_reports.inc.php:23
+#: inc/admin.echo.register.submenu.pages.inc.php:13
+#@ wppizza-locale
+msgid "Reports"
+msgstr "Rapportages"
+
+#: classes/wppizza.actions.inc.php:839
+#: inc/admin.echo.manage_tools.inc.php:3
+#: inc/admin.echo.register.submenu.pages.inc.php:15
+#@ wppizza-locale
+msgid "Tools"
+msgstr "Gereedschappen"
+
+#: classes/wppizza.actions.inc.php:840
+#@ wppizza-locale
+msgid "Delete Orders"
+msgstr "Bestellingen verwijderen"
+
+#: classes/wppizza.actions.inc.php:1132
+#@ default
+msgid "Nothing here"
+msgstr "Niets hier"
+
+#: classes/wppizza.actions.inc.php:1391
+#@ wppizza-locale
+msgid "Menu Items"
+msgstr "Menu-items"
+
+#: classes/wppizza.actions.inc.php:1392
+#@ wppizza-locale
+msgid "WPPizza Menu Item"
+msgstr "WPPizza Menu-item"
+
+#: classes/wppizza.actions.inc.php:1393
+#@ wppizza-locale
+msgid "Add New"
+msgstr "Voeg nieuw toe"
+
+#: classes/wppizza.actions.inc.php:1394
+#@ wppizza-locale
+msgid "Add New Menu Item"
+msgstr "Voeg een nieuw menu-item toe"
+
+#: classes/wppizza.actions.inc.php:1395
+#@ wppizza-locale
+msgid "Edit"
+msgstr "Bewerk"
+
+#: classes/wppizza.actions.inc.php:1396
+#@ wppizza-locale
+msgid "Edit Menu Item"
+msgstr "Bewerk menu item"
+
+#: classes/wppizza.actions.inc.php:1397
+#@ wppizza-locale
+msgid "New Menu Item"
+msgstr "Nieuw menu-item"
+
+#: classes/wppizza.actions.inc.php:1398
+#@ wppizza-locale
+msgid "All Menu Items"
+msgstr "Alle menu-items"
+
+#: classes/wppizza.actions.inc.php:1399
+#@ wppizza-locale
+msgid "View"
+msgstr "Bekijk"
+
+#: classes/wppizza.actions.inc.php:1400
+#@ wppizza-locale
+msgid "View Menu Items"
+msgstr "Bekijk de menu-items"
+
+#: classes/wppizza.actions.inc.php:1401
+#@ wppizza-locale
+msgid "Search Menu Items"
+msgstr "Zoek in de menu-items"
+
+#: classes/wppizza.actions.inc.php:1402
+#@ wppizza-locale
+msgid "No items found"
+msgstr "Geen items gevonden"
+
+#: classes/wppizza.actions.inc.php:1403
+#@ wppizza-locale
+msgid "No items found in the Trash"
+msgstr "Geen artikelen gevonden in de Prullenbak"
+
+#: classes/wppizza.actions.inc.php:1412
+#, php-format
+#@ wppizza-locale
+msgid "Holds %1$s  menu items data"
+msgstr "Bevat %1$s menu-item gegevens"
+
+#: classes/wppizza.actions.inc.php:1500
+#@ wppizza-locale
+msgid "WPPizza Categories"
+msgstr "WPPizza Categorieën"
+
+#: classes/wppizza.actions.inc.php:1451
+#@ default
+msgid "Search Categories"
+msgstr "Zoek in de Categorieën"
+
+#: classes/wppizza.actions.inc.php:1452
+#@ default
+msgid "All Categories"
+msgstr "Alle Categorieën"
+
+#: classes/wppizza.actions.inc.php:1453
+#@ default
+msgid "Parent Category"
+msgstr "Hoofd Categorie"
+
+#: classes/wppizza.actions.inc.php:1454
+#@ default
+msgid "Parent Category:"
+msgstr "Hoofd Categorie:"
+
+#: classes/wppizza.actions.inc.php:1455
+#@ default
+msgid "Edit Category"
+msgstr "Bewerk Categorie"
+
+#: classes/wppizza.actions.inc.php:1456
+#@ default
+msgid "Update Category"
+msgstr "Actualiseer de Categorie"
+
+#: classes/wppizza.actions.inc.php:1457
+#@ default
+msgid "Add New Category"
+msgstr "Nieuwe Categorie Toevoegen"
+
+#: classes/wppizza.actions.inc.php:1458
+#@ default
+msgid "New Category Name"
+msgstr "Nieuwe Categorie Naam"
+
+#: classes/wppizza.actions.inc.php:1459
+#@ default
+msgid "Categories"
+msgstr "Categorieën"
+
+#: classes/wppizza.actions.inc.php:2490
+#: classes/wppizza.actions.inc.php:2492
+#@ default
+msgid "Previous"
+msgstr "Vorige"
+
+#: classes/wppizza.actions.inc.php:2506
+#: classes/wppizza.actions.inc.php:2508
+#@ default
+msgid "Next"
+msgstr "Volgende"
+
+#: classes/wppizza.edd.inc.php:101
+#@ wppizza-locale
+msgid "Deactivate License"
+msgstr "Deactiveer Licentie"
+
+#: classes/wppizza.edd.inc.php:101
+#: classes/wppizza.edd.inc.php:173
+#@ wppizza-locale
+msgid "Activate License"
+msgstr "Activeer Licentie"
+
+#: classes/wppizza.edd.inc.php:110
+#: classes/wppizza.edd.inc.php:182
+#@ wppizza-locale
+msgid "Please note: entering and activating the license is optional, but if you choose not to do so, you will not be informed of any future bugfixes and/or updates."
+msgstr "N.B.: het invullen en activeren van de licentie is optioneel, maar als je ervoor kiest om het niet te doen, dan wordt je niet geïnformeerd over toekomstige bugfixes en/of updates."
+
+#: classes/wppizza.edd.inc.php:115
+#@ wppizza-locale
+msgid "ERROR"
+msgstr "FOUT"
+
+#: classes/wppizza.edd.inc.php:116
+#@ wppizza-locale
+msgid "There was a connection error, when trying to check your license.<br />Please try again."
+msgstr "Er is een verbindingsfout opgetreden tijdens het controleren van je licentie.<br />Probeer het s.v.p. opnieuw."
+
+#: classes/wppizza.edd.inc.php:130
+#: classes/wppizza.edd.inc.php:167
+#@ wppizza-locale
+msgid "License Key"
+msgstr "Licentie Code"
+
+#: classes/wppizza.edd.inc.php:132
+#@ wppizza-locale
+msgid "license key"
+msgstr "licentie code"
+
+#: classes/wppizza.edd.inc.php:166
+#@ default
+msgid "Enter your license key"
+msgstr "Voor je licentie code in"
+
+#: classes/wppizza.edd.inc.php:171
+#@ wppizza-locale
+msgid "De-Activate License"
+msgstr "Deactiveer Licentie"
+
+#: classes/wppizza.edd.inc.php:177
+#@ wppizza-locale
+msgid "License active"
+msgstr "Licentie actief"
+
+#: classes/wppizza.edd.inc.php:180
+#@ wppizza-locale
+msgid "License in-active"
+msgstr "Licentie niet actief"
+
+#: classes/wppizza.gateways.inc.php:735
+#@ wppizza-locale
+msgid "nothing to do !"
+msgstr "nothing to do !"
+
+#: classes/wppizza.gateways.inc.php:801
+#@ wppizza-locale
+msgid "Sorry, this order has already been processed or does not exist !"
+msgstr "Sorry, this order has already been processed or does not exist !"
+
+#: classes/wppizza.gateways.inc.php:805
+#@ wppizza-locale
+msgid "Sorry, this order does not exist !"
+msgstr "Sorry, this order does not exist !"
+
+#: classes/wppizza.gateways.inc.php:1071
+#@ wppizza-locale
+msgid "form fields"
+msgstr "form fields"
+
+#: inc/admin.echo.get_additives.inc.php:12
+#@ wppizza-locale
+msgid "sort"
+msgstr "sorteer"
+
+#: inc/admin.echo.get_additives.inc.php:13
+#@ wppizza-locale
+msgid "name"
+msgstr "naam"
+
+#: inc/admin.echo.get_additives.inc.php:18
+#: inc/admin.echo.get_mealsizes.inc.php:57
+#@ wppizza-locale
+msgid "in use"
+msgstr "in gebruik"
+
+#: inc/admin.echo.get_gateways.inc.php:15
+#@ wppizza-locale
+msgid "enabled Y/N"
+msgstr "in werking stellen Y/N"
+
+#: inc/admin.echo.get_gateways.inc.php:17
+#@ wppizza-locale
+msgid "show options"
+msgstr "Toon opties"
+
+#: inc/admin.echo.get_gateways.inc.php:31
+#@ wppizza-locale
+msgid "Frontend display order"
+msgstr "Weergave van de Front-end volgorde"
+
+#: inc/admin.echo.get_gateways.inc.php:40
+#@ wppizza-locale
+msgid "Frontend Label"
+msgstr "Front-end Label"
+
+#: inc/admin.echo.get_gateways.inc.php:43
+#@ wppizza-locale
+msgid "displays"
+msgstr "toont"
+
+#: inc/admin.echo.get_gateways.inc.php:43
+#@ wppizza-locale
+msgid "if Empty"
+msgstr "indien Leeg"
+
+#: inc/admin.echo.get_gateways.inc.php:44
+#@ wppizza-locale
+msgid "Used in emails and frontend. However, it is only being displayed on frontend order page if more than one gateway installed, activated and enabled"
+msgstr "Gebruikt in e-mails en front-end. Het wordt alleen maar getoond op de front-end bestelpagina als u meer dan 1 gateway heeft geïnstalleerd, geactiveerd en aangezet."
+
+#: inc/admin.echo.get_gateways.inc.php:49
+#@ wppizza-locale
+msgid "Frontend: Additional Plugin Information"
+msgstr "Front-end: Extra Plugin Informatie"
+
+#: inc/admin.echo.get_gateways.inc.php:52
+#@ wppizza-locale
+msgid "only displayed if more than one gateway installed, activated and enabled"
+msgstr "alleen weergegeven als er meer dan een gateway geïnstalleerd, geactiveerd en ingeschakeld is"
+
+#: inc/admin.echo.get_mealsizes.inc.php:6
+#@ wppizza-locale
+msgid "Admin Screen Label"
+msgstr "Admin Screen Label"
+
+#: inc/admin.echo.get_mealsizes.inc.php:13
+#: inc/admin.echo.get_mealsizes.inc.php:22
+#@ wppizza-locale
+msgid "optional, use to identify groups with the same labels. "
+msgstr "optioneel, wordt gebruikt om groepen te herkennen met dezelfde naam"
+
+#: inc/admin.echo.get_mealsizes.inc.php:29
+#@ wppizza-locale
+msgid "Label [Frontend]"
+msgstr "Label [Frontend]"
+
+#: inc/admin.echo.get_mealsizes.inc.php:42
+#@ wppizza-locale
+msgid "Default Prices"
+msgstr "Standaard prijzen"
+
+#: inc/admin.echo.get_openingtimes.inc.php:10
+#: inc/admin.echo.settings.input.fields.inc.php:273
+#@ wppizza-locale
+msgid "open from"
+msgstr "geopend van"
+
+#: inc/admin.echo.get_openingtimes.inc.php:12
+#: inc/admin.echo.get_timesclosed.inc.php:20
+#: inc/admin.echo.settings.input.fields.inc.php:275
+#@ wppizza-locale
+msgid "to"
+msgstr "naar"
+
+#: inc/admin.echo.get_timesclosed.inc.php:12
+#@ wppizza-locale
+msgid "Custom Dates Above (if any)"
+msgstr "Aangepaste Data hierboven (indien aanwezig)"
+
+#: inc/admin.echo.get_timesclosed.inc.php:18
+#@ wppizza-locale
+msgid "closed from"
+msgstr "gesloten van"
+
+#: inc/admin.echo.manage_access_rights.inc.php:8
+#: inc/admin.echo.manage_additives.inc.php:9
+#: inc/admin.echo.manage_gateways.inc.php:8
+#: inc/admin.echo.manage_layout.inc.php:8
+#: inc/admin.echo.manage_localization.inc.php:8
+#: inc/admin.echo.manage_meal_sizes.inc.php:8
+#: inc/admin.echo.manage_opening_times.inc.php:8
+#: inc/admin.echo.manage_order_form.inc.php:8
+#: inc/admin.echo.manage_order_settings.inc.php:8
+#: inc/admin.echo.manage_settings.inc.php:8
+#@ wppizza-locale
+msgid "Save Changes"
+msgstr "Opslaan"
+
+#: inc/admin.echo.manage_gateways.inc.php:3
+#@ wppizza-locale
+msgid "Gateways Settings"
+msgstr "Gateways Instellingen"
+
+#: inc/admin.echo.manage_localization.inc.php:3
+#@ wppizza-locale
+msgid "Localization Settings"
+msgstr "Lokalisatie instellingen"
+
+#: inc/admin.echo.manage_order_form.inc.php:3
+#@ wppizza-locale
+msgid "Orders Form"
+msgstr "Bestel Formulier"
+
+#: inc/admin.echo.manage_order_settings.inc.php:3
+#@ wppizza-locale
+msgid "Orders Setting"
+msgstr "Bestellingen Instelling"
+
+#: inc/admin.echo.manage_reports.inc.php:14
+#@ wppizza-locale
+msgid "Export All"
+msgstr "Exporteer Alles"
+
+#: inc/admin.echo.manage_reports.inc.php:14
+#@ wppizza-locale
+msgid "Export Range"
+msgstr "Exporteer Selectie"
+
+#: inc/admin.echo.manage_reports.inc.php:30
+#@ wppizza-locale
+msgid "Report"
+msgstr "Rapport"
+
+#: inc/admin.echo.manage_reports.inc.php:34
+#@ wppizza-locale
+msgid "Overview"
+msgstr "Overzicht"
+
+#: inc/admin.echo.manage_reports.inc.php:39
+#@ wppizza-locale
+msgid "Custom Range"
+msgstr "Aangepaste Selectie"
+
+#: inc/admin.echo.manage_reports.inc.php:44
+#@ wppizza-locale
+msgid "Custom range"
+msgstr "Aangepaste selectie"
+
+#: inc/admin.echo.manage_reports.inc.php:48
+#@ wppizza-locale
+msgid "Go"
+msgstr "Gaan"
+
+#: inc/admin.echo.manage_settings.inc.php:3
+#@ wppizza-locale
+msgid "Global Settings"
+msgstr "Algemene instellingen"
+
+#: inc/admin.echo.manage_settings.inc.php:11
+#@ wppizza-locale
+msgid "If you would like to contribute directly to the development of this plugin<br/>feel free to do so via paypal below."
+msgstr "Als u wilt bijdragen aan de ontwikkeling van deze plugin <br/> voel u vrij om dit te doen via onderstaande paypal."
+
+#: inc/admin.echo.manage_settings.inc.php:11
+#@ wppizza-locale
+msgid "Thank you, much appreciated."
+msgstr "Dank u, zeer gewaardeerd."
+
+#: inc/admin.echo.metaboxes.inc.php:13
+#@ wppizza-locale
+msgid "price tier and prices"
+msgstr "prijsstaffel en prijzen"
+
+#: inc/admin.echo.metaboxes.inc.php:31
+#: inc/admin.setup.default.options.inc.php:503
+#@ wppizza-locale
+msgid "contains additives"
+msgstr "bevat toevoegingen"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:3
+#@ wppizza-locale
+msgid "Manage Global Settings"
+msgstr "Algemene Instellingen Beheren "
+
+#: inc/admin.echo.register.submenu.pages.inc.php:4
+#@ wppizza-locale
+msgid "Manage Order Settings"
+msgstr "Bestellings Instellingen Beheren "
+
+#: inc/admin.echo.register.submenu.pages.inc.php:4
+#@ wppizza-locale
+msgid "&middot; Order Settings"
+msgstr "&middot; Bestellings Instellingen"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:5
+#@ wppizza-locale
+msgid "Manage Order Form"
+msgstr "Beheren Bestellings Formulier"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:5
+#@ wppizza-locale
+msgid "&middot; Order Form Settings"
+msgstr "&middot; Bestelformulier Instellingen"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:6
+#@ wppizza-locale
+msgid "Manage Opening Times"
+msgstr "Beheren Openingstijden"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:6
+#@ wppizza-locale
+msgid "&middot; Opening Times"
+msgstr "&middot; Openingstijden"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:7
+#@ wppizza-locale
+msgid "Manage Gateways"
+msgstr "Beheren Gateways"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:7
+#@ wppizza-locale
+msgid "&middot; Gateways"
+msgstr "&middot; Gateways"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:8
+#@ wppizza-locale
+msgid "Manage Meal Sizes"
+msgstr "Beheren Maaltijd Grootten"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:8
+#@ wppizza-locale
+msgid "&middot; Meal Sizes"
+msgstr "&middot; Maaltijd Grootten"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:9
+#@ wppizza-locale
+msgid "Manage Additives"
+msgstr "Beheer Toevoegingen"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:9
+#@ wppizza-locale
+msgid "&middot; Additives"
+msgstr "&middot; Toevoegingen"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:10
+#@ wppizza-locale
+msgid "Manage Layout"
+msgstr "Beheer Lay-out"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:10
+#@ wppizza-locale
+msgid "&middot; Layout"
+msgstr "&middot; Lay-out"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:11
+#@ wppizza-locale
+msgid "Manage Localization"
+msgstr "Beheer Lokalisatie"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:11
+#@ wppizza-locale
+msgid "&middot; Localization"
+msgstr "&middot; Lokalisatie"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:12
+#@ wppizza-locale
+msgid "Manage Order History"
+msgstr "Beheer Bestelgeschiedenis"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:12
+#@ wppizza-locale
+msgid "&middot; Order History"
+msgstr "&middot; Bestelgeschiedenis"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:13
+#@ wppizza-locale
+msgid "&middot; Reports"
+msgstr "&middot; Rapportages"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:14
+#@ wppizza-locale
+msgid "Manage Access Rights"
+msgstr "Beheer Toegangsrechten"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:14
+#@ wppizza-locale
+msgid "&middot; Access Rights"
+msgstr "&middot; Toegangsrechten"
+
+#: inc/admin.echo.register.submenu.pages.inc.php:15
+#@ wppizza-locale
+msgid "&middot; Tools"
+msgstr "&middot; Gereedschappen"
+
+#: inc/admin.echo.settings.input.fields.inc.php:21
+#@ wppizza-locale
+msgid "Will ALWAYS load the cart dynamically via ajax. Especially useful if your caching plugin does not support the exclusion of only parts of a page."
+msgstr "Laadt ALTIJD het winkelwagen dynamisch via ajax. Vooral handig als je caching plugin het uitsluiten van gedeelten van pagina's niet ondersteunt."
+
+#: inc/admin.echo.settings.input.fields.inc.php:22
+#@ wppizza-locale
+msgid "Note: you still want to exclude your entire *order page* - or at least the main content of that page - from being cached in your cache plugin (please see the documentation for your choosen cache plugin for how to do this). After you enable this, clear your cache."
+msgstr "N.B. je wilt nog steeds voorkomen dat de gehele *bestelpagina* - of minstens de content van die pagina - gecached wordt door de cache plugin (bekijk s.v.p. de documentatie van de door jou gekozen cache plugin hoe dit te bewerkstelligen). Nadat je dit hebt aangezet, wis je cache eerst."
+
+#: inc/admin.echo.settings.input.fields.inc.php:27
+#@ wppizza-locale
+msgid "default [uses mail]"
+msgstr "standaard [gebruikt mail]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:28
+#@ wppizza-locale
+msgid "Wordpress Mail Function [uses wp_mail]"
+msgstr "Wordpress mailfunctie [gebruikt wp_mail]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:29
+#@ wppizza-locale
+msgid "HTML and Plaintext [uses PHPMailer]"
+msgstr "HTML en Normale tekst [gebruikt PHPMailer]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:45
+#@ wppizza-locale
+msgid "no parent [default]"
+msgstr "geen bron [default]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:48
+#@ wppizza-locale
+msgid "[not selectable]"
+msgstr "[niet selecteerbaar]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:58
+#@ wppizza-locale
+msgid "delete images too ?"
+msgstr "afbeeldingen ook verwijderen?"
+
+#: inc/admin.echo.settings.input.fields.inc.php:60
+#@ wppizza-locale
+msgid "empty order table ?"
+msgstr "wijzig bestellings tabel?"
+
+#: inc/admin.echo.settings.input.fields.inc.php:66
+#@ wppizza-locale
+msgid "Stylesheet Priority"
+msgstr "Stylesheet Prioriteit"
+
+#: inc/admin.echo.settings.input.fields.inc.php:67
+#@ wppizza-locale
+msgid "By default, the stylesheet will be loaded AFTER the main theme stylesheet (which should have a priority of \"10\"). If you experience strange behaviour or layout issues (in conjunction with other plugins for example), you can try adjusting this priority here (the bigger the number, the later it gets loaded)."
+msgstr "Standaard zal de stylesheet worden geladen NA het hoofd lay-out stylesheet (die een prioriteit van \"10\" moet hebben). Als u vreemd gedrag ervaart of als er lay-out problemen zijn (in combinatie met andere plugins bijvoorbeeld), kunt u proberen dit aan te passen door het wijzigen van de prioriteit hier (hoe hoger het getal, hoe later het wordt geladen)."
+
+#: inc/admin.echo.settings.input.fields.inc.php:74
+#: inc/admin.echo.settings.input.fields.inc.php:158
+#@ wppizza-locale
+msgid "do not show"
+msgstr "niet tonen"
+
+#: inc/admin.echo.settings.input.fields.inc.php:75
+#: inc/admin.echo.settings.input.fields.inc.php:108
+#@ wppizza-locale
+msgid "on left"
+msgstr "links"
+
+#: inc/admin.echo.settings.input.fields.inc.php:76
+#: inc/admin.echo.settings.input.fields.inc.php:109
+#@ wppizza-locale
+msgid "on right"
+msgstr "rechts"
+
+#: inc/admin.echo.settings.input.fields.inc.php:82
+#@ wppizza-locale
+msgid "displays categories in cart, order page and emails"
+msgstr "toont categorieën in het winkelwagentje, bestelpagina en e-mails."
+
+#: inc/admin.echo.settings.input.fields.inc.php:85
+#@ wppizza-locale
+msgid "How would you like to display the categories in order pages and emails ? [only relevant in hierarchical category structure]"
+msgstr "How would you like to display the categories in order pages and emails ? [only relevant in hierarchical category structure]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:87
+#: inc/admin.echo.settings.input.fields.inc.php:95
+#@ wppizza-locale
+msgid "full path"
+msgstr "volledig pad"
+
+#: inc/admin.echo.settings.input.fields.inc.php:88
+#: inc/admin.echo.settings.input.fields.inc.php:96
+#@ wppizza-locale
+msgid "parent category"
+msgstr "Hoofd Categorie"
+
+#: inc/admin.echo.settings.input.fields.inc.php:89
+#: inc/admin.echo.settings.input.fields.inc.php:97
+#@ wppizza-locale
+msgid "topmost category"
+msgstr "hoogste categorie"
+
+#: inc/admin.echo.settings.input.fields.inc.php:92
+#@ wppizza-locale
+msgid "How would you like to display the categories in the cart ?  [as the cart might have space restrictions you can adjust this separately]"
+msgstr "Hoe wil je de categorieën in het winkelwagentje tonen? [het heeft misschien ruimtebeperkingen, daarom kun je dit onafhankelijk instellen]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:94
+#@ wppizza-locale
+msgid "do not display categories"
+msgstr "geen categorieën tonen"
+
+#: inc/admin.echo.settings.input.fields.inc.php:101
+#@ wppizza-locale
+msgid "Category Separator"
+msgstr "Afscheidings teken"
+
+#: inc/admin.echo.settings.input.fields.inc.php:132
+#@ wppizza-locale
+msgid "Hours"
+msgstr "Uren"
+
+#: inc/admin.echo.settings.input.fields.inc.php:134
+#@ wppizza-locale
+msgid "24-hour format without leading zeros"
+msgstr "24-uren formaat zonder nullen ervoor"
+
+#: inc/admin.echo.settings.input.fields.inc.php:135
+#@ wppizza-locale
+msgid "12-hour format without leading zeros"
+msgstr "12 uren formaat zonder nullen ervoor"
+
+#: inc/admin.echo.settings.input.fields.inc.php:136
+#@ wppizza-locale
+msgid "24-hour format with leading zeros"
+msgstr "24-uren formaat met nullen ervoor"
+
+#: inc/admin.echo.settings.input.fields.inc.php:137
+#@ wppizza-locale
+msgid "12-hour format with leading zeros"
+msgstr "12-uren formaat met nullen ervoor"
+
+#: inc/admin.echo.settings.input.fields.inc.php:140
+#@ wppizza-locale
+msgid "Separator"
+msgstr "Afscheidings teken"
+
+#: inc/admin.echo.settings.input.fields.inc.php:142
+#@ wppizza-locale
+msgid "no seperator"
+msgstr "geen afscheidings teken"
+
+#: inc/admin.echo.settings.input.fields.inc.php:143
+#@ wppizza-locale
+msgid "space"
+msgstr "spatie"
+
+#: inc/admin.echo.settings.input.fields.inc.php:150
+#@ wppizza-locale
+msgid "Minutes"
+msgstr "Minuten"
+
+#: inc/admin.echo.settings.input.fields.inc.php:152
+#@ wppizza-locale
+msgid "hide minutes"
+msgstr "minuten niet tonen"
+
+#: inc/admin.echo.settings.input.fields.inc.php:153
+#@ wppizza-locale
+msgid "show minutes"
+msgstr "toon minuten "
+
+#: inc/admin.echo.settings.input.fields.inc.php:156
+#@ wppizza-locale
+msgid "Show AM/PM ?"
+msgstr "Toon AM/PM ?"
+
+#: inc/admin.echo.settings.input.fields.inc.php:159
+#@ wppizza-locale
+msgid "lowercase"
+msgstr "kleine letters"
+
+#: inc/admin.echo.settings.input.fields.inc.php:160
+#@ wppizza-locale
+msgid "UPPERCASE"
+msgstr "HOOFDLETTERS"
+
+#: inc/admin.echo.settings.input.fields.inc.php:161
+#@ wppizza-locale
+msgid "lowercase (with leading space)"
+msgstr "kleine letters (met leidende ruimte)"
+
+#: inc/admin.echo.settings.input.fields.inc.php:162
+#@ wppizza-locale
+msgid "UPPERCASE (width leading space)"
+msgstr "HOOFDLETTERS (breedte leidende ruimte)"
+
+#: inc/admin.echo.settings.input.fields.inc.php:169
+#@ wppizza-locale
+msgid "Replace item price with customised text when adding an item to cart [set/edit text in localization]"
+msgstr "Vervang de itemprijs met aangepaste tekst als deze wordt toegevoegd aan het winkelwagentje [vul de tekst in, in de juiste taal]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:172
+#@ wppizza-locale
+msgid "How long is it visible for before reverting back to displaying price [in ms]"
+msgstr "Hoe lang is het zichtbaar voordat het teruggezet wordt naar de prijs [in ms]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:192
+#@ wppizza-locale
+msgid "see wppizza.prettyPhoto.custom.js.php if you want to adjust prettyPhoto options"
+msgstr "bekijk wppizza.prettyPhoto.custom.js.php als je de prettyPhoto opties wilt wijzigen"
+
+#: inc/admin.echo.settings.input.fields.inc.php:221
+#@ wppizza-locale
+msgid "Animation Speed [in ms - 0 to disable animation]"
+msgstr "Animatie snelheid [in ms - 0 om animaties uit te zetten]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:224
+#@ wppizza-locale
+msgid "no animation"
+msgstr "geen animatie"
+
+#: inc/admin.echo.settings.input.fields.inc.php:258
+#@ wppizza-locale
+msgid "Animation Style [\"no animation\" to disable].<br />Note: any style other than \"swing\" or \"linear\" will additionally include \"jquery.ui.effect\" in the page [if not already loaded]"
+msgstr "Animatie Stijl [\"geen animatie\" om uit te zetten].<br />N.B.: elke stijl die anders is dan \"swing\" of \"linear\" heeft een extra \"jquery.ui.effect\" nodig op de pagina [als die al niet wordt ingeladen]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:261
+#@ wppizza-locale
+msgid "Distance from top of browser when cart is \"sticky\" to allow for theme specific requirements [in px]"
+msgstr "Distance from top of browser when cart is \"sticky\" to allow for theme specific requirements [in px]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:264
+#@ wppizza-locale
+msgid "Distinct CSS Background Colour when cart is \"sticky\" [hexdec (i.e #ffeeff) or string (i.e transparent, inherit, red etc)]"
+msgstr "Distinct CSS Background Colour when cart is \"sticky\" [hexdec (i.e #ffeeff) or string (i.e transparent, inherit, red etc)]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:267
+#@ wppizza-locale
+msgid "If you want to have a sticky cart NOT scroll further down that the TOP of a particular element that is further down on the page (might be useful in som layouts/themes), set that elements ID here [leave blank to ignore]"
+msgstr "If you want to have a sticky cart NOT scroll further down that the TOP of a particular element that is further down on the page (might be useful in som layouts/themes), set that elements ID here [leave blank to ignore]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:290
+#: inc/admin.echo.settings.input.fields.inc.php:303
+#: inc/admin.echo.settings.input.fields.inc.php:635
+#: inc/admin.echo.settings.input.fields.inc.php:650
+#@ wppizza-locale
+msgid "add"
+msgstr "voeg toe"
+
+#: inc/admin.echo.settings.input.fields.inc.php:317
+#@ wppizza-locale
+msgid "select your orderpage"
+msgstr "selecteer uw bestellings pagina"
+
+#: inc/admin.echo.settings.input.fields.inc.php:318
+#@ wppizza-locale
+msgid "Exclude from Navigation ?"
+msgstr "Uitsluiten van navigatie?"
+
+#: inc/admin.echo.settings.input.fields.inc.php:326
+#: inc/admin.echo.settings.input.fields.inc.php:419
+#@ wppizza-locale
+msgid "Sort"
+msgstr "Sorteer"
+
+#: inc/admin.echo.settings.input.fields.inc.php:326
+#@ wppizza-locale
+msgid "Label"
+msgstr "Label"
+
+#: inc/admin.echo.settings.input.fields.inc.php:326
+#: inc/admin.echo.settings.input.fields.inc.php:419
+#@ wppizza-locale
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: inc/admin.echo.settings.input.fields.inc.php:326
+#: inc/admin.echo.settings.input.fields.inc.php:419
+#@ wppizza-locale
+msgid "Required"
+msgstr "Verplicht"
+
+#: inc/admin.echo.settings.input.fields.inc.php:326
+#@ wppizza-locale
+msgid "Also Required<br />on Pickup"
+msgstr "Also Required<br />on Pickup"
+
+#: inc/admin.echo.settings.input.fields.inc.php:326
+#@ wppizza-locale
+msgid "Prefill<br />[if known]"
+msgstr "Prefill<br />[if known]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:326
+#@ wppizza-locale
+msgid "Use when<br />Registering ?"
+msgstr "Use when<br />Registering ?"
+
+#: inc/admin.echo.settings.input.fields.inc.php:326
+#: inc/admin.echo.settings.input.fields.inc.php:419
+#@ wppizza-locale
+msgid "Type"
+msgstr "Type"
+
+#: inc/admin.echo.settings.input.fields.inc.php:343
+#: inc/admin.echo.settings.input.fields.inc.php:346
+#@ wppizza-locale
+msgid "N/A"
+msgstr "N/A"
+
+#: inc/admin.echo.settings.input.fields.inc.php:379
+#@ wppizza-locale
+msgid "separate multiple with comma"
+msgstr "scheidt meerdere met komma's"
+
+#: inc/admin.echo.settings.input.fields.inc.php:380
+#@ wppizza-locale
+msgid "enter required value pairs"
+msgstr "enter required value pairs"
+
+#: inc/admin.echo.settings.input.fields.inc.php:388
+#@ wppizza-locale
+msgid "<b>Tips/Gratuities:</b> allow the customer can enter a <b>numerical</b> amount to be used as tips/gratuities.<br />This field will not be added to the users profile and can therefore not be pre-filled or used in the registration form."
+msgstr "<b>Tips/Gratuities:</b> allow the customer can enter a <b>numerical</b> amount to be used as tips/gratuities.<br />This field will not be added to the users profile and can therefore not be pre-filled or used in the registration form."
+
+#: inc/admin.echo.settings.input.fields.inc.php:408
+#@ wppizza-locale
+msgid "Some Countries/Jurisdictions require another, final , non-editable confirmation page before sending the order. If this is the case, tick this box and save. You will get some additional formfields you can make available in that final form"
+msgstr "Some Countries/Jurisdictions require another, final , non-editable confirmation page before sending the order. If this is the case, tick this box and save. You will get some additional formfields you can make available in that final form"
+
+#: inc/admin.echo.settings.input.fields.inc.php:418
+#@ wppizza-locale
+msgid "Legal"
+msgstr "Legal"
+
+#: inc/admin.echo.settings.input.fields.inc.php:418
+#@ wppizza-locale
+msgid "enable some formfields or text/links you might want to use and/or make required"
+msgstr "enable some formfields or text/links you might want to use and/or make required"
+
+#: inc/admin.echo.settings.input.fields.inc.php:419
+#@ wppizza-locale
+msgid "Label [html allowed]"
+msgstr "Label [html allowed]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:428
+#@ wppizza-locale
+msgid "checkbox"
+msgstr "checkbox"
+
+#: inc/admin.echo.settings.input.fields.inc.php:429
+#@ wppizza-locale
+msgid "text/link"
+msgstr "text/link"
+
+#: inc/admin.echo.settings.input.fields.inc.php:455
+#@ wppizza-locale
+msgid "-- select page to link to --"
+msgstr "-- select page to link to --"
+
+#: inc/admin.echo.settings.input.fields.inc.php:456
+#@ wppizza-locale
+msgid "set link to page to allow customer to amend order"
+msgstr "set link to page to allow customer to amend order"
+
+#: inc/admin.echo.settings.input.fields.inc.php:475
+#@ wppizza-locale
+msgid "No delivery offered / pickup only"
+msgstr "No delivery offered / pickup only"
+
+#: inc/admin.echo.settings.input.fields.inc.php:476
+#@ wppizza-locale
+msgid "removes any labels, text, charges, checkboxes etc associated with delivery options. You can still set a minimum order value below."
+msgstr "removes any labels, text, charges, checkboxes etc associated with delivery options. You can still set a minimum order value below."
+
+#: inc/admin.echo.settings.input.fields.inc.php:480
+#@ wppizza-locale
+msgid "Free delivery when total order value reaches"
+msgstr " Gratis levering bij een totale orderwaarde van"
+
+#: inc/admin.echo.settings.input.fields.inc.php:484
+#@ wppizza-locale
+msgid "Deliver even when total order value is below minimum (the difference between total and \"Minimum Total\" above will be added to the Total as \"Delivery Charges\")"
+msgstr " Lever ook als de totale orderwaarde onder de minimale waarde is (het verschil tussen de totale en \"Minimaal Totaal \" hierboven zal worden toegevoegd aan het totaal als \"Bezorgkosten \")"
+
+#: inc/admin.echo.settings.input.fields.inc.php:486
+#@ wppizza-locale
+msgid "(If this is not selected and the total order is below the set value above, the customer will not be able to submit the order to you)"
+msgstr "(Als dit niet is geselecteerd en de totale bestelling is onder de ingestelde waarde boven, zal de klant niet in staat zijn om de bestelling aan u door te sturen)"
+
+#: inc/admin.echo.settings.input.fields.inc.php:489
+#@ wppizza-locale
+msgid "Fixed Delivery charges if order has not reached total for free delivery [0 to disable]"
+msgstr " Vaste Bezorgkosten [toegevoegd aan het totaal te bestellen]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:491
+#@ wppizza-locale
+msgid "if set (i.e. not 0) \"Deliver even when total order value is below minimum\" must be checked for this to have any effect"
+msgstr "if set (i.e. not 0) \"Deliver even when total order value is below minimum\" must be checked for this to have any effect"
+
+#: inc/admin.echo.settings.input.fields.inc.php:496
+#@ wppizza-locale
+msgid "Fixed Delivery Charges [added to order total]"
+msgstr " Vaste Bezorgkosten [toegevoegd aan het totaal te bestellen]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:501
+#@ wppizza-locale
+msgid "Delivery Charges per item"
+msgstr " Bezorgkosten per item"
+
+#: inc/admin.echo.settings.input.fields.inc.php:504
+#@ wppizza-locale
+msgid "Do not apply delivery charges when total order value reaches "
+msgstr "Bezorgkosten zijn niet van toepassing indien de totale orderwaarde is bereikt"
+
+#: inc/admin.echo.settings.input.fields.inc.php:506
+#@ wppizza-locale
+msgid "[set to 0 to always apply charges per item]"
+msgstr "[ingesteld op 0 om altijd kosten per artikel van toepassing te laten zijn]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:516
+#@ wppizza-locale
+msgid "minimum order value [will disable \"place order\" button in cart and order page until set order value (before any discounts etc) has been reached. 0 to disable.]"
+msgstr "minimum order value [will disable \"place order\" button in cart and order page until set order value (before any discounts etc) has been reached. 0 to disable.]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:517
+#@ wppizza-locale
+msgid "Customer can still choose \"self-pickup\" (if enabled / applicable)."
+msgstr "Customer can still choose \"self-pickup\" (if enabled / applicable)."
+
+#: inc/admin.echo.settings.input.fields.inc.php:522
+#@ wppizza-locale
+msgid "<b>Exclude</b> following menu items when calculating if free delivery applies"
+msgstr "<b>Exclude</b> following menu items when calculating if free delivery applies"
+
+#: inc/admin.echo.settings.input.fields.inc.php:523
+#@ wppizza-locale
+msgid "For example: you might want to offer free delivery only when total order of *meals* exceeds the set free delivery amount. In this case, exclude all your *drinks and non-meals* by selecting those below."
+msgstr "For example: you might want to offer free delivery only when total order of *meals* exceeds the set free delivery amount. In this case, exclude all your *drinks and non-meals* by selecting those below."
+
+#: inc/admin.echo.settings.input.fields.inc.php:535
+#@ wppizza-locale
+msgid "Ctrl+Click to select multiple"
+msgstr "Ctrl+Click to select multiple"
+
+#: inc/admin.echo.settings.input.fields.inc.php:545
+#@ wppizza-locale
+msgid "tick to enable"
+msgstr " Aanvinken om aan te zetten"
+
+#: inc/admin.echo.settings.input.fields.inc.php:547
+#@ wppizza-locale
+msgid "Discount for self-pickup ?"
+msgstr "Korting voor afhalen?"
+
+#: inc/admin.echo.settings.input.fields.inc.php:547
+#@ wppizza-locale
+msgid "in % - 0 to disable"
+msgstr "in % - 0 om uit te schakelen"
+
+#: inc/admin.echo.settings.input.fields.inc.php:549
+#@ wppizza-locale
+msgid "enable javascript alert when user selects self pickup (set corresponding text in localization)"
+msgstr "Schakel javascript in om te waarschuwen indien de gebruiker afhalen selecteert (geef bijbehorende tekst in lokalisatie)"
+
+#: inc/admin.echo.settings.input.fields.inc.php:552
+#@ wppizza-locale
+msgid "under cart only"
+msgstr "Alleen onder de winkelwagen"
+
+#: inc/admin.echo.settings.input.fields.inc.php:553
+#@ wppizza-locale
+msgid "on order page only"
+msgstr "Alleen op de bestelpagina "
+
+#: inc/admin.echo.settings.input.fields.inc.php:554
+#@ wppizza-locale
+msgid "both"
+msgstr "Beide"
+
+#: inc/admin.echo.settings.input.fields.inc.php:563
+#@ wppizza-locale
+msgid "No Discounts"
+msgstr "Geen Kortingen"
+
+#: inc/admin.echo.settings.input.fields.inc.php:566
+#@ wppizza-locale
+msgid "Percentage Discount"
+msgstr "Kortings Percentage "
+
+#: inc/admin.echo.settings.input.fields.inc.php:569
+#: inc/admin.echo.settings.input.fields.inc.php:581
+#@ wppizza-locale
+msgid "If order total >"
+msgstr "Als order totaal >"
+
+#: inc/admin.echo.settings.input.fields.inc.php:571
+#: inc/admin.setup.default.options.inc.php:695
+#@ wppizza-locale
+msgid "discount"
+msgstr "korting"
+
+#: inc/admin.echo.settings.input.fields.inc.php:573
+#@ wppizza-locale
+msgid "percent"
+msgstr "procent"
+
+#: inc/admin.echo.settings.input.fields.inc.php:578
+#@ wppizza-locale
+msgid "Standard Discount [money off]"
+msgstr "Standaard korting [geld uit]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:583
+#@ wppizza-locale
+msgid "get"
+msgstr "ontvang"
+
+#: inc/admin.echo.settings.input.fields.inc.php:585
+#@ wppizza-locale
+msgid "off"
+msgstr "uit"
+
+#: inc/admin.echo.settings.input.fields.inc.php:595
+#@ wppizza-locale
+msgid "enable to append internal order ID to transaction ID [e.g COD13966037358 will become COD13966037358/123 where 123 = internal id of order table]"
+msgstr "enable to append internal order ID to transaction ID [e.g COD13966037358 will become COD13966037358/123 where 123 = internal id of order table]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:605
+#@ wppizza-locale
+msgid "if you wish to add an attachment to the order emails add the FULL ABSOLUTE PATH to the file(s) here"
+msgstr "if you wish to add an attachment to the order emails add the FULL ABSOLUTE PATH to the file(s) here"
+
+#: inc/admin.echo.settings.input.fields.inc.php:621
+#@ wppizza-locale
+msgid "apply tax to delivery/shipping  too"
+msgstr "apply tax to delivery/shipping  too"
+
+#: inc/admin.echo.settings.input.fields.inc.php:624
+#@ wppizza-locale
+msgid "all prices are entered including tax, but I distinctly need to display the sum of taxes applied"
+msgstr "all prices are entered including tax, but I distinctly need to display the sum of taxes applied"
+
+#: inc/admin.echo.settings.input.fields.inc.php:625
+#@ wppizza-locale
+msgid "if enabled, the sum of applicable taxes will be displayed separately without however adding it to the total (if taxrate > 0%)."
+msgstr "if enabled, the sum of applicable taxes will be displayed separately without however adding it to the total (if tax rate > 0%)."
+
+#: inc/admin.echo.settings.input.fields.inc.php:636
+#@ wppizza-locale
+msgid "how many size option fields ?"
+msgstr "hoeveel grootte optie velden?"
+
+#: inc/admin.echo.settings.input.fields.inc.php:661
+#@ wppizza-locale
+msgid "Display Gateway choices as dropdowns instead of buttons"
+msgstr "Geef Gateway keuzes weer als dropdowns in plaats van knoppen"
+
+#: inc/admin.echo.settings.input.fields.inc.php:661
+#: inc/admin.echo.settings.input.fields.inc.php:667
+#@ wppizza-locale
+msgid "[only applicable if more than one gateway installed, activated and enabled]"
+msgstr "[alleen van toepassing als er meer dan een gateway geïnstalleerd, geactiveerd en ingeschakeld is]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:665
+#@ wppizza-locale
+msgid "Label:"
+msgstr "Label:"
+
+#: inc/admin.echo.settings.input.fields.inc.php:667
+#@ wppizza-locale
+msgid "by default displayed above if choices are displayed as full width buttons, next to if dropdown. edit css as required"
+msgstr "Standaard hierboven weergegeven wanneer keuzes worden weergegeven als volledige breedte knoppen, naast indien dropdown. bewerk css zoals vereist"
+
+#: inc/admin.echo.settings.input.fields.inc.php:672
+#@ wppizza-locale
+msgid "Show Order Details on \"Thank You\" page (Y/N)"
+msgstr "Toon Bestellings Details op de \"Dank u \" pagina (J / N)"
+
+#: inc/admin.echo.settings.input.fields.inc.php:672
+#@ wppizza-locale
+msgid "Will add any order details after your thank you text on successful order"
+msgstr "Zal alle details van de bestelling toevoegen na je dank je tekst op een succesvolle bestelling"
+
+#  set  comma seperated numbers as to where you want your odd/even rows in the localization page
+#: inc/admin.echo.settings.input.fields.inc.php:697
+#@ wppizza-locale
+msgid "0,1,6,13,14,17,38,46"
+msgstr "0,1,6,13,14,17,38,46"
+
+#: inc/admin.echo.settings.input.fields.inc.php:760
+#@ wppizza-locale
+msgid "show most recent *confirmed* orders"
+msgstr "toon de meeste recente * bevestigde * bestellingen"
+
+#: inc/admin.echo.settings.input.fields.inc.php:761
+#@ wppizza-locale
+msgid "status"
+msgstr "status"
+
+#: inc/admin.echo.settings.input.fields.inc.php:763
+#@ wppizza-locale
+msgid "-- All --"
+msgstr "-- All --"
+
+#: inc/admin.echo.settings.input.fields.inc.php:764
+#@ wppizza-locale
+msgid "new"
+msgstr "new"
+
+#: inc/admin.echo.settings.input.fields.inc.php:765
+#@ wppizza-locale
+msgid "acknowledged"
+msgstr "acknowledged"
+
+#: inc/admin.echo.settings.input.fields.inc.php:766
+#@ wppizza-locale
+msgid "on hold"
+msgstr "on hold"
+
+#: inc/admin.echo.settings.input.fields.inc.php:767
+#@ wppizza-locale
+msgid "processed"
+msgstr "processed"
+
+#: inc/admin.echo.settings.input.fields.inc.php:768
+#@ wppizza-locale
+msgid "delivered"
+msgstr "delivered"
+
+#: inc/admin.echo.settings.input.fields.inc.php:769
+#@ wppizza-locale
+msgid "rejected"
+msgstr "rejected"
+
+#: inc/admin.echo.settings.input.fields.inc.php:770
+#@ wppizza-locale
+msgid "refunded"
+msgstr "refunded"
+
+#: inc/admin.echo.settings.input.fields.inc.php:771
+#@ wppizza-locale
+msgid "other"
+msgstr "other"
+
+#: inc/admin.echo.settings.input.fields.inc.php:773
+#@ wppizza-locale
+msgid "maximum results [0 to show all]"
+msgstr "maximum resultaat [0 om alles te tonen]"
+
+#: inc/admin.echo.settings.input.fields.inc.php:776
+#@ wppizza-locale
+msgid "poll for new orders every"
+msgstr "kijk voor nieuwe bestellingen elke"
+
+#: inc/admin.echo.settings.input.fields.inc.php:776
+#@ wppizza-locale
+msgid "seconds"
+msgstr "seconden"
+
+#: inc/admin.echo.settings.input.fields.inc.php:777
+#@ wppizza-locale
+msgid "on/off"
+msgstr "aan/uit"
+
+#: inc/admin.echo.settings.input.fields.inc.php:789
+#@ wppizza-locale
+msgid "Delete abandoned/cancelled orders from database older than"
+msgstr "Verwijder verlaten/geannuleerde bestellingen uit de database ouder dan"
+
+#: inc/admin.echo.settings.input.fields.inc.php:791
+#@ wppizza-locale
+msgid "Days (minimum: 1)"
+msgstr "Dagen (minimum: 1)"
+
+#: inc/admin.echo.settings.input.fields.inc.php:793
+#@ wppizza-locale
+msgid "delete failed, tampered or otherwise invalid entries too."
+msgstr "verwijderen is niet gelukt, verknoeide of anderszins ongeldige ingangen ook."
+
+#: inc/admin.echo.settings.input.fields.inc.php:794
+#@ wppizza-locale
+msgid "go"
+msgstr "ga"
+
+#: inc/admin.echo.settings.input.fields.inc.php:795
+#@ wppizza-locale
+msgid "As soon as customers go to the order page an order will be initialized and stored in the db to be checked against when going through with the purchase to make sure nothing has been tampered with. However, not every customer will actually go through with the purchase which leaves this initialised order orphaned in the db.Click the \"ok\" button to clean your db of these entries (it will NOT affect any completed or pending orders)"
+msgstr "Zodra klanten naar de bestelpagina gaan en een bestelling wordt geïnitialiseerd wordt deze opgeslagen in de db om te worden getoetst indien men door gaat met de aankoop om ervoor te zorgen dat er niet is geknoeid. Toch zal niet elke klant uiteindelijk doorgaan met de aankoop welke de potentiele aankoop in de db achterlaat als verlaten. Klik de  \"OK \" knop om uw db van deze vermeldingen op te schonen (het zal niet van invloed op elke voltooide of lopende bestellingen)"
+
+#: inc/admin.echo.settings.input.fields.inc.php:796
+#@ wppizza-locale
+msgid "Note: This will delete these entries PERMANENTLY from the db and is not reversable."
+msgstr "Opmerking: Dit zal deze items permanent van de database verwijderen en is niet omkeerbaar."
+
+#: inc/admin.echo.settings.sections.inc.php:6
+#@ wppizza-locale
+msgid "Plugin Version:"
+msgstr "Plugin Versie:"
+
+#: inc/admin.echo.settings.sections.inc.php:7
+#@ wppizza-locale
+msgid "Javascript in Footer:"
+msgstr "Javascript in voettekst:"
+
+#: inc/admin.echo.settings.sections.inc.php:7
+#@ wppizza-locale
+msgid "[combines all jsVars in one tidy place, but requires wp_footer in theme]"
+msgstr "[combineert alle jsVars in een nette plaats, maar vereist wp_footer in thema]"
+
+#: inc/admin.echo.settings.sections.inc.php:8
+#@ wppizza-locale
+msgid "Select Type of Mail Delivery:"
+msgstr "Selecteer Email Type Bezorging:"
+
+#: inc/admin.echo.settings.sections.inc.php:8
+#@ wppizza-locale
+msgid "[might be worth changing if you have trouble when sending/receiving orders with the default settings or prefer html emails ]"
+msgstr "[misschien de moeite waard te veranderen als u problemen hebt bij het verzenden / ontvangen van orders met de standaardinstellingen of als u liever html e-mails hebt]"
+
+#: inc/admin.echo.settings.sections.inc.php:8
+#@ wppizza-locale
+msgid "if using PHPMailer function you probably want to edit the html template. To do so, move \"wppizza-order-html-email.php\" from the wppizza template directory to your theme folder and edit as required"
+msgstr "indien gebruik wordt gemaakt van de PHPMailer functie wilt u waarschijnlijk de html sjabloon te bewerken. Om dit te doen, verplaats dan  \"wppizza-order-html-email.php \" van de wppizza template directory naar uw thema map en bewerk deze zoals vereist"
+
+#: inc/admin.echo.settings.sections.inc.php:9
+#@ wppizza-locale
+msgid "Empty/Delete ALL WPPizza Categories and Items:<br/><span style=\"color:red\">use with care<br/>if you select \"delete images too\", all featured images used for any wppizza menu items will be deleted too.<br/>if you use these images elsewhere, you should not select this !</span>"
+msgstr "Leeg / Verwijder ALLE WPPizza Categorieën en items: <span style=\"color:red\"> Gebruik met zorg! <br/> Als u dit selecteert \"worden de afbeeldingen ook verwijderd \", alle gekenmerkte (featured)afbeeldingen ingebruik voor elk wppizza menu-items zullen ook worden verwijderd. <br/> Als u deze afbeeldingen elders gebruikt, moet u dit </ span> niet selecteren!"
+
+#: inc/admin.echo.settings.sections.inc.php:11
+#@ wppizza-locale
+msgid "Multisite Only:"
+msgstr "Alleen multisite:"
+
+#: inc/admin.echo.settings.sections.inc.php:11
+#@ wppizza-locale
+msgid "Set cart contents and order on a per site basis when using subdirectories. This has no effect/relevance when there's no multisite setup or using different domains per site on the network. Chances are that you want this on when you have a multisite/network install. THERE ARE ONLY VERY FEW SECENARIOS WHERE YOU MIGHT WANT THIS OFF"
+msgstr "Stelt de inhoud winkelwagen en bestelling op op site basis bij het gebruik van submappen. Dit heeft geen effect / relevantie als er geen multisite (meerdere site) setup is of het gebruik van verschillende domeinen per locatie op het netwerk. De kans is groot dat u dit op \"Aan\" wilt als je een multisite / netwerk installatieerd. ER ZIJN SLECHTS ZEER WEINIG SECENARIOS WAAR JE DIT UIT ZOU WILLEN"
+
+#: inc/admin.echo.settings.sections.inc.php:12
+#@ wppizza-locale
+msgid "I am using a caching plugin:"
+msgstr "I am using a caching plugin:"
+
+#: inc/admin.echo.settings.sections.inc.php:12
+#@ wppizza-locale
+msgid "Experimental. please let me know if you experience problems with this."
+msgstr "Experimental. please let me know if you experience problems with this."
+
+#: inc/admin.echo.settings.sections.inc.php:13
+#@ wppizza-locale
+msgid "<b>Permalinks:<br/>(only used and relevant when using widget or shortcode to display wppizza category navigation !!!)<br/><span style=\"color:red\">when changing this setting, you MUST re-save your permalink settings</span></b><br/>(page cannot be used as static post page (wp settings) or have any children"
+msgstr "<b> Permalinks: <br/> (alleen gebruikt en relevant bij het gebruik van widget of shortcode of om de wppizza categorie navigatie weer te geven) <span style=\"color:red\"> bij het wijzigen van deze instelling, MOET u opnieuw de instellingen van uw perkaline opslaan</ span> </ b> <br/> (pagina kan niet worden gebruikt als statisch bericht pagina (wp-instellingen) of kan deze onderliggende pagina's hebben"
+
+#: inc/admin.echo.settings.sections.inc.php:17
+#@ wppizza-locale
+msgid "Set Gateway Options:"
+msgstr "Set Gateway Opties:"
+
+#: inc/admin.echo.settings.sections.inc.php:22
+#@ wppizza-locale
+msgid "Menu Items per page:"
+msgstr "Menu Items per pagina:"
+
+#: inc/admin.echo.settings.sections.inc.php:22
+#@ wppizza-locale
+msgid "how many menu items per category page (displays pagination, if there are more menu items for the selected category)<br/>[options: -1=all, >1=items per page]<br/><span style=\"color:red\">if not set to -1, it must be >= wordpress settings->reading->Blog pages show at most</span>"
+msgstr "hoeveel menu-items per categorie pagina (toont paginering, als er meer menu-items voor de geselecteerde categorie zijn) <br/> [opties: -1 = alle,> 1 = items per pagina] <br/> <span style = \"color: red \"> indien niet ingesteld op -1, dan moet u naar> = wordpress instellingen-> lezen-> Ten hoogstens zoveel Blog pagina's tonen </ span>"
+
+#: inc/admin.echo.settings.sections.inc.php:23
+#@ wppizza-locale
+msgid "Include CSS:"
+msgstr "Sluit CSS in:"
+
+#: inc/admin.echo.settings.sections.inc.php:23
+#@ wppizza-locale
+msgid "include frontend css that came with this plugin (untick if you want to provide your own styles somewhere else)"
+msgstr "bevat frontend css dat met deze plugin kwam (uitvinken als u uw eigen stijlen ergens anders wilt bieden)"
+
+#: inc/admin.echo.settings.sections.inc.php:24
+#@ wppizza-locale
+msgid "Which style to use (if enabled above):"
+msgstr "Welke stijl te gebruiken (indien ingeschakeld hierboven):"
+
+#: inc/admin.echo.settings.sections.inc.php:25
+#@ wppizza-locale
+msgid "Group, sort and display menu items by category:"
+msgstr "Group, sort and display menu items by category:"
+
+#: inc/admin.echo.settings.sections.inc.php:26
+#@ wppizza-locale
+msgid "Format of openingtimes (if displayed):"
+msgstr "Opmaak van Openingstijden (indien weergegeven):"
+
+#: inc/admin.echo.settings.sections.inc.php:27
+#@ wppizza-locale
+msgid "Add item to cart on click of *item title* if there is only one pricetier for a menu item:"
+msgstr "Item aan winkelwagen toevoegen door te klikken op * item naam * Als er slechts een pricetier voor een menu-item is:"
+
+#: inc/admin.echo.settings.sections.inc.php:28
+#@ wppizza-locale
+msgid "Briefly display text in place of price when adding item to cart"
+msgstr "Briefly display text in place of price when adding item to cart"
+
+#: inc/admin.echo.settings.sections.inc.php:29
+#@ wppizza-locale
+msgid "Display placeholder image when no image associated with meal item:"
+msgstr "Toon afbeelding vervanger als er geen afbeelding is in overeenstemming met het maaltijd item:"
+
+#: inc/admin.echo.settings.sections.inc.php:30
+#@ wppizza-locale
+msgid "Enable prettyPhoto (Lightbox Clone) on menu item images"
+msgstr "Enable prettyPhoto (Lightbox Clone) on menu item images"
+
+#: inc/admin.echo.settings.sections.inc.php:31
+#@ wppizza-locale
+msgid "Set prettyPhoto Style"
+msgstr "Set prettyPhoto Style"
+
+#: inc/admin.echo.settings.sections.inc.php:32
+#@ wppizza-locale
+msgid "Globally suppress headers above list of menu items:"
+msgstr "Algemeen geen kopstukken boven de lijst van menu-items:"
+
+#: inc/admin.echo.settings.sections.inc.php:33
+#@ wppizza-locale
+msgid "Hide cart icon next to prices:"
+msgstr "Verberg winkelwagen pictogram naast de prijzen:"
+
+#: inc/admin.echo.settings.sections.inc.php:34
+#@ wppizza-locale
+msgid "Show a currency symbol directly next to each price"
+msgstr "Toon een valutasymbool direct naast elke prijs"
+
+#: inc/admin.echo.settings.sections.inc.php:35
+#@ wppizza-locale
+msgid "Hide *main* currency symbol next to each menu item:"
+msgstr "Verberg * voornaamste * valuta symbool naast elk menu-item:"
+
+#: inc/admin.echo.settings.sections.inc.php:35
+#@ wppizza-locale
+msgid "won't affect cart, summaries or emails"
+msgstr "zal geen invloed hebben op de winkelwagen, samenvattingen of e-mails"
+
+#: inc/admin.echo.settings.sections.inc.php:36
+#@ wppizza-locale
+msgid "Show *main* currency symbol on the left - if not set to hidden"
+msgstr "Toon het * voornaamste * valutasymbool aan de linkerzijde - indien niet ingesteld op verborgen"
+
+#: inc/admin.echo.settings.sections.inc.php:37
+#@ wppizza-locale
+msgid "All other [cart, order page, email] currency symbols"
+msgstr "All other [cart, order page, email] currency symbols"
+
+#: inc/admin.echo.settings.sections.inc.php:38
+#@ wppizza-locale
+msgid "Hide pricetier name and cart icon if item has only one size:"
+msgstr "Verberg prijs tier naam en winkelwagen icon als item slechts een maat heeft:"
+
+#: inc/admin.echo.settings.sections.inc.php:39
+#@ wppizza-locale
+msgid "Hide prices altogether:"
+msgstr "Geen prijzen tonen:"
+
+#: inc/admin.echo.settings.sections.inc.php:39
+#@ wppizza-locale
+msgid "this will disable the adding of any item to the shoppingcart."
+msgstr "dit zal de toevoeging van een item aan de winkelwagen uitschakelen."
+
+#: inc/admin.echo.settings.sections.inc.php:39
+#@ wppizza-locale
+msgid "Really only useful if you want to display your menu without offering online orders"
+msgstr "Eigenlijk alleen nuttig als u uw menu-kaart wilt weer te geven zonder het aanbieden van online bestellingen"
+
+#: inc/admin.echo.settings.sections.inc.php:40
+#@ wppizza-locale
+msgid "Don't show decimals:"
+msgstr "Decimalen niet tonen:"
+
+#: inc/admin.echo.settings.sections.inc.php:40
+#@ wppizza-locale
+msgid "[prices will be rounded if necessary]"
+msgstr "[prijzen zullen indien nodig worden afgerond]"
+
+#: inc/admin.echo.settings.sections.inc.php:41
+#@ wppizza-locale
+msgid "Enable increase/decrease of items in cart via input field/textbox"
+msgstr "Sta het vermeerderen / verminderen van items in de winkelwagen toe d.m.v. een tekst veld / tekst box"
+
+#: inc/admin.echo.settings.sections.inc.php:42
+#@ wppizza-locale
+msgid "Enable \"empty cart\" button"
+msgstr "Enable \"empty cart\" button"
+
+#: inc/admin.echo.settings.sections.inc.php:43
+#@ wppizza-locale
+msgid "\"sticky/scolling\" cart settings [if used]"
+msgstr "\"sticky/scolling\" cart settings [if used]"
+
+#: inc/admin.echo.settings.sections.inc.php:44
+#@ wppizza-locale
+msgid "Completely disable online orders:"
+msgstr "Online bestellingen volledig schakelen:"
+
+#: inc/admin.echo.settings.sections.inc.php:44
+#@ wppizza-locale
+msgid "this will still display prices (unless set to be hidden above), but will disable shoppingcart and orderpage"
+msgstr "Dit zal nog steeds de prijzen (tenzij ingesteld om deze te verbergen) weergeven, maar zal de winkelwagen en bestelpagina uitschakelen"
+
+#: inc/admin.echo.settings.sections.inc.php:44
+#@ wppizza-locale
+msgid "Useful if you want to display your menu and prices but without offering online orders."
+msgstr "Handig als u uw menu en de prijzen weer wilt geven, maar zonder het aanbieden van online bestellingen."
+
+#: inc/admin.echo.settings.sections.inc.php:50
+#@ wppizza-locale
+msgid "Standard opening times:"
+msgstr "Standaard openings tijden:"
+
+#: inc/admin.echo.settings.sections.inc.php:51
+#@ wppizza-locale
+msgid "Any dates/days where opening times differ from the standard times above (such as christmas etc)."
+msgstr "Alle data / dagen waar de openingstijden afwijken van de normtijden hiervoor (zoals Kerstmis, enz.)."
+
+#: inc/admin.echo.settings.sections.inc.php:52
+#@ wppizza-locale
+msgid "Closed (if you close for lunch for example):"
+msgstr "Gesloten (als u sluit voor de lunch bijvoorbeeld):"
+
+#: inc/admin.echo.settings.sections.inc.php:52
+#@ wppizza-locale
+msgid "If you are closed on certain days for a number of hours, enter them here<br/>i.e. if you are generally open on Tuesdays - as set above - from 9:30 to 23:00, but close for lunch between 12:00 and 14:00, enter Tuesdays 12:00 - 14:00 here. If you are also closed on Tuesday between 17:30 and 18:00, set this as well and so on "
+msgstr "Als u op bepaalde dagen gedurende een aantal uren gesloten bent, voer ze hier <br/> dwz als je over het algemeen open bent op dinsdagen - zoals hierboven beschreven van - 9:30-23:00, maar gesloten voor de lunch van 12.00 tot 14.00 voer dan hier dinsdag 12:00-14:00 in. Als u ook gesloten bent op dinsdag van 17:30-18:00, stel dan dit hier ook in zo verder."
+
+#: inc/admin.echo.settings.sections.inc.php:52
+#@ wppizza-locale
+msgid "Furthermore, do not enter times here that span midnight. If you are however closed from - let's say - 11:00PM Mondays to 1:00AM Tuesdays, enter \"Mondays 23:00 to 23:59\" as well as \"Tuesdays 0:00 to 1:00"
+msgstr "Verder, geef geen tijden in die middernacht overlappen. Als u echter gesloten bent van - laten we zeggen - 23:00 maandag tot 01:00 dinsdag, voert u  \"maandag 23:00-23:59 \" evenals \"dinsdag 0:00-01:00 in."
+
+#: inc/admin.echo.settings.sections.inc.php:52
+#@ wppizza-locale
+msgid "If you have setup any custom dates above (for example christmas or whatever), select \"Custom Dates\" instead of the day of week if you want to apply these closing times only to those dates"
+msgstr "Als u alle aangepaste data hierboven hebt ingesteld (bijvoorbeeld kerst of wat dan ook), selecteer dan \"aangepaste data\" in plaats van de dag van de week als je wilt dat deze sluitingstijden alleen gelden voor deze data."
+
+#: inc/admin.echo.settings.sections.inc.php:52
+#@ wppizza-locale
+msgid "Note: if you set anything here, it will not be reflected when displaying openingtimes via shortcode or in the widget, so you might want to display your openingtimes manually somewhere. It DOES, however close the shoppingcart, the ability to order etc as required)"
+msgstr "Opmerking: als u hier iets instelt, zal het niet worden weergegeven bij het weergeven van de Openingstijden via shortcode of in de widget, dus u zou willen om uw Openingstijden handmatig ergens weer te geven. Het schakeld echter de winkelwagen, de mogelijkheid om te bestellen etc.  uit. "
+
+#: inc/admin.echo.settings.sections.inc.php:56
+#@ wppizza-locale
+msgid "Currency:"
+msgstr "Valuta:"
+
+#: inc/admin.echo.settings.sections.inc.php:56
+#@ wppizza-locale
+msgid "set to --none-- to have no currency displayed anywhere"
+msgstr "stel in op --geen-- om overal geen valuta symbool te tonen"
+
+#: inc/admin.echo.settings.sections.inc.php:57
+#@ wppizza-locale
+msgid "Order Page:"
+msgstr "Bestel Pagina:"
+
+#: inc/admin.echo.settings.sections.inc.php:57
+#@ wppizza-locale
+msgid "ensure the page includes [wppizza type=\"orderpage\"] or the widget equivalent. <b>You might also want to consider NOT displaying the shopping cart on this page</b> (although it won't break things)"
+msgstr "zorg dat de pagina bevat [wppizza type = \"bestelpagina \"] of de widget gelijkwaardig. <b> Je zou ook overwegen NIET het winkelwagentje op deze pagina weer te geven </ b> (hoewel het geen dingen zal breken)"
+
+#: inc/admin.echo.settings.sections.inc.php:58
+#@ wppizza-locale
+msgid "Delivery Charges:"
+msgstr "Bezorgkosten:"
+
+#: inc/admin.echo.settings.sections.inc.php:59
+#@ wppizza-locale
+msgid "(Sales)Tax applied to items in cart [in % - 0 to disable]:"
+msgstr "BTW op artikelen in de winkelwagen [in% - 0 om uit te schakelen]:"
+
+#: inc/admin.echo.settings.sections.inc.php:60
+#@ wppizza-locale
+msgid "Allow order pickup by customer:"
+msgstr "Afhalen toestaan:"
+
+#: inc/admin.echo.settings.sections.inc.php:60
+#@ wppizza-locale
+msgid "Customer can choose to pickup the order him/herself. No delivery charges will be applied if customer chooses to do so."
+msgstr "Klanten kunnen ervoor kiezen om de bestelling zelf af te halen. Geen bezorgkosten zullen worden toegepast als de klant kiest om dit te doen."
+
+#: inc/admin.echo.settings.sections.inc.php:61
+#@ wppizza-locale
+msgid "Where would you like to display the checkbox to let customer select self pickup of order ?"
+msgstr "Waar wilt u het selectievakje weergeven om klanten zelf te laten kiezen of ze de bestelling afhalen?"
+
+#: inc/admin.echo.settings.sections.inc.php:61
+#@ wppizza-locale
+msgid "[if enabled above]"
+msgstr "[indien ingeschakeld boven]"
+
+#: inc/admin.echo.settings.sections.inc.php:62
+#@ wppizza-locale
+msgid "Discounts:"
+msgstr "Kortingen:"
+
+#: inc/admin.echo.settings.sections.inc.php:63
+#@ wppizza-locale
+msgid "Append internal ID to transaction ID:"
+msgstr "Append internal ID to transaction ID:"
+
+#: inc/admin.echo.settings.sections.inc.php:66
+#@ wppizza-locale
+msgid "Which email address should any orders be sent to [separated by comma if multiple]:"
+msgstr "Naar welk e-mailadres moeten bestelingen worden verzonden [gescheiden door een komma indien meerdere]:"
+
+#: inc/admin.echo.settings.sections.inc.php:67
+#@ wppizza-locale
+msgid "If you would like to BCC order emails add these here [separated by comma if multiple]:"
+msgstr "Als u BCC wilt gebruiken om e-mails toe te voegen geef deze dan hier in [gescheiden door een komma indien meerdere]:"
+
+#: inc/admin.echo.settings.sections.inc.php:68
+#@ wppizza-locale
+msgid "If you want to set a static \"From\" email address set it here, otherwise leave blank . All emails will appear to have been sent from this address. (Some fax gateways for example require a distinct FROM email address). However, the customers email address will still be stored in the db/order history if entered"
+msgstr "Als u hier een statisch \"Van \" e-mailadres wil instellen, anders laat u het leeg. Alle e-mails lijken dan te zijn verzonden vanaf dit adres. (Sommige fax gateways bijvoorbeeld vereisen een apart VAN e-mailadres). Toch zal het klanten e-mailadres nog steeds worden opgeslagen in de db / bestelhistorie indien ingevoerd."
+
+#: inc/admin.echo.settings.sections.inc.php:69
+#@ wppizza-locale
+msgid "Instead of using the customers name - if enabled/entered in the order form fields - you can set a static name here (useful in conjunction with any \"From\" email address set above)."
+msgstr "In plaats van het gebruik van de klant naam - indien ingeschakeld in de bestelformulier velden - kunt u een statisch naamveld hier ingeven (in combinatie met enig \"Van\" email adres hierboven)."
+
+#: inc/admin.echo.settings.sections.inc.php:70
+#@ wppizza-locale
+msgid "Email Attachments [separated by comma if multiple]:"
+msgstr "Email Attachments [separated by comma if multiple]:"
+
+#: inc/admin.echo.settings.sections.inc.php:70
+#@ wppizza-locale
+msgid "Settings->Mail Delivery must be set to wp_mail or PHPMailer"
+msgstr "Settings->Mail Delivery must be set to wp_mail or PHPMailer"
+
+#: inc/admin.echo.settings.sections.inc.php:75
+#@ wppizza-locale
+msgid "Form Fields:"
+msgstr "Formulier velden:"
+
+#: inc/admin.echo.settings.sections.inc.php:76
+#@ wppizza-locale
+msgid "Confirmation Page:"
+msgstr "Confirmation Page:"
+
+#: inc/admin.echo.settings.sections.inc.php:79
+#@ wppizza-locale
+msgid "Size Options Available"
+msgstr "Grootte Opties Beschikbaar"
+
+#: inc/admin.echo.settings.sections.inc.php:87
+#@ wppizza-locale
+msgid "Frontened Localization"
+msgstr "Web site Lokalisatie"
+
+#: inc/admin.echo.settings.sections.inc.php:87
+#@ wppizza-locale
+msgid "edit as required:"
+msgstr "edit as required:"
+
+#: inc/admin.echo.settings.sections.inc.php:103
+#@ wppizza-locale
+msgid "Miscellaneous Tools"
+msgstr "Diverse Gereedschappen"
+
+#: inc/admin.echo.settings.text.header.inc.php:4
+#: inc/admin.echo.settings.text.header.inc.php:7
+#@ wppizza-locale
+msgid "Set Options as required"
+msgstr "Stel opties zoals vereist"
+
+#: inc/admin.echo.settings.text.header.inc.php:10
+#@ wppizza-locale
+msgid "Set your opening times. It will not be possible to place an order outside these times - USE 24 HOUR CLOCK."
+msgstr "Geef uw openingstijden in. Het zal niet mogelijk zijn om een bestelling buiten deze tijden te plaatsen - GEBRUIK DE 24 UREN KLOK."
+
+#: inc/admin.echo.settings.text.header.inc.php:10
+#@ wppizza-locale
+msgid "If you are closed on a given day set both times to be the same, if you are open 24 hours set times from 0:00 to 24:00"
+msgstr "Als u op een bepaalde dag gesloten bent stel dan beide tijden als dezelfde in, als u 24 uur open bent stel dan de vaste tijden in van 0:00 tot 24:00 uur"
+
+#: inc/admin.echo.settings.text.header.inc.php:10
+#@ wppizza-locale
+msgid "Ensure that the Wordpress timezone setting in Settings->Timezone is correct"
+msgstr "Verzeker u ervan dat de Wordpress tijdszones in: Instellingen -> Tijden correct is ingevoerd."
+
+#: inc/admin.echo.settings.text.header.inc.php:13
+#@ wppizza-locale
+msgid "Set currency, minimum delivery prices and email addresses"
+msgstr "Instellen van valuta, minimum bezorgkosten en email adressen"
+
+#: inc/admin.echo.settings.text.header.inc.php:16
+#@ wppizza-locale
+msgid "Set the form fields you would like to show when a customer places an order"
+msgstr "Geef de formuliervelden in die u wilt zien wanneer een klant een bestelling plaatst"
+
+#: inc/admin.echo.settings.text.header.inc.php:17
+#@ wppizza-locale
+msgid "<b>Note:</b> only the email can and should be used to send email notifications of the order to the customer (if enabled)."
+msgstr "<b>Note:</b> only the email can and should be used to send email notifications of the order to the customer (if enabled)."
+
+#: inc/admin.echo.settings.text.header.inc.php:18
+#@ wppizza-locale
+msgid "Additionally, if you want to offer customers to be able to register a new account on the order page - provided they are not logged in already - the email field must be set to be \"enabled\" and \"required\". Furthermore \"Anyone can register\" in \"Settings->General\" has to be enabled too."
+msgstr "Additionally, if you want to offer customers to be able to register a new account on the order page - provided they are not logged in already - the email field must be set to be \"enabled\" and \"required\". Furthermore \"Anyone can register\" in \"Settings->General\" has to be enabled too."
+
+#: inc/admin.echo.settings.text.header.inc.php:22
+#@ wppizza-locale
+msgid "Define a selection of sizes that might be available per item."
+msgstr "Definieer een selectie van de grootten die beschikbaar zouden kunnen zijn per menu item."
+
+#: inc/admin.echo.settings.text.header.inc.php:23
+#@ wppizza-locale
+msgid "As meals and beverages can come in different sizes, please add/edit the options you want to offer your customers. You will then be able to offer these options on a per item basis:"
+msgstr "Zoals maaltijden en drankjes in verschillende maten voor kunnen komen, voeg / bewerk de opties die u uw klanten wil aanbieden. U zult dan in staat zijn om deze opties op een per item basis aan te bieden:"
+
+#: inc/admin.echo.settings.text.header.inc.php:26
+#@ wppizza-locale
+msgid "Some meals and beverages may contain additives. Add any possible additives here and select them at any meal/beravage that contains these additives. This in turn will add a footnote to pages denoting which item contains what additives"
+msgstr "Some meals and beverages may contain additives. Add any possible additives here and select them at any meal/beravage that contains these additives. This in turn will add a footnote to pages denoting which item contains what additives"
+
+#: inc/admin.echo.settings.text.header.inc.php:27
+#@ wppizza-locale
+msgid "Add any additives (or other notes) that a meal may have and tick the relevant box(es) of any meal that contains these additives "
+msgstr "Add any additives (or other notes) that a meal may have and tick the relevant box(es) of any meal that contains these additives "
+
+#: inc/admin.echo.settings.text.header.inc.php:28
+#@ wppizza-locale
+msgid "by default, additives will be sorted alphabetically.<br/>However, you can use the \"sort\" field to customise the sortorder. If you do, your choosen sort id will be used to identify your choosen additives in the frontend so you want to make sure to have unique identifiers/sort id's"
+msgstr "by default, additives will be sorted alphabetically.<br/>However, you can use the \"sort\" field to customise the sortorder. If you do, your choosen sort id will be used to identify your choosen additives in the frontend so you want to make sure to have unique identifiers/sort id's"
+
+#: inc/admin.echo.settings.text.header.inc.php:31
+#@ wppizza-locale
+msgid "Set the roles that are allowed to access these pages"
+msgstr "Set the roles that are allowed to access these pages"
+
+#: inc/admin.echo.settings.text.header.inc.php:32
+#@ wppizza-locale
+msgid "Menu Items and Categories are accessible just like \"normal\" posts"
+msgstr "Menu Items and Categories are accessible just like \"normal\" posts"
+
+#: inc/admin.report.functions.php:17
+#@ wppizza-locale
+msgid "year to date"
+msgstr "year to date"
+
+#: inc/admin.report.functions.php:18
+#@ wppizza-locale
+msgid "last year"
+msgstr "last year"
+
+#: inc/admin.report.functions.php:19
+#@ wppizza-locale
+msgid "this month"
+msgstr "this month"
+
+#: inc/admin.report.functions.php:20
+#@ wppizza-locale
+msgid "last month"
+msgstr "last month"
+
+#: inc/admin.report.functions.php:21
+#@ wppizza-locale
+msgid "last 12 month"
+msgstr "last 12 month"
+
+#: inc/admin.report.functions.php:22
+#@ wppizza-locale
+msgid "last 7 days"
+msgstr "last 7 days"
+
+#: inc/admin.report.functions.php:23
+#@ wppizza-locale
+msgid "last 14 days"
+msgstr "last 14 days"
+
+#: inc/admin.report.functions.php:48
+#@ wppizza-locale
+msgid "Details last 30 days"
+msgstr "Details last 30 days"
+
+#: inc/admin.report.functions.php:103
+#@ wppizza-locale
+msgid "Year to date"
+msgstr "Year to date"
+
+#: inc/admin.report.functions.php:114
+#@ wppizza-locale
+msgid "Last Year"
+msgstr "Last Year"
+
+#: inc/admin.report.functions.php:125
+#@ wppizza-locale
+msgid "This Month"
+msgstr "This Month"
+
+#: inc/admin.report.functions.php:136
+#@ wppizza-locale
+msgid "Last Month"
+msgstr "Last Month"
+
+#: inc/admin.report.functions.php:148
+#@ wppizza-locale
+msgid "Last 12 Month"
+msgstr "Last 12 Month"
+
+#: inc/admin.report.functions.php:159
+#@ wppizza-locale
+msgid "Last 7 days"
+msgstr "Last 7 days"
+
+#: inc/admin.report.functions.php:170
+#@ wppizza-locale
+msgid "Last 14 days"
+msgstr "Last 14 days"
+
+#: inc/admin.report.functions.php:451
+#@ wppizza-locale
+msgid "All Sales: Total"
+msgstr "All Sales: Total"
+
+#: inc/admin.report.functions.php:451
+#: inc/admin.report.functions.php:461
+#@ wppizza-locale
+msgid "incl. taxes, charges and discounts"
+msgstr "incl. taxes, charges and discounts"
+
+#: inc/admin.report.functions.php:452
+#@ wppizza-locale
+msgid "All Sales: Averages"
+msgstr "All Sales: Averages"
+
+#: inc/admin.report.functions.php:452
+#: inc/admin.report.functions.php:454
+#: inc/admin.report.functions.php:462
+#: inc/admin.report.functions.php:464
+#@ wppizza-locale
+msgid "per day"
+msgstr "per day"
+
+#: inc/admin.report.functions.php:452
+#: inc/admin.report.functions.php:454
+#: inc/admin.report.functions.php:462
+#: inc/admin.report.functions.php:464
+#@ wppizza-locale
+msgid "per month"
+msgstr "per month"
+
+#: inc/admin.report.functions.php:453
+#@ wppizza-locale
+msgid "All Orders/Items: Total"
+msgstr "All Orders/Items: Total"
+
+#: inc/admin.report.functions.php:453
+#: inc/admin.report.functions.php:454
+#: inc/admin.report.functions.php:463
+#: inc/admin.report.functions.php:464
+#: inc/admin.setup.default.options.inc.php:94
+#@ wppizza-locale
+msgid "Orders"
+msgstr "Bestellingen"
+
+#: inc/admin.report.functions.php:453
+#: inc/admin.report.functions.php:454
+#: inc/admin.report.functions.php:463
+#: inc/admin.report.functions.php:464
+#@ wppizza-locale
+msgid "items"
+msgstr "items"
+
+#: inc/admin.report.functions.php:453
+#: inc/admin.report.functions.php:463
+#@ wppizza-locale
+msgid "before taxes, charges and discounts"
+msgstr "before taxes, charges and discounts"
+
+#: inc/admin.report.functions.php:454
+#@ wppizza-locale
+msgid "All Orders/Items: Averages"
+msgstr "All Orders/Items: Averages"
+
+#: inc/admin.report.functions.php:455
+#: inc/admin.report.functions.php:465
+#@ wppizza-locale
+msgid "Range"
+msgstr "Range"
+
+#: inc/admin.report.functions.php:455
+#: inc/admin.report.functions.php:465
+#@ wppizza-locale
+msgid "days"
+msgstr "days"
+
+#: inc/admin.report.functions.php:455
+#: inc/admin.report.functions.php:465
+#@ wppizza-locale
+msgid "months"
+msgstr "months"
+
+#: inc/admin.report.functions.php:457
+#@ wppizza-locale
+msgid "Bestsellers by Volume - All"
+msgstr "Bestsellers by Volume - All"
+
+#: inc/admin.report.functions.php:458
+#, php-format
+#@ wppizza-locale
+msgid "Bestsellers by Value - All (% of order total)"
+msgstr "Bestsellers by Value - All (% of order total)"
+
+#: inc/admin.report.functions.php:461
+#@ wppizza-locale
+msgid "Sales Total [in range]"
+msgstr "Sales Total [in range]"
+
+#: inc/admin.report.functions.php:462
+#@ wppizza-locale
+msgid "Sales Averages [in range]"
+msgstr "Sales Averages [in range]"
+
+#: inc/admin.report.functions.php:463
+#@ wppizza-locale
+msgid "Orders/Items Total [in range]"
+msgstr "Orders/Items Total [in range]"
+
+#: inc/admin.report.functions.php:464
+#@ wppizza-locale
+msgid "Orders/Items Averages [in range]"
+msgstr "Orders/Items Averages [in range]"
+
+#: inc/admin.report.functions.php:467
+#@ wppizza-locale
+msgid "Bestsellers by Volume [in range]"
+msgstr "Bestsellers by Volume [in range]"
+
+#: inc/admin.report.functions.php:468
+#, php-format
+#@ wppizza-locale
+msgid "Bestsellers by Value [% of all orders in range]"
+msgstr "Bestsellers by Value [% of all orders in range]"
+
+#: inc/admin.report.functions.php:486
+#@ wppizza-locale
+msgid "sales value"
+msgstr "sales value"
+
+#: inc/admin.report.functions.php:496
+#@ wppizza-locale
+msgid "number of sales"
+msgstr "number of sales"
+
+#: inc/admin.report.functions.php:506
+#@ wppizza-locale
+msgid "items sold"
+msgstr "items sold"
+
+#: inc/admin.setup.default.options.inc.php:31
+#@ wppizza-locale
+msgid "regular"
+msgstr "gewoon"
+
+#: inc/admin.setup.default.options.inc.php:34
+#: inc/admin.setup.default.options.inc.php:38
+#: inc/admin.setup.default.options.inc.php:43
+#@ wppizza-locale
+msgid "small"
+msgstr "klein"
+
+#: inc/admin.setup.default.options.inc.php:35
+#: inc/admin.setup.default.options.inc.php:40
+#: inc/admin.setup.default.options.inc.php:45
+#@ wppizza-locale
+msgid "large"
+msgstr "groot"
+
+#: inc/admin.setup.default.options.inc.php:39
+#: inc/admin.setup.default.options.inc.php:44
+#@ wppizza-locale
+msgid "medium"
+msgstr "medium"
+
+#: inc/admin.setup.default.options.inc.php:46
+#@ wppizza-locale
+msgid "xxl"
+msgstr "xxl"
+
+#: inc/admin.setup.default.options.inc.php:49
+#@ wppizza-locale
+msgid "0.25l"
+msgstr "0,25l"
+
+#: inc/admin.setup.default.options.inc.php:50
+#@ wppizza-locale
+msgid "0.33l"
+msgstr "0,33l"
+
+#: inc/admin.setup.default.options.inc.php:51
+#@ wppizza-locale
+msgid "0.75l"
+msgstr "0,75l"
+
+#: inc/admin.setup.default.options.inc.php:52
+#@ wppizza-locale
+msgid "1.00l"
+msgstr "1,00l"
+
+#: inc/admin.setup.default.options.inc.php:53
+#@ wppizza-locale
+msgid "1.50l"
+msgstr "1,50l"
+
+#: inc/admin.setup.default.options.inc.php:65
+#@ wppizza-locale
+msgid "Food coloring"
+msgstr "Kleurstoffen"
+
+#: inc/admin.setup.default.options.inc.php:66
+#@ wppizza-locale
+msgid "Flavor enhancers"
+msgstr "Smaakversterkers"
+
+#: inc/admin.setup.default.options.inc.php:67
+#@ wppizza-locale
+msgid "Preservatives"
+msgstr "Conserveringsmiddelen"
+
+#: inc/admin.setup.default.options.inc.php:68
+#@ wppizza-locale
+msgid "Stabilizers"
+msgstr "Stabilisatoren"
+
+#: inc/admin.setup.default.options.inc.php:69
+#@ wppizza-locale
+msgid "Sweeteners"
+msgstr "Zoetstoffen"
+
+#: inc/admin.setup.default.options.inc.php:81
+#@ wppizza-locale
+msgid "Special Offers"
+msgstr "Speciale Aanbiedingen"
+
+#: inc/admin.setup.default.options.inc.php:82
+#@ wppizza-locale
+msgid "Pizza"
+msgstr "Pizza"
+
+#: inc/admin.setup.default.options.inc.php:83
+#@ wppizza-locale
+msgid "Pasta"
+msgstr "Pasta"
+
+#: inc/admin.setup.default.options.inc.php:84
+#@ wppizza-locale
+msgid "Salads"
+msgstr "Salades"
+
+#: inc/admin.setup.default.options.inc.php:85
+#@ wppizza-locale
+msgid "Desserts"
+msgstr "Desserts"
+
+#: inc/admin.setup.default.options.inc.php:86
+#@ wppizza-locale
+msgid "Beverages"
+msgstr "Dranken"
+
+#: inc/admin.setup.default.options.inc.php:87
+#@ wppizza-locale
+msgid "Snacks"
+msgstr "Snacks"
+
+#: inc/admin.setup.default.options.inc.php:93
+#@ wppizza-locale
+msgid "Our Menu"
+msgstr "Ons Menu"
+
+#: inc/admin.setup.default.options.inc.php:104
+#@ wppizza-locale
+msgid "Special Pizza"
+msgstr "Speciale Pizza"
+
+#: inc/admin.setup.default.options.inc.php:105
+#@ wppizza-locale
+msgid "Great Steak"
+msgstr "Grote Biefstuk"
+
+#: inc/admin.setup.default.options.inc.php:106
+#@ wppizza-locale
+msgid "Yummy Pudding"
+msgstr "Heerlijke Pudding"
+
+#: inc/admin.setup.default.options.inc.php:109
+#@ wppizza-locale
+msgid "Pizza A"
+msgstr "Pizza A"
+
+#: inc/admin.setup.default.options.inc.php:110
+#@ wppizza-locale
+msgid "Pizza B"
+msgstr "Pizza B"
+
+#: inc/admin.setup.default.options.inc.php:111
+#@ wppizza-locale
+msgid "Pizza C"
+msgstr "Pizza C"
+
+#: inc/admin.setup.default.options.inc.php:112
+#@ wppizza-locale
+msgid "Pizza D"
+msgstr "Pizza D"
+
+#: inc/admin.setup.default.options.inc.php:113
+#@ wppizza-locale
+msgid "Pizza E"
+msgstr "Pizza E"
+
+#: inc/admin.setup.default.options.inc.php:114
+#@ wppizza-locale
+msgid "Pizza F"
+msgstr "Pizza F"
+
+#: inc/admin.setup.default.options.inc.php:117
+#@ wppizza-locale
+msgid "Pasta A"
+msgstr "Pasta A"
+
+#: inc/admin.setup.default.options.inc.php:118
+#@ wppizza-locale
+msgid "Pasta B"
+msgstr "Pasta B"
+
+#: inc/admin.setup.default.options.inc.php:119
+#@ wppizza-locale
+msgid "Pasta C"
+msgstr "Pasta C"
+
+#: inc/admin.setup.default.options.inc.php:120
+#@ wppizza-locale
+msgid "Pasta D"
+msgstr "Pasta D"
+
+#: inc/admin.setup.default.options.inc.php:121
+#@ wppizza-locale
+msgid "Pasta E"
+msgstr "Pasta E"
+
+#: inc/admin.setup.default.options.inc.php:122
+#@ wppizza-locale
+msgid "Pasta F"
+msgstr "Pasta F"
+
+#: inc/admin.setup.default.options.inc.php:125
+#@ wppizza-locale
+msgid "Salad A"
+msgstr "Salade A"
+
+#: inc/admin.setup.default.options.inc.php:126
+#@ wppizza-locale
+msgid "Salad B"
+msgstr "Salade B"
+
+#: inc/admin.setup.default.options.inc.php:127
+#@ wppizza-locale
+msgid "Salad C"
+msgstr "Salade C"
+
+#: inc/admin.setup.default.options.inc.php:128
+#@ wppizza-locale
+msgid "Salad D"
+msgstr "Salade D"
+
+#: inc/admin.setup.default.options.inc.php:129
+#@ wppizza-locale
+msgid "Salad E"
+msgstr "Salade E"
+
+#: inc/admin.setup.default.options.inc.php:130
+#@ wppizza-locale
+msgid "Salad F"
+msgstr "Salade F"
+
+#: inc/admin.setup.default.options.inc.php:133
+#@ wppizza-locale
+msgid "Dessert A"
+msgstr "Dessert A"
+
+#: inc/admin.setup.default.options.inc.php:134
+#@ wppizza-locale
+msgid "Dessert B"
+msgstr "Dessert B"
+
+#: inc/admin.setup.default.options.inc.php:135
+#@ wppizza-locale
+msgid "Dessert C"
+msgstr "Dessert C"
+
+#: inc/admin.setup.default.options.inc.php:136
+#@ wppizza-locale
+msgid "Dessert D"
+msgstr "Dessert D"
+
+#: inc/admin.setup.default.options.inc.php:137
+#@ wppizza-locale
+msgid "Dessert E"
+msgstr "Dessert E"
+
+#: inc/admin.setup.default.options.inc.php:138
+#@ wppizza-locale
+msgid "Dessert F"
+msgstr "Dessert F"
+
+#: inc/admin.setup.default.options.inc.php:141
+#@ wppizza-locale
+msgid "Drink A"
+msgstr "Drank A"
+
+#: inc/admin.setup.default.options.inc.php:142
+#@ wppizza-locale
+msgid "Drink B"
+msgstr "Drank B"
+
+#: inc/admin.setup.default.options.inc.php:143
+#@ wppizza-locale
+msgid "Drink C"
+msgstr "Drank C"
+
+#: inc/admin.setup.default.options.inc.php:144
+#@ wppizza-locale
+msgid "Drink D"
+msgstr "Drank D"
+
+#: inc/admin.setup.default.options.inc.php:145
+#@ wppizza-locale
+msgid "Drink E"
+msgstr "Drank E"
+
+#: inc/admin.setup.default.options.inc.php:146
+#@ wppizza-locale
+msgid "Drink F"
+msgstr "Drank F"
+
+#: inc/admin.setup.default.options.inc.php:150
+#@ wppizza-locale
+msgid "Snack A"
+msgstr "Snack A"
+
+#: inc/admin.setup.default.options.inc.php:151
+#@ wppizza-locale
+msgid "Snack B"
+msgstr "Snack B"
+
+#: inc/admin.setup.default.options.inc.php:152
+#@ wppizza-locale
+msgid "Snack C"
+msgstr "Snack C"
+
+#: inc/admin.setup.default.options.inc.php:153
+#@ wppizza-locale
+msgid "Snack D"
+msgstr "Snack D"
+
+#: inc/admin.setup.default.options.inc.php:154
+#@ wppizza-locale
+msgid "Snack E"
+msgstr "Snack E"
+
+#: inc/admin.setup.default.options.inc.php:155
+#@ wppizza-locale
+msgid "Snack F"
+msgstr "Snack F"
+
+#: inc/admin.setup.default.options.inc.php:176
+#@ wppizza-locale
+msgid "Description of"
+msgstr "Beschrijving van"
+
+#: inc/admin.setup.default.options.inc.php:416
+#@ wppizza-locale
+msgid "Name :"
+msgstr "Naam :"
+
+#: inc/admin.setup.default.options.inc.php:417
+#@ wppizza-locale
+msgid "Email :"
+msgstr "Email :"
+
+#: inc/admin.setup.default.options.inc.php:418
+#@ wppizza-locale
+msgid "Address :"
+msgstr "Adres :"
+
+#: inc/admin.setup.default.options.inc.php:419
+#@ wppizza-locale
+msgid "Telephone :"
+msgstr "Telefoon :"
+
+#: inc/admin.setup.default.options.inc.php:420
+#@ wppizza-locale
+msgid "Comments :"
+msgstr "Opmerkingen :"
+
+#: inc/admin.setup.default.options.inc.php:421
+#@ wppizza-locale
+msgid "Custom Field 1 :"
+msgstr "Aangepast Veld 1 :"
+
+#: inc/admin.setup.default.options.inc.php:422
+#@ wppizza-locale
+msgid "Custom Field 2 :"
+msgstr "Aangepast Veld 2 :"
+
+#: inc/admin.setup.default.options.inc.php:423
+#@ wppizza-locale
+msgid "Custom Field 3 :"
+msgstr "Aangepast Veld 3 :"
+
+#: inc/admin.setup.default.options.inc.php:424
+#@ wppizza-locale
+msgid "Custom Field 4 :"
+msgstr "Aangepast Veld 4 :"
+
+#: inc/admin.setup.default.options.inc.php:425
+#@ wppizza-locale
+msgid "Custom Field 5 :"
+msgstr "Aangepast Veld 5 :"
+
+#: inc/admin.setup.default.options.inc.php:426
+#@ wppizza-locale
+msgid "Custom Field 6 :"
+msgstr "Aangepast Veld 6 :"
+
+#: inc/admin.setup.default.options.inc.php:427
+#@ wppizza-locale
+msgid "Tips/Gratuities :"
+msgstr "Tips/Gratuities :"
+
+#: inc/admin.setup.default.options.inc.php:432
+#@ wppizza-locale
+msgid "Accept Terms and Conditions"
+msgstr "Accept Terms and Conditions"
+
+#: inc/admin.setup.default.options.inc.php:433
+#@ wppizza-locale
+msgid "Distance Selling Regulations "
+msgstr "Distance Selling Regulations "
+
+#: inc/admin.setup.default.options.inc.php:434
+#: inc/admin.setup.default.options.inc.php:435
+#@ wppizza-locale
+msgid "Other"
+msgstr "Other"
+
+#: inc/admin.setup.default.options.inc.php:439
+#@ wppizza-locale
+msgid "Confirmation Form - [labels]: link text to use for link to return to previous page for changing personal details"
+msgstr "Confirmation Form - [labels]: link text to use for link to return to previous page for changing personal details"
+
+#: inc/admin.setup.default.options.inc.php:440
+#@ wppizza-locale
+msgid "change"
+msgstr "change"
+
+#: inc/admin.setup.default.options.inc.php:443
+#@ wppizza-locale
+msgid "Confirmation Form - [labels]: text and associated link to use to direct customer to a page where he/she can amend the order."
+msgstr "Confirmation Form - [labels]: text and associated link to use to direct customer to a page where he/she can amend the order."
+
+#: inc/admin.setup.default.options.inc.php:444
+#@ wppizza-locale
+msgid "amend order"
+msgstr "amend order"
+
+#: inc/admin.setup.default.options.inc.php:447
+#@ wppizza-locale
+msgid "Confirmation Form - [labels]: label for payment method used"
+msgstr "Confirmation Form - [labels]: label for payment method used"
+
+#: inc/admin.setup.default.options.inc.php:448
+#@ wppizza-locale
+msgid "selected payment method :"
+msgstr "selected payment method :"
+
+#: inc/admin.setup.default.options.inc.php:451
+#@ wppizza-locale
+msgid "Confirmation Form - [section header]: legal aspects"
+msgstr "Confirmation Form - [section header]: legal aspects"
+
+#: inc/admin.setup.default.options.inc.php:452
+#@ wppizza-locale
+msgid "legal aspects"
+msgstr "legal aspects"
+
+#: inc/admin.setup.default.options.inc.php:455
+#@ wppizza-locale
+msgid "Confirmation Form - [section header]: personal details"
+msgstr "Confirmation Form - [section header]: personal details"
+
+#: inc/admin.setup.default.options.inc.php:456
+#@ wppizza-locale
+msgid "personal information"
+msgstr "personal information"
+
+#: inc/admin.setup.default.options.inc.php:459
+#@ wppizza-locale
+msgid "Confirmation Form - [section header]: payment method"
+msgstr "Confirmation Form - [section header]: payment method"
+
+#: inc/admin.setup.default.options.inc.php:460
+#@ wppizza-locale
+msgid "payment method"
+msgstr "payment method"
+
+#: inc/admin.setup.default.options.inc.php:463
+#@ wppizza-locale
+msgid "Confirmation Form - [section header]: order details"
+msgstr "Confirmation Form - [section header]: order details"
+
+#: inc/admin.setup.default.options.inc.php:464
+#: inc/admin.setup.default.options.inc.php:651
+#@ wppizza-locale
+msgid "order details"
+msgstr "bestel details"
+
+#: inc/admin.setup.default.options.inc.php:467
+#@ wppizza-locale
+msgid "Confirmation Form - [labels]: label buy now button"
+msgstr "Confirmation Form - [labels]: label buy now button"
+
+#: inc/admin.setup.default.options.inc.php:468
+#@ wppizza-locale
+msgid "buy now (legally binding)"
+msgstr "buy now (legally binding)"
+
+#: inc/admin.setup.default.options.inc.php:471
+#@ wppizza-locale
+msgid "Confirmation Form - [itemised header]: article"
+msgstr "Confirmation Form - [itemised header]: article"
+
+#: inc/admin.setup.default.options.inc.php:472
+#@ wppizza-locale
+msgid "article"
+msgstr "article"
+
+#: inc/admin.setup.default.options.inc.php:475
+#@ wppizza-locale
+msgid "Confirmation Form - [itemised header]: single price"
+msgstr "Confirmation Form - [itemised header]: single price"
+
+#: inc/admin.setup.default.options.inc.php:476
+#@ wppizza-locale
+msgid "single price"
+msgstr "single price"
+
+#: inc/admin.setup.default.options.inc.php:479
+#@ wppizza-locale
+msgid "Confirmation Form - [itemised header]: quantity"
+msgstr "Confirmation Form - [itemised header]: quantity"
+
+#: inc/admin.setup.default.options.inc.php:480
+#@ wppizza-locale
+msgid "quantity"
+msgstr "quantity"
+
+#: inc/admin.setup.default.options.inc.php:483
+#@ wppizza-locale
+msgid "Confirmation Form - [itemised header]: price"
+msgstr "Confirmation Form - [itemised header]: price"
+
+#: inc/admin.setup.default.options.inc.php:484
+#@ wppizza-locale
+msgid "price"
+msgstr "price"
+
+#: inc/admin.setup.default.options.inc.php:487
+#@ wppizza-locale
+msgid "Confirmation Form - [miscellaneous]: additional/optional info/text to display after (sub)totals"
+msgstr "Confirmation Form - [miscellaneous]: additional/optional info/text to display after (sub)totals"
+
+#: inc/admin.setup.default.options.inc.php:495
+#@ wppizza-locale
+msgid "Please select your payment method:"
+msgstr "Selecteer uw betaalmethode:"
+
+#: inc/admin.setup.default.options.inc.php:502
+#@ wppizza-locale
+msgid "Menu Item: label when hovering over additives (if set)"
+msgstr "Menu Item: label wanneer de muis over de toevoegingen gaat (indien ingesteld)"
+
+#: inc/admin.setup.default.options.inc.php:506
+#@ wppizza-locale
+msgid "Menu Item: text to display when hovering over prices"
+msgstr "Menu Item: te tonen tekst wanneer de muis over de prijzen gaat"
+
+#: inc/admin.setup.default.options.inc.php:507
+#@ wppizza-locale
+msgid "add to cart"
+msgstr "aan de winkelwagen toevoegen"
+
+#: inc/admin.setup.default.options.inc.php:510
+#@ wppizza-locale
+msgid "Menu Item: alert when trying to add to cart but shop is closed (only displayed when shoppingcart is displayed on page)"
+msgstr "Menu Item: waarschuwt wanneer men iets aan de winkelwagen toevoegt terwijl de winkel gesloten is (alleen weergegeven als de webwinkel wordt weergegeven op pagina)."
+
+#: inc/admin.setup.default.options.inc.php:511
+#@ wppizza-locale
+msgid "sorry, we are currently closed"
+msgstr "onze excuses, we zijn momenteel gesloten"
+
+#: inc/admin.setup.default.options.inc.php:514
+#@ wppizza-locale
+msgid "Menu Item: alert when adding to cart by clicking on menu name but more than one size is available. (Only relevant if \"Add item to cart on click of *item title* \" is enabled)"
+msgstr "Menu Item: waarschuwt bij het toevoegen aan winkelwagen door te klikken op de menu naam, wanneer er meer dan een grootte beschikbaar is. (Alleen relevant als het  \"Toevoegen van Item aan de winkelwagen bij het klikken op * item titel * \" is ingeschakeld)."
+
+#: inc/admin.setup.default.options.inc.php:515
+#@ wppizza-locale
+msgid "please choose a size"
+msgstr "kies a.u.b. een grootte"
+
+#: inc/admin.setup.default.options.inc.php:518
+#@ wppizza-locale
+msgid "Menu Item: text that briefly replaces selected item price when adding item to cart [html allowed]. (Only relevant if \"Briefly replace item price with customised text\" in WPPizza->Layout is enabled. CSS Class: \"wppizza-item-added-feedback\")"
+msgstr "Menu Item: text that briefly replaces selected item price when adding item to cart [html allowed]. (Only relevant if \"Briefly replace item price with customised text\" in WPPizza->Layout is enabled. CSS Class: \"wppizza-item-added-feedback\")"
+
+#: inc/admin.setup.default.options.inc.php:519
+#@ wppizza-locale
+msgid "<div>&#10004;</div>item added"
+msgstr "<div>&#10004;</div>item added"
+
+#: inc/admin.setup.default.options.inc.php:522
+#@ wppizza-locale
+msgid "Menu Pagination : previous page"
+msgstr "Menu Paginering : vorige pagina"
+
+#: inc/admin.setup.default.options.inc.php:523
+#@ wppizza-locale
+msgid "< previous"
+msgstr "< vorige"
+
+#: inc/admin.setup.default.options.inc.php:526
+#@ wppizza-locale
+msgid "Menu Pagination : next page"
+msgstr "Menu Paginering : volgende pagina"
+
+#: inc/admin.setup.default.options.inc.php:527
+#@ wppizza-locale
+msgid "next >"
+msgstr "volgende >"
+
+#: inc/admin.setup.default.options.inc.php:530
+#@ wppizza-locale
+msgid "Shoppingcart: text to display when shop closed "
+msgstr "Winkelwagen: te tonen tekst wanneer de winkel gesloten is"
+
+#: inc/admin.setup.default.options.inc.php:531
+#@ wppizza-locale
+msgid "currently closed"
+msgstr "momenteel gesloten"
+
+#: inc/admin.setup.default.options.inc.php:534
+#@ wppizza-locale
+msgid "Shoppingcart: empty cart button text"
+msgstr "Shoppingcart: empty cart button text"
+
+#: inc/admin.setup.default.options.inc.php:535
+#@ wppizza-locale
+msgid "empty cart"
+msgstr "empty cart"
+
+#: inc/admin.setup.default.options.inc.php:538
+#@ wppizza-locale
+msgid "Shoppingcart: text to display when cart is empty"
+msgstr "Winkelwagen: te tonen tekst indien de winkelwagen leeg is"
+
+#: inc/admin.setup.default.options.inc.php:539
+#@ wppizza-locale
+msgid "your cart is empty"
+msgstr "uw winkelwagen is leeg"
+
+#: inc/admin.setup.default.options.inc.php:542
+#@ wppizza-locale
+msgid "Shoppingcart: text to display when hovering over remove from cart icon"
+msgstr "Winkelwagen: te tonen tekst wanneer de muis gaat over de verwijder uit het winkelwagen pictogram."
+
+#: inc/admin.setup.default.options.inc.php:543
+#@ wppizza-locale
+msgid "remove from cart"
+msgstr "verwijder uit de winkelwagen"
+
+#: inc/admin.setup.default.options.inc.php:546
+#@ wppizza-locale
+msgid "Shoppingcart: text of button in cart to proceed to order page"
+msgstr "Winkelwagen: tekst van de knop in de winkelwagen om naar de bestelpagina te gaan"
+
+#: inc/admin.setup.default.options.inc.php:547
+#@ wppizza-locale
+msgid "place your order"
+msgstr "plaats uw bestelling"
+
+#: inc/admin.setup.default.options.inc.php:550
+#@ wppizza-locale
+msgid "Shoppingcart - Self Pickup: text next to self pickup checkbox (if enabled)"
+msgstr "Winkelwagen - Afhalen: tekst naast checkbox zelf ophalen (indien ingeschakeld)"
+
+#: inc/admin.setup.default.options.inc.php:551
+#@ wppizza-locale
+msgid "I would like to pickup the order myself"
+msgstr "Ik wil de bestelling zelf afhalen"
+
+#: inc/admin.setup.default.options.inc.php:554
+#@ wppizza-locale
+msgid "Shoppingcart - Self Pickup: text under total value (if selected by customer)"
+msgstr "Winkelwagen - Afhalen: tekst onder de totale waarde (indien geselecteerd door de klant)"
+
+#: inc/admin.setup.default.options.inc.php:555
+#@ wppizza-locale
+msgid "Delivery: pickup"
+msgstr "Levering: afhalen"
+
+#: inc/admin.setup.default.options.inc.php:558
+#@ wppizza-locale
+msgid "Shoppingcart - Self Pickup: javascript alert when customer selects self pickup (if enabled)"
+msgstr "Winkelwagen - Afhalen: javascript waarschuwing als de klant kiest voor afhalen (indien ingeschakeld)"
+
+#: inc/admin.setup.default.options.inc.php:559
+#@ wppizza-locale
+msgid "You have chosen to pickup the order yourself. This order will not be delivered. Please allow 30 min. for us to prepare your order."
+msgstr "Je hebt ervoor gekozen om uw bestelling zelf te komen halen. Deze bestelling zal niet worden afgeleverd. Houdt a.u.b. rekening met 30 minuten om uw bestelling te bereiden."
+
+#: inc/admin.setup.default.options.inc.php:562
+#@ wppizza-locale
+msgid "History Page: Text to display when the user has not had any previous orders"
+msgstr "History Page: Text to display when the user has not had any previous orders"
+
+#: inc/admin.setup.default.options.inc.php:563
+#@ wppizza-locale
+msgid "you have no previous orders"
+msgstr "you have no previous orders"
+
+#: inc/admin.setup.default.options.inc.php:566
+#@ wppizza-locale
+msgid "Order Page: label above itemised order"
+msgstr "Bestel Pagina: label hierboven gespecificeerde volgorde"
+
+#: inc/admin.setup.default.options.inc.php:567
+#@ wppizza-locale
+msgid "your order"
+msgstr "uw bestelling"
+
+#: inc/admin.setup.default.options.inc.php:570
+#@ wppizza-locale
+msgid "Order Page: button label for sending order"
+msgstr "Bestel Pagina: knoplabel voor het verzenden van de bestelling"
+
+#: inc/admin.setup.default.options.inc.php:571
+#@ wppizza-locale
+msgid "send order"
+msgstr "verstuur bestelling"
+
+#: inc/admin.setup.default.options.inc.php:574
+#@ wppizza-locale
+msgid "Order Page: label above personal info"
+msgstr "Bestel Pagina: label boven persoonlijke info"
+
+#: inc/admin.setup.default.options.inc.php:575
+#@ wppizza-locale
+msgid "please enter the required information below"
+msgstr "Voer de vereiste informatie hieronder in"
+
+#: inc/admin.setup.default.options.inc.php:578
+#@ wppizza-locale
+msgid "Order Page - Self Pickup: text on order page / email to highlight self pickup (if applicable)"
+msgstr "Order Page - Self Pickup: text on order page / email to highlight self pickup (if applicable)"
+
+#: inc/admin.setup.default.options.inc.php:579
+#@ wppizza-locale
+msgid "Note: you have chosen to pickup the order yourself. This order will not be delivered. Please allow 30 min. for us to prepare your order."
+msgstr "Opmerking: u hebt gekozen om uw bestelling zelf af te halen. Deze bestelling zal niet worden afgeleverd. Houdt a.u.b. rekening met 30 minuten om uw bestelling te bereiden."
+
+#: inc/admin.setup.default.options.inc.php:582
+#@ wppizza-locale
+msgid "Order Page - No Delivery Offered / Pickup Only: text on order page / email if delivery is not being offered (if applicable)"
+msgstr "Order Page - No Delivery Offered / Pickup Only: text on order page / email if delivery is not being offered (if applicable)"
+
+#: inc/admin.setup.default.options.inc.php:583
+#@ wppizza-locale
+msgid "Please collect your order at the store."
+msgstr "Please collect your order at the store."
+
+#: inc/admin.setup.default.options.inc.php:586
+#@ wppizza-locale
+msgid "Order Page [Handling Charges]: text on order page if a handling charge for payment processing has been made (if applicable)"
+msgstr "Order Page [Handling Charges]: text on order page if a handling charge for payment processing has been made (if applicable)"
+
+#: inc/admin.setup.default.options.inc.php:587
+#@ wppizza-locale
+msgid "handling charge"
+msgstr "handling charge"
+
+#: inc/admin.setup.default.options.inc.php:590
+#@ wppizza-locale
+msgid "Order Page [Handling Charges]: text on order page if any handling charge will be calculated on checkout by a/the gateway itself"
+msgstr "Order Page [Handling Charges]: text on order page if any handling charge will be calculated on checkout by a/the gateway itself"
+
+#: inc/admin.setup.default.options.inc.php:591
+#@ wppizza-locale
+msgid "calculated on checkout"
+msgstr "calculated on checkout"
+
+#: inc/admin.setup.default.options.inc.php:594
+#@ wppizza-locale
+msgid "Order Page: message when required field is missing"
+msgstr "Bestel Pagina: bericht wanneer verplicht veld ontbreekt"
+
+#: inc/admin.setup.default.options.inc.php:595
+#@ wppizza-locale
+msgid "this is a required field"
+msgstr "Dit is een verplicht veld"
+
+#: inc/admin.setup.default.options.inc.php:598
+#@ wppizza-locale
+msgid "Order Page: message when field should be a decimal number"
+msgstr "Order Page: message when field should be a decimal number"
+
+#: inc/admin.setup.default.options.inc.php:599
+#@ wppizza-locale
+msgid "decimal numbers only please"
+msgstr "decimal numbers only please"
+
+#: inc/admin.setup.default.options.inc.php:602
+#@ wppizza-locale
+msgid "Order Page: label of thank you page after order has been sent"
+msgstr "Bestel Pagina: label van de bedankt pagina nadat de bestelling is verzonden"
+
+#: inc/admin.setup.default.options.inc.php:603
+#@ wppizza-locale
+msgid "thank you"
+msgstr "dank u"
+
+#: inc/admin.setup.default.options.inc.php:606
+#@ wppizza-locale
+msgid "Order Page: text of thank you page after order has been successfully sent"
+msgstr "Order Page: text of thank you page after order has been successfully sent"
+
+#: inc/admin.setup.default.options.inc.php:607
+#@ wppizza-locale
+msgid "thank you, we have received your order"
+msgstr "dank u, hebben wij hebben uw bestelling ontvangen"
+
+#: inc/admin.setup.default.options.inc.php:610
+#@ wppizza-locale
+msgid "Order Page: text on \"thank you\" page if there was an *error* sending order emails "
+msgstr "Order Page: text on \"thank you\" page if there was an *error* sending order emails "
+
+#: inc/admin.setup.default.options.inc.php:611
+#@ wppizza-locale
+msgid "Apologies. There was an error receiving your order. Please try again."
+msgstr "Apologies. There was an error receiving your order. Please try again."
+
+#: inc/admin.setup.default.options.inc.php:614
+#@ wppizza-locale
+msgid "Order Page: label next to checkbox text to allow user to update profile"
+msgstr "Order Page: label next to checkbox text to allow user to update profile"
+
+#: inc/admin.setup.default.options.inc.php:615
+#@ wppizza-locale
+msgid "update my user data with the details above"
+msgstr "update my user data with the details above"
+
+#: inc/admin.setup.default.options.inc.php:618
+#@ wppizza-locale
+msgid "Order Page: Tips/Gratuities"
+msgstr "Order Page: Tips/Gratuities"
+
+#: inc/admin.setup.default.options.inc.php:619
+#@ wppizza-locale
+msgid "tips/gratuities"
+msgstr "tips/gratuities"
+
+#: inc/admin.setup.default.options.inc.php:622
+#@ wppizza-locale
+msgid "Order Page: Tips/Gratuities confirm button"
+msgstr "Order Page: Tips/Gratuities confirm button"
+
+#: inc/admin.setup.default.options.inc.php:626
+#@ wppizza-locale
+msgid "Order Page [login/logout]: text before login link"
+msgstr "Order Page [login/logout]: text before login link"
+
+#: inc/admin.setup.default.options.inc.php:627
+#@ wppizza-locale
+msgid "already registered ?"
+msgstr "already registered ?"
+
+#: inc/admin.setup.default.options.inc.php:630
+#@ wppizza-locale
+msgid "Order Page [register]: text label register or continue as guest"
+msgstr "Order Page [register]: text label register or continue as guest"
+
+#: inc/admin.setup.default.options.inc.php:631
+#@ wppizza-locale
+msgid "continue as :"
+msgstr "continue as :"
+
+#: inc/admin.setup.default.options.inc.php:634
+#@ wppizza-locale
+msgid "Order Page [register]: register option -> as guest"
+msgstr "Order Page [register]: register option -> as guest"
+
+#: inc/admin.setup.default.options.inc.php:635
+#@ wppizza-locale
+msgid "guest"
+msgstr "guest"
+
+#: inc/admin.setup.default.options.inc.php:638
+#@ wppizza-locale
+msgid "Order Page [register]: register option -> create account"
+msgstr "Order Page [register]: register option -> create account"
+
+#: inc/admin.setup.default.options.inc.php:639
+#@ wppizza-locale
+msgid "create account"
+msgstr "create account"
+
+#: inc/admin.setup.default.options.inc.php:642
+#@ wppizza-locale
+msgid "Order Page [register]: additional info when create account option is chosen [html allowed]"
+msgstr "Order Page [register]: additional info when create account option is chosen [html allowed]"
+
+#: inc/admin.setup.default.options.inc.php:643
+#@ wppizza-locale
+msgid "Please ensure your email address is correct. A password will be emailed to you."
+msgstr "Please ensure your email address is correct. A password will be emailed to you."
+
+#: inc/admin.setup.default.options.inc.php:646
+#@ wppizza-locale
+msgid "Order Page [register]: error if email was already registered [html allowed]"
+msgstr "Order Page [register]: error if email was already registered [html allowed]"
+
+#: inc/admin.setup.default.options.inc.php:647
+#@ wppizza-locale
+msgid "This email address has already been registered. Please either <a href=\"#login\">login</a>, use a different email address or continue as guest."
+msgstr "This email address has already been registered. Please either <a href=\"#login\">login</a>, use a different email address or continue as guest."
+
+#: inc/admin.setup.default.options.inc.php:650
+#@ wppizza-locale
+msgid "Order Email: label for order details"
+msgstr "Bestel Email: label voor bestelgegevens"
+
+#: inc/admin.setup.default.options.inc.php:654
+#@ wppizza-locale
+msgid "Order Email: label to identify how the order was paid for"
+msgstr "Bestel Email: etiket om te bepalen hoe de bestelling werd betaald "
+
+#: inc/admin.setup.default.options.inc.php:655
+#@ wppizza-locale
+msgid "Paid By:"
+msgstr "Betaald Door:"
+
+#: inc/admin.setup.default.options.inc.php:658
+#@ wppizza-locale
+msgid "Order Email: Text you would like to display at the end of emails after everything else."
+msgstr "Bestel Email: Tekst die u wilt aan het einde van e-mails om te laten zien na al het andere."
+
+#: inc/admin.setup.default.options.inc.php:662
+#@ wppizza-locale
+msgid "Label Discount (Spend): i.e \"spend\" 50.00 save 10.00"
+msgstr "Label Korting (Besteed): dat wil zeggen \"te besteden \" bespaar 50,00 10,00"
+
+#: inc/admin.setup.default.options.inc.php:663
+#@ wppizza-locale
+msgid "spend"
+msgstr "besteed"
+
+#: inc/admin.setup.default.options.inc.php:666
+#@ wppizza-locale
+msgid "Label Discount (Save): i.e spend 50.00 \"save\" 10.00"
+msgstr "label Korting (opslaan): dwz uitgeven 50,00 \"bespaar \" 10.00"
+
+#: inc/admin.setup.default.options.inc.php:667
+#@ wppizza-locale
+msgid "save"
+msgstr "bespaar"
+
+#: inc/admin.setup.default.options.inc.php:670
+#@ wppizza-locale
+msgid "Label Info: i.e. \"free delivery for orders over\"..."
+msgstr "Label Info: dwz \"gratis levering voor bestellingen van meer dan \" ..."
+
+#: inc/admin.setup.default.options.inc.php:671
+#@ wppizza-locale
+msgid "free delivery for orders over"
+msgstr "gratis levering voor bestellingen van meer dan"
+
+#: inc/admin.setup.default.options.inc.php:674
+#@ wppizza-locale
+msgid "Label Info: required minimum order value (displayed if applicable)"
+msgstr "Label Info: vereiste minimum orderwaarde (indien van toepassing weergegeven)"
+
+#: inc/admin.setup.default.options.inc.php:675
+#@ wppizza-locale
+msgid "minimum order"
+msgstr "minimum bestelling"
+
+#: inc/admin.setup.default.options.inc.php:678
+#@ wppizza-locale
+msgid "Label Info: required minimum order value for delivery (displayed if applicable)"
+msgstr "Label Info: vereiste minimum orderwaarde (indien van toepassing weergegeven)"
+
+#: inc/admin.setup.default.options.inc.php:679
+#@ wppizza-locale
+msgid "minimum order for delivery"
+msgstr "minimum bestelling orderwaarde"
+
+#: inc/admin.setup.default.options.inc.php:682
+#@ wppizza-locale
+msgid "Price Labels (Sub)Totals: text to display when free delivery applies"
+msgstr "Prijs lables (Sub) Totalen: tekst moet worden weergegeven wanneer gratis bezorging geldt"
+
+#: inc/admin.setup.default.options.inc.php:683
+#@ wppizza-locale
+msgid "free delivery"
+msgstr "gratis bezorging"
+
+#: inc/admin.setup.default.options.inc.php:686
+#@ wppizza-locale
+msgid "Price Labels (Sub)Totals: text delivery charges - when set to \"Fixed\" or \"Free delivery over\" (if applicable)"
+msgstr "Prijs labels (Sub) Totalen: bezorg tekst - wanneer ingesteld op \"Vast \" of  \"Gratis bij besteding van meer dan \" (indien van toepassing)"
+
+#: inc/admin.setup.default.options.inc.php:687
+#@ wppizza-locale
+msgid "delivery charges"
+msgstr "bezorgkosten"
+
+#: inc/admin.setup.default.options.inc.php:690
+#@ wppizza-locale
+msgid "Price Labels (Sub)Totals: text delivery when set to \"Delivery Charges per item\" (if applicable)"
+msgstr "Prijs etiketten (Sub) Totalen: bezorg tekst wanneer ingesteld op  \"Bezorgkosten per stuk \" (indien van toepassing)"
+
+#: inc/admin.setup.default.options.inc.php:691
+#@ wppizza-locale
+msgid "delivery charges per item"
+msgstr "verzendkosten per artikel"
+
+#: inc/admin.setup.default.options.inc.php:694
+#@ wppizza-locale
+msgid "Price Labels (Sub)Totals: text before sum of discounts applied(if any)"
+msgstr "Prijs etiketten (Sub) Totalen: tekst vóór de som van de kortingen toegepast (indien van toepassing)"
+
+#: inc/admin.setup.default.options.inc.php:698
+#@ wppizza-locale
+msgid "Price Labels (Sub)Totals: text before sum of tax applied to all items(if > 0)"
+msgstr "Prijs lables (Sub) Totalen: tekst vóór de som van BTW toegepast op alle items (indien> 0)"
+
+#: inc/admin.setup.default.options.inc.php:699
+#@ wppizza-locale
+msgid "Sales Tax"
+msgstr "BTW"
+
+#: inc/admin.setup.default.options.inc.php:702
+#, php-format
+#@ wppizza-locale
+msgid "Price Labels (Sub)Totals: text before sum of tax applied if prices have been entered *inclusive* of tax (if > 0) [%s%% will be replaced by taxrate applied - i.e 10%]"
+msgstr "Price Labels (Sub)Totals: text before sum of tax applied if prices have been entered *inclusive* of tax (if > 0) [%s%% will be replaced by taxrate applied - i.e 10%]"
+
+#: inc/admin.setup.default.options.inc.php:703
+#, php-format
+#@ wppizza-locale
+msgid "incl. tax at %s%%"
+msgstr "incl. tax at %s%%"
+
+#: inc/admin.setup.default.options.inc.php:706
+#@ wppizza-locale
+msgid "Price Labels (Sub)Totals: text before total sum of ORDER"
+msgstr "Prijs labels (Sub) Totalen: tekst voor de totale som van de BESTELLING"
+
+#: inc/admin.setup.default.options.inc.php:707
+#@ wppizza-locale
+msgid "total"
+msgstr "totaal"
+
+#: inc/admin.setup.default.options.inc.php:710
+#@ wppizza-locale
+msgid "Price Labels (Sub)Totals: text before total sum of ITEMS in cart"
+msgstr "Prijs etiketten (Sub) Totalen: tekst voor de totale som van de ITEMS in de winkelwagen"
+
+#: inc/admin.setup.default.options.inc.php:711
+#@ wppizza-locale
+msgid "your items"
+msgstr "uw items"
+
+#: inc/admin.setup.default.options.inc.php:714
+#@ wppizza-locale
+msgid "Openinghours: text to display when shop is closed that day "
+msgstr "Openingsuren: tekst die moet worden weergegeven wanneer de winkel die dag gesloten is"
+
+#: inc/admin.setup.default.options.inc.php:715
+#@ wppizza-locale
+msgid "closed"
+msgstr "gesloten"
+
+#: inc/common.output.formatting.functions.inc.php:446
+#@ wppizza-locale
+msgid "Mondays"
+msgstr "Maandagen"
+
+#: inc/common.output.formatting.functions.inc.php:447
+#@ wppizza-locale
+msgid "Tuesdays"
+msgstr "Dinsdagen"
+
+#: inc/common.output.formatting.functions.inc.php:448
+#@ wppizza-locale
+msgid "Wednesdays"
+msgstr "Woensdagen"
+
+#: inc/common.output.formatting.functions.inc.php:449
+#@ wppizza-locale
+msgid "Thursdays"
+msgstr "Donderdagen"
+
+#: inc/common.output.formatting.functions.inc.php:450
+#@ wppizza-locale
+msgid "Fridays"
+msgstr "Vrijdagen"
+
+#: inc/common.output.formatting.functions.inc.php:451
+#@ wppizza-locale
+msgid "Saturdays"
+msgstr "Zaterdagen"
+
+#: inc/common.output.formatting.functions.inc.php:452
+#@ wppizza-locale
+msgid "Sundays"
+msgstr "Zondagen"
+
+#: inc/common.output.formatting.functions.inc.php:460
+#@ wppizza-locale
+msgid "Default"
+msgstr "Standaard"
+
+#: inc/common.output.formatting.functions.inc.php:461
+#@ wppizza-locale
+msgid "Responsive [Experimental]"
+msgstr "Responsive [Experimenteel]"
+
+#: views/widget-admin.php:38
+#@ wppizza-locale
+msgid "Widget Title"
+msgstr "Widget Titel"
+
+#: views/widget-admin.php:42
+#@ wppizza-locale
+msgid "Suppress Title ?"
+msgstr "Titel onderdukken ?"
+
+#: views/widget-admin.php:47
+#@ wppizza-locale
+msgid "Widget Type"
+msgstr "Widget Type"
+
+#: views/widget-admin.php:62
+#@ wppizza-locale
+msgid "All Categories [default]"
+msgstr "Alle categorieën [standaard]"
+
+#: views/widget-admin.php:67
+#@ wppizza-locale
+msgid "Please refer to <a href='http://wordpress.org/extend/plugins/wppizza/faq/' target='_blank'>FAQ</a> when using the widget (or shortcode) to display the navigation"
+msgstr "Raadpleeg <a href='http://wordpress.org/extend/plugins/wppizza/faq/' target='_blank'> FAQ </ a> bij gebruik van de widget (of korte code (shortcode)) om de navigatie weer te geven"
+
+#: views/widget-admin.php:71
+#@ wppizza-locale
+msgid "You probably want to create a dedicated orderpage with the following shortcode instead [wppizza type='orderpage']."
+msgstr "U wilt waarschijnlijk een speciale bestelpagina maken met de volgende korte code (shortcode) in plaats van [wppizza type = 'bestelpagina']."
+
+#: views/widget-admin.php:75
+#@ wppizza-locale
+msgid "Displays openingtimes set in wppizza->settings->openingtimes. shortcode [wppizza type='openingtimes']"
+msgstr "Toont Openingstijden in wppizza-> Instellingen-> Openingstijden. Korte code (shortcode) [wppizza type = 'Openingstijden']"
+
+#: views/widget-admin.php:83
+#@ wppizza-locale
+msgid "First Category [default]"
+msgstr "Eerste Categorie [Standaard]"
+
+#: views/widget-admin.php:89
+#@ wppizza-locale
+msgid "Show Additives List at bottom of page ?"
+msgstr "Toon Toevoegingen Lijst aan de onderkant van de pagina?"
+
+#: views/widget-admin.php:91
+#@ wppizza-locale
+msgid "Auto [default]"
+msgstr "Auto [standaard]"
+
+#: views/widget-admin.php:92
+#@ wppizza-locale
+msgid "Force Hide"
+msgstr "Met kracht verbergen"
+
+#: views/widget-admin.php:93
+#@ wppizza-locale
+msgid "Force Show"
+msgstr "Met kracht tonen"
+
+#: views/widget-admin.php:97
+#@ wppizza-locale
+msgid "Suppress Category Header ?"
+msgstr "Onderdrukken Categorie Hoofd?"
+
+#: views/widget-admin.php:103
+#@ wppizza-locale
+msgid "Display Openingtimes ?"
+msgstr "Openingstijden weergeven?"
+
+#: views/widget-admin.php:106
+#@ wppizza-locale
+msgid "Display Order Info ?"
+msgstr "Bestel Info Weergeven?"
+
+#: views/widget-admin.php:109
+#@ wppizza-locale
+msgid "Width [&#37; or px]"
+msgstr "Width [&#37; or px]"
+
+#: views/widget-admin.php:110
+#@ wppizza-locale
+msgid "i.e. 200px or 85% - defaults to 100% if left blank"
+msgstr "dwz 200px of 85% - standaard op 100% indien leeg gelaten"
+
+#: views/widget-admin.php:114
+#@ wppizza-locale
+msgid "Height [Integer]"
+msgstr "Hoogte [Integer]"
+
+#: views/widget-admin.php:115
+#@ wppizza-locale
+msgid "css defaults to 250px if left blank"
+msgstr "css standaard 250px indien leeg gelaten"
+
+#: views/widget-admin.php:119
+#@ wppizza-locale
+msgid "Cart visible on page when scrolling ?"
+msgstr "Cart visible on page when scrolling ?"
+
+#: views/widget-admin.php:120
+#@ wppizza-locale
+msgid "See also WPPizza->Layout for additional options"
+msgstr "See also WPPizza->Layout for additional options"
+
+#: wppizza.php:106
+#@ wppizza-locale
+msgid "A Pizza Restaurant Plugin"
+msgstr "Een Plugin voor Restaurants"
+
+#: wppizza.php:149
+#@ wppizza-locale
+msgid "Shoppingcart"
+msgstr "Winkelwagen"
+
+#: wppizza.php:166
+#@ wppizza-locale
+msgid "Category Page"
+msgstr "Categorieën Pagina"
+
+#: wppizza.php:167
+#@ wppizza-locale
+msgid "Navigation"
+msgstr "Navigatie"
+
+#: wppizza.php:168
+#@ wppizza-locale
+msgid "Cart"
+msgstr "Winkelwagen"
+
+#: wppizza.php:169
+#@ wppizza-locale
+msgid "Orderpage"
+msgstr "Bestelpagina"
+
+#: wppizza.php:170
+#@ wppizza-locale
+msgid "Openingtimes"
+msgstr "Openingsuren"
+
+#: classes/wppizza.actions.inc.php:1449
+#@ default
+msgctxt "taxonomy general name"
+msgid "WPPizza Categories"
+msgstr ""
+
+#: classes/wppizza.actions.inc.php:1450
+#@ default
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr ""
+

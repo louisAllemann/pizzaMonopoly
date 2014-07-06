@@ -1,0 +1,27 @@
+/************************************************************************************
+*
+*	[if you want to edit/amend this css, copy it to your theme directory and edit it there]
+*
+************************************************************************************/
+
+/******************
+	[timed menu form fields]
+*******************/
+#wppizza_timed_items_options th{vertical-align:top; width:auto !important; background-color:#DEDEDE;text-shadow:none;padding:5px;}
+#wppizza_timed_items_options td{vertical-align:top;}
+#wppizza_timed_items_options {border:1px solid #999999;margin-bottom:10px}
+#wppizza_timed_items_options tr.wppizza-tm-display-posts_pages:nth-child(odd){background:#EFEFEF;}
+#wppizza_timed_items_options tr.wppizza-tm-display-posts_pages:nth-child(even){background:#FFFFFF;}
+#wppizza_timed_items_options tr.wppizza-tm-display-internal:nth-child(odd){background:#EFEFEF;}
+#wppizza_timed_items_options tr.wppizza-tm-display-internal:nth-child(even){background:#FFFFFF;}
+
+/******************
+	[timed menu multiselects]
+*******************/
+.wppizza_tm_menu_item,.wppizza_tm_pages,.wppizza_tm_categories{height:125px !important}
+
+/******************
+	[access rights]
+*******************/
+.wppizza_wppizza_timed_menu_admin_access_caps{display:block;overflow:auto;}
+.wppizza_wppizza_timed_menu_admin_access_caps>li{display: inline;list-style: none;float: left;padding-right: 10px;}

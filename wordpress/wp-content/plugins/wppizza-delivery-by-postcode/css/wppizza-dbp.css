@@ -1,0 +1,12 @@
+/**thickbox***/
+#TB_overlay{z-index:1000 !important}
+#TB_window{z-index:1000 !important}
+#TB_ajaxWindowTitle{font-weight:600;}
+#TB_ajaxContent .wppizza-dbp-areas legend{display:none}/*already displayed in title*/
+#TB_ajaxContent .wppizza-dbp-areas #wppizza-dbp-area{margin:20px auto;width:100%}
+
+
+/*autocomplete*/
+ul.wppizza-dbp-ac { margin: 5px 0; padding:0; background-color:#EFEFEF;display:none;overflow:auto;}
+ul.wppizza-dbp-ac>li {list-style: none; cursor: pointer;padding:0 0 0 3px ;margin:1px;background-color: #FEFEFE;font-size:90%}
+ul.wppizza-dbp-ac>li.smart_autocomplete_highlight {background-color: #EFEFEF;}    

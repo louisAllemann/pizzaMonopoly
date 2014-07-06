@@ -1,0 +1,2414 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WPPizza\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-01-30 13:10-0000\n"
+"PO-Revision-Date: 2014-01-30 13:10-0000\n"
+"Last-Translator: ollybach <dev@1000db.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../wppizza-timed-menu.php:242
+msgid "Timed Items"
+msgstr "Timed Items"
+
+#: ../wppizza-timed-menu.php:243
+#: ../inc/admin.echo.register.submenu.pages.inc.php:27
+msgid "Localization"
+msgstr "Localization"
+
+#: ../wppizza-timed-menu.php:244
+msgid "Options"
+msgstr "Options"
+
+#: ../wppizza-timed-menu.php:245
+msgid "Access"
+msgstr "Access"
+
+#: ../wppizza-timed-menu.php:246
+msgid "How To"
+msgstr "How To"
+
+#: ../wppizza-timed-menu.php:248
+#: ../inc/admin.echo.register.submenu.pages.inc.php:32
+msgid "License"
+msgstr "License"
+
+#: ../wppizza-timed-menu.php:298
+msgid ""
+"please read the \"how to\" for instructions and information how to set your "
+"timed menu items."
+msgstr ""
+"please read the \"how to\" for instructions and information how to set your "
+"timed menu items."
+
+#: ../inc/admin.echo.get_timed_menu.inc.php:9
+msgid "Label"
+msgstr "Label"
+
+#: ../inc/admin.echo.get_timed_menu.inc.php:35
+#: ../inc/admin.echo.get_timed_menu.inc.php:53
+#: ../inc/admin.echo.get_timed_menu.inc.php:72
+msgid "Ctrl+Click to select multiple"
+msgstr "Ctrl+Click to select multiple"
+
+#: ../inc/admin.echo.get_timed_menu.inc.php:100
+msgid "Start Date"
+msgstr "Start Date"
+
+#: ../inc/admin.echo.get_timed_menu.inc.php:104
+msgid "End Date"
+msgstr "End Date"
+
+#: ../inc/admin.echo.get_timed_menu.inc.php:112
+msgid "Start Time [HH:MM]"
+msgstr "Start Time [HH:MM]"
+
+#: ../inc/admin.echo.get_timed_menu.inc.php:116
+msgid "End Time [HH:MM]"
+msgstr "End Time [HH:MM]"
+
+#: ../inc/admin.echo.get_timed_menu.inc.php:134
+msgid "on/off "
+msgstr "on/off "
+
+#: ../inc/admin.echo.get_timed_menu.inc.php:134
+msgid "enabled"
+msgstr "enabled"
+
+#: ../inc/admin.echo.get_timed_menu.inc.php:135
+msgid "delete"
+msgstr "delete"
+
+#: ../inc/admin.echo.manage_tm.inc.php:9
+msgid "Save Changes"
+msgstr "Save Changes"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:3
+msgid "Timed Menu"
+msgstr "Timed Menu"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:3
+msgid "&#8919; Timed Menu"
+msgstr "&#8919; Timed Menu"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:14
+msgid "Version"
+msgstr "Version"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:15
+msgid "How do you display Wppizza Items and Categories ?"
+msgstr "How do you display Wppizza Items and Categories ?"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:16
+msgid "Timed Menu Items"
+msgstr "Timed Menu Items"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:22
+msgid "Display Menu Items as unavailable ?"
+msgstr "Display Menu Items as unavailable ?"
+
+#: ../inc/admin.echo.register.submenu.pages.inc.php:37
+msgid "Set Access Rights"
+msgstr "Set Access Rights"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:13
+msgid ""
+"<b>install option 1</b>: I am using shortcodes like [wppizza category=\"xxx"
+"\"] on several pages to show my menu items / categories"
+msgstr ""
+"<b>install option 1</b>: I am using shortcodes like [wppizza category=\"xxx"
+"\"] on several pages to show my menu items / categories"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:16
+msgid ""
+"<b>install option 2</b> : I am using templates with the navigation widget/"
+"shortcode and (optionally) *one* page as root of my menu (often used for "
+"nice permalinks)"
+msgstr ""
+"<b>install option 2</b> : I am using templates with the navigation widget/"
+"shortcode and (optionally) *one* page as root of my menu (often used for "
+"nice permalinks)"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:19
+msgid ""
+"If you don't know which option you are using you are probably using option 1 "
+"(or see <a href=\"http://wordpress.org/plugins/wppizza/installation/"
+"\">wppizza installation</a> for details)."
+msgstr ""
+"If you don't know which option you are using you are probably using option 1 "
+"(or see <a href=\"http://wordpress.org/plugins/wppizza/installation/"
+"\">wppizza installation</a> for details)."
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:44
+msgid "Label (optional)"
+msgstr "Label (optional)"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:46
+msgid "Menu Items"
+msgstr "Menu Items"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:49
+msgid "Categories"
+msgstr "Categories"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:52
+msgid "Pages"
+msgstr "Pages"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:55
+msgid "Posts"
+msgstr "Posts"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:57
+msgid "Start/End Date"
+msgstr "Start/End Date"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:58
+msgid "Start/End Times"
+msgstr "Start/End Times"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:59
+msgid "Day(s)"
+msgstr "Day(s)"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:72
+msgid "add new timed item(s)"
+msgstr "add new timed item(s)"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:82
+msgid ""
+"By default, any menu items not available will not be shown. If you DO want "
+"them displayed - with a note like \"currently not available\" or similar "
+"(set in \"localization\" of this plugin) - tick this box<br />( adjust your "
+"css if required - see notes in wppizza-tm.css file)"
+msgstr ""
+"By default, any menu items not available will not be shown. If you DO want "
+"them displayed - with a note like \"currently not available\" or similar "
+"(set in \"localization\" of this plugin) - tick this box<br />( adjust your "
+"css if required - see notes in wppizza-tm.css file)"
+
+#: ../inc/admin.echo.settings.input.fields.inc.php:138
+msgid ""
+"\n"
+"\t\t\t\t\t\t<p>You can set some. many or all of your menu items to be only "
+"available/visible at certain dates, times or days. <b>(Make sure Wordpress-"
+">Settings->General->Timezone is correctly set)</b></p>\n"
+"\n"
+"\t\t\t\t\t\t<p>To start, click on \"add new timed item(s)\" where you will "
+"be presented with the following options:</p>\n"
+"\n"
+"\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t<br />\n"
+"\n"
+"\t\t\t\t\t\t<p style='font-weight:600'>\n"
+"\t\t\t\t\t\t Label:\n"
+"\t\t\t\t\t\t<p>\n"
+"\n"
+"\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\tAn arbitrary and optional label you can set as you wish to "
+"help you identify this particular timed menu setting (also used to sort the "
+"settings by). This will neither be displayed nor has it any effect on the "
+"frontend.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t</blockquote>\n"
+"\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t<br />\n"
+"\n"
+"\t\t\t\t\t\t<p style='font-weight:600'>\n"
+"\t\t\t\t\t\t Items/Pages/Categories:\n"
+"\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<b>Menu Items :</b> Select all the menu items you would like "
+"to have these particular timing settings applied for.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<b>Pages/Categories (depending on install option) :</b> "
+"Additionally to or instead of menu items above, you can set timing settings "
+"for a whole category/page.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\n"
+"\t\t\t\t\t\t\t<p style='color:red'>\n"
+"\t\t\t\t\t\t\t\tPlease Note: The settings made for a page/category will "
+"apply for any item in said page/category even if an item is added to this "
+"category at a later date.<br />\n"
+"\t\t\t\t\t\t\t\tFor example: If you choose to only display/make available "
+"your dessert category on fridays, any items added to the dessert category at "
+"a later date will also only be available on fridays.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t</blockquote>\n"
+"\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t<br />\n"
+"\n"
+"\t\t\t\t\t\t<p style='font-weight:600'>\n"
+"\t\t\t\t\t\t\tTiming Section: The settings you make here are cumulative (i.e "
+"all settings apply if set)\n"
+"\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<b>i) Start/End Date:</b>\n"
+"\t\t\t\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t<li>Click on the relevant text field to bring up a "
+"calender.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you only set a Start Date but leave the End Date "
+"blank, the items selected will be available ONLY AFTER set Start Date.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you only set an End Date but leave the Start Date "
+"blank, the items selected will be available ONLY UNTIL the End Date.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you set both dates, the items selected the items "
+"selected will ONLY be available between the two dates.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you set neither date, they will be ignored</li>\n"
+"\t\t\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\t\t\t</blockquote>\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<b>ii) Start/End Times:</b>\n"
+"\t\t\t\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t<li>Click on the relevant text field to bring up a time "
+"picker.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you only set a Start Time but leave the End Time "
+"blank, the items selected will ONLY BE AVAILABLE AFTER set Start Time until "
+"23:59:59.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you only set an End Time but leave the Start Time "
+"blank, the items selected will ONLY BE AVAILABLE from 0:00:00 UNTIL the End "
+"Time.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you set both times, the items selected the items "
+"selected will ONLY BE AVAILABLE between these two times. <b>If End Time is "
+"earlier than Start Time , End Time is assumed to be on the next day</b></"
+"li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you set neither, they will be ignored</li>\n"
+"\t\t\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\t\t\t</blockquote>\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<b>iii) Days:</b>\n"
+"\t\t\t\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t<li>Select the relevant days you want the applicable menu "
+"items to be available.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If set, the items selected will ONLY BE AVAILABLE on "
+"the selected days</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you set none, this will be ignored</li>\n"
+"\t\t\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\t\t\t</blockquote>\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t<p style='color:red'>To reiterate: your settings in i, ii and "
+"iii are cumulative. I.e if you set a start and end date, as well as mon,tue,"
+"wed as days, the items selected will only be available on mon,tue and wed "
+"between the two set dates. The same applies for any other combination of "
+"dates, times and days if set.</p>\n"
+"\t\t\t\t\t\t\t<p>The settings are only applied if you have set at least one "
+"of the settings under i, ii or iii and of course enabled this particular "
+"setting.</p>\n"
+"\t\t\t\t\t\t\t<p style='font-weight:600'>Be careful when setting end dates "
+"as when the end date has passed, the associated menu items will never be "
+"displayed again (unless of course you disable/turn off or delete this "
+"particular setting)</p>\n"
+"\n"
+"\t\t\t\t\t\t\t<br />\n"
+"\n"
+"\t\t\t\t\t\t\t<p style='font-weight:600'>\n"
+"\t\t\t\t\t\t\t\tEnable/Delete:\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\n"
+"\t\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t<li>Settings are only applied when enabled.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>To permanently delete a setting, click the [x] button "
+"and save</li>\n"
+"\t\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\t</blockquote>\n"
+"\t\t\t\t\t\t</blockquote>\n"
+"\n"
+"\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t<br />\n"
+"\n"
+"\t\t\t\t\t\t<p style='font-weight:600'>\n"
+"\t\t\t\t\t\tSummary / Notes :\n"
+"\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t\t<li>Do NOT use a cache plugin on the effected pages. It "
+"will cause unexpected results (for obvious reasons I would have thought)</"
+"li>\n"
+"\t\t\t\t\t\t\t\t\t\t<li>Although the navigation to pages/categories will be "
+"omitted when all items of a selected page/category are unavailable at a "
+"given time, these pages may still be indexed by searchengines.<br/"
+">Therefore, if a user comes to one of these pages directly from a "
+"searchengine results page your page will display whatever you have set in "
+"WPPizza->Timed Menu->localization</li>\n"
+"\t\t\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\t</blockquote>\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\t\t\t\t\t"
+msgstr ""
+"\n"
+"\t\t\t\t\t\t<p>You can set some. many or all of your menu items to be only "
+"available/visible at certain dates, times or days. <b>(Make sure Wordpress-"
+">Settings->General->Timezone is correctly set)</b></p>\n"
+"\n"
+"\t\t\t\t\t\t<p>To start, click on \"add new timed item(s)\" where you will "
+"be presented with the following options:</p>\n"
+"\n"
+"\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t<br />\n"
+"\n"
+"\t\t\t\t\t\t<p style='font-weight:600'>\n"
+"\t\t\t\t\t\t Label:\n"
+"\t\t\t\t\t\t<p>\n"
+"\n"
+"\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\tAn arbitrary and optional label you can set as you wish to "
+"help you identify this particular timed menu setting (also used to sort the "
+"settings by). This will neither be displayed nor has it any effect on the "
+"frontend.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t</blockquote>\n"
+"\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t<br />\n"
+"\n"
+"\t\t\t\t\t\t<p style='font-weight:600'>\n"
+"\t\t\t\t\t\t Items/Pages/Categories:\n"
+"\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<b>Menu Items :</b> Select all the menu items you would like "
+"to have these particular timing settings applied for.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<b>Pages/Categories (depending on install option) :</b> "
+"Additionally to or instead of menu items above, you can set timing settings "
+"for a whole category/page.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\n"
+"\t\t\t\t\t\t\t<p style='color:red'>\n"
+"\t\t\t\t\t\t\t\tPlease Note: The settings made for a page/category will "
+"apply for any item in said page/category even if an item is added to this "
+"category at a later date.<br />\n"
+"\t\t\t\t\t\t\t\tFor example: If you choose to only display/make available "
+"your dessert category on fridays, any items added to the dessert category at "
+"a later date will also only be available on fridays.\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t</blockquote>\n"
+"\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t<br />\n"
+"\n"
+"\t\t\t\t\t\t<p style='font-weight:600'>\n"
+"\t\t\t\t\t\t\tTiming Section: The settings you make here are cumulative (i.e "
+"all settings apply if set)\n"
+"\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<b>i) Start/End Date:</b>\n"
+"\t\t\t\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t<li>Click on the relevant text field to bring up a "
+"calender.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you only set a Start Date but leave the End Date "
+"blank, the items selected will be available ONLY AFTER set Start Date.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you only set an End Date but leave the Start Date "
+"blank, the items selected will be available ONLY UNTIL the End Date.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you set both dates, the items selected the items "
+"selected will ONLY be available between the two dates.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you set neither date, they will be ignored</li>\n"
+"\t\t\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\t\t\t</blockquote>\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<b>ii) Start/End Times:</b>\n"
+"\t\t\t\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t<li>Click on the relevant text field to bring up a time "
+"picker.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you only set a Start Time but leave the End Time "
+"blank, the items selected will ONLY BE AVAILABLE AFTER set Start Time until "
+"23:59:59.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you only set an End Time but leave the Start Time "
+"blank, the items selected will ONLY BE AVAILABLE from 0:00:00 UNTIL the End "
+"Time.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you set both times, the items selected the items "
+"selected will ONLY BE AVAILABLE between these two times. <b>If End Time is "
+"earlier than Start Time , End Time is assumed to be on the next day</b></"
+"li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you set neither, they will be ignored</li>\n"
+"\t\t\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\t\t\t</blockquote>\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t\t<b>iii) Days:</b>\n"
+"\t\t\t\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t<li>Select the relevant days you want the applicable menu "
+"items to be available.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If set, the items selected will ONLY BE AVAILABLE on "
+"the selected days</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>If you set none, this will be ignored</li>\n"
+"\t\t\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\t\t\t</blockquote>\n"
+"\t\t\t\t\t\t\t</p>\n"
+"\t\t\t\t\t\t\t<p style='color:red'>To reiterate: your settings in i, ii and "
+"iii are cumulative. I.e if you set a start and end date, as well as mon,tue,"
+"wed as days, the items selected will only be available on mon,tue and wed "
+"between the two set dates. The same applies for any other combination of "
+"dates, times and days if set.</p>\n"
+"\t\t\t\t\t\t\t<p>The settings are only applied if you have set at least one "
+"of the settings under i, ii or iii and of course enabled this particular "
+"setting.</p>\n"
+"\t\t\t\t\t\t\t<p style='font-weight:600'>Be careful when setting end dates "
+"as when the end date has passed, the associated menu items will never be "
+"displayed again (unless of course you disable/turn off or delete this "
+"particular setting)</p>\n"
+"\n"
+"\t\t\t\t\t\t\t<br />\n"
+"\n"
+"\t\t\t\t\t\t\t<p style='font-weight:600'>\n"
+"\t\t\t\t\t\t\t\tEnable/Delete:\n"
+"\t\t\t\t\t\t\t<p>\n"
+"\n"
+"\t\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t<li>Settings are only applied when enabled.</li>\n"
+"\t\t\t\t\t\t\t\t\t<li>To permanently delete a setting, click the [x] button "
+"and save</li>\n"
+"\t\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\t</blockquote>\n"
+"\t\t\t\t\t\t</blockquote>\n"
+"\n"
+"\t\t\t\t\t\t<br />\n"
+"\t\t\t\t\t\t<br />\n"
+"\n"
+"\t\t\t\t\t\t<p style='font-weight:600'>\n"
+"\t\t\t\t\t\tSummary / Notes :\n"
+"\t\t\t\t\t\t<p>\n"
+"\t\t\t\t\t\t\t<blockquote>\n"
+"\t\t\t\t\t\t\t\t\t<ul>\n"
+"\t\t\t\t\t\t\t\t\t\t<li>Do NOT use a cache plugin on the effected pages. It "
+"will cause unexpected results (for obvious reasons I would have thought)</"
+"li>\n"
+"\t\t\t\t\t\t\t\t\t\t<li>Although the navigation to pages/categories will be "
+"omitted when all items of a selected page/category are unavailable at a "
+"given time, these pages may still be indexed by searchengines.<br/"
+">Therefore, if a user comes to one of these pages directly from a "
+"searchengine results page your page will display whatever you have set in "
+"WPPizza->Timed Menu->localization</li>\n"
+"\t\t\t\t\t\t\t\t\t</ul>\n"
+"\t\t\t\t\t\t\t</blockquote>\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\t\t\t\t\t"
+
+#: ../inc/admin.setup.default.options.inc.php:38
+msgid ""
+"text to display on page when NO item in a category is currently available "
+"and wppizza->timed menu->options->\"Display Menu Items as unavailable ?\" is "
+"NOT enabled (html allowed)"
+msgstr ""
+"text to display on page when NO item in a category is currently available "
+"and wppizza->timed menu->options->\"Display Menu Items as unavailable ?\" is "
+"NOT enabled (html allowed)"
+
+#: ../inc/admin.setup.default.options.inc.php:39
+msgid ""
+"<div style='text-align:center'>Sorry, this item is currently not available</"
+"div>"
+msgstr ""
+"<div style='text-align:center'>Sorry, this item is currently not available</"
+"div>"
+
+#: ../inc/admin.setup.default.options.inc.php:43
+msgid ""
+"text on single item when it is not available and option \"Display as "
+"unavailable\" has been selected"
+msgstr ""
+"text on single item when it is not available and option \"Display as "
+"unavailable\" has been selected"
+
+#: ../inc/admin.setup.default.options.inc.php:44
+msgid "currently not available"
+msgstr "currently not available"
+
+#~ msgid "Frontend"
+#~ msgstr "Frontend"
+
+#~ msgid "Enable/Disable "
+#~ msgstr "Enable/Disable "
+
+#~ msgid ""
+#~ "set start/end date when items should be available (leave blank to apply "
+#~ "to all dates)"
+#~ msgstr ""
+#~ "set start/end date when items should be available (leave blank to apply "
+#~ "to all dates)"
+
+#~ msgid ""
+#~ "set start/end time when items should be available (leave blank to make "
+#~ "item available during all opening times)"
+#~ msgstr ""
+#~ "set start/end time when items should be available (leave blank to make "
+#~ "item available during all opening times)"
+
+#~ msgid ""
+#~ "set day(s) when items should be available (de-select all days to ignore)"
+#~ msgstr ""
+#~ "set day(s) when items should be available (de-select all days to ignore)"
+
+#~ msgid ""
+#~ "Uncheck to disable Timed Menu. (you could of course also just de-activate "
+#~ "the plugin)"
+#~ msgstr ""
+#~ "Uncheck to disable Timed Menu. (you could of course also just de-activate "
+#~ "the plugin)"
+
+#~ msgid "Menu Item: label when hovering over additives (if set)"
+#~ msgstr "Menu Item: label when hovering over additives (if set)"
+
+#~ msgid "contains additives"
+#~ msgstr "contains additives"
+
+#~ msgid "A Pizza Restaurant Plugin"
+#~ msgstr "A Pizza Restaurant Plugin"
+
+#~ msgid "Shoppingcart"
+#~ msgstr "Shoppingcart"
+
+#~ msgid "Category Page"
+#~ msgstr "Category Page"
+
+#~ msgid "Navigation"
+#~ msgstr "Navigation"
+
+#~ msgid "Cart"
+#~ msgstr "Cart"
+
+#~ msgid "Orderpage"
+#~ msgstr "Orderpage"
+
+#~ msgid "Openingtimes"
+#~ msgstr "Openingtimes"
+
+#~ msgid "order deleted"
+#~ msgstr "order deleted"
+
+#~ msgid "Done"
+#~ msgstr "Done"
+
+#~ msgid ""
+#~ "Note: deleting an order will <b>ONLY</b> delete it from the database "
+#~ "table. It will <b>NOT</b> issue any refunds, cancel the order, send "
+#~ "emails etc."
+#~ msgstr ""
+#~ "Notes: deleting an order will <b>ONLY</b> delete it from the database "
+#~ "table. It will <b>NOT</b> issue any refunds, cancel the order, send "
+#~ "emails etc."
+
+#~ msgid ""
+#~ "\"Status\" is solely for your internal reference. Updating/changing the "
+#~ "value will have no other effects but might help you to identify which "
+#~ "orders have not been processed."
+#~ msgstr ""
+#~ "\"Status\" is solely for your internal reference. Updating/changing the "
+#~ "value will have no other effects but might help you to identify which "
+#~ "orders have not been processed."
+
+#~ msgid "Order"
+#~ msgstr "Order"
+
+#~ msgid "Customer Details"
+#~ msgstr "Customer Details"
+
+#~ msgid "Order Details"
+#~ msgstr "Order Details"
+
+#~ msgid "Status"
+#~ msgstr "Status"
+
+#~ msgid "Last Status Update"
+#~ msgstr "Last Status Update"
+
+#~ msgid "print order"
+#~ msgstr "print order"
+
+#~ msgid "no orders yet :("
+#~ msgstr "no orders yet :("
+
+#~ msgid "Sorry, we could not find this order."
+#~ msgstr "Sorry, we could not find this order."
+
+#~ msgid "This order has already been processed"
+#~ msgstr "This order has already been processed"
+
+#~ msgid "SUCCESS"
+#~ msgstr "SUCCESS"
+
+#~ msgid "FAILED: Sending of Mail Failed"
+#~ msgstr "FAILED: Sending of Mail Failed"
+
+#~ msgid "Cash on Delivery"
+#~ msgstr "Cash on Delivery"
+
+#~ msgid "Additional information"
+#~ msgstr "Additional information"
+
+#~ msgid ""
+#~ "WPPizza requires the server on which your site resides to be running PHP "
+#~ "5.2 or higher. As of version 3.2, WordPress itself will also <a href="
+#~ "\"http://wordpress.org/news/2010/07/eol-for-php4-and-mysql4\">have this "
+#~ "requirement</a>. You should get in touch with your web hosting provider "
+#~ "and ask them to update PHP.<br /><br /><a href=\""
+#~ msgstr ""
+#~ "WPPizza requires the server on which your site resides to be running PHP "
+#~ "5.2 or higher. As of version 3.2, WordPress itself will also <a href="
+#~ "\"http://wordpress.org/news/2010/07/eol-for-php4-and-mysql4\">have this "
+#~ "requirement</a>. You should get in touch with your web hosting provider "
+#~ "and ask them to update PHP.<br /><br /><a href=\""
+
+#~ msgid "Set Item Options"
+#~ msgstr "Set Item Options"
+
+#~ msgid "Settings"
+#~ msgstr "Settings"
+
+#~ msgid "Order Settings"
+#~ msgstr "Order Settings"
+
+#~ msgid "Gateways"
+#~ msgstr "Gateways"
+
+#~ msgid "Order Form Settings"
+#~ msgstr "Order Form Settings"
+
+#~ msgid "Opening Times"
+#~ msgstr "Opening Times"
+
+#~ msgid "Meal Sizes"
+#~ msgstr "Meal Sizes"
+
+#~ msgid "Additives"
+#~ msgstr "Additives"
+
+#~ msgid "Layout"
+#~ msgstr "Layout"
+
+#~ msgid "Order History"
+#~ msgstr "Order History"
+
+#~ msgid "Tools"
+#~ msgstr "Tools"
+
+#~ msgid "Delete Orders"
+#~ msgstr "Delete Orders"
+
+#~ msgid "Nothing here"
+#~ msgstr "Nothing here"
+
+#~ msgid "WPPizza Menu Item"
+#~ msgstr "WPPizza Menu Item"
+
+#~ msgid "Add New"
+#~ msgstr "Add New"
+
+#~ msgid "Add New Menu Item"
+#~ msgstr "Add New Menu Item"
+
+#~ msgid "Edit"
+#~ msgstr "Edit"
+
+#~ msgid "Edit Menu Item"
+#~ msgstr "Edit Menu Item"
+
+#~ msgid "New Menu Item"
+#~ msgstr "New Menu Item"
+
+#~ msgid "All Menu Items"
+#~ msgstr "All Menu Items"
+
+#~ msgid "View"
+#~ msgstr "View"
+
+#~ msgid "Search Menu Items"
+#~ msgstr "Search Menu Items"
+
+#~ msgid "No items found"
+#~ msgstr "No items found"
+
+#~ msgid "No items found in the Trash"
+#~ msgstr "No items found in the Trash"
+
+#~ msgid "Holds %1$s  menu items data"
+#~ msgstr "Holds %1$s  menu items data"
+
+#~ msgid "WPPizza Categories"
+#~ msgstr "WPPizza Categories"
+
+#~ msgid "Category"
+#~ msgstr "Category"
+
+#~ msgid "Search Categories"
+#~ msgstr "Search Categories"
+
+#~ msgid "All Categories"
+#~ msgstr "All Categories"
+
+#~ msgid "Parent Category"
+#~ msgstr "Parent Category"
+
+#~ msgid "Parent Category:"
+#~ msgstr "Parent Category:"
+
+#~ msgid "Edit Category"
+#~ msgstr "Edit Category"
+
+#~ msgid "Update Category"
+#~ msgstr "Update Category"
+
+#~ msgid "Add New Category"
+#~ msgstr "Add New Category"
+
+#~ msgid "New Category Name"
+#~ msgstr "New Category Name"
+
+#~ msgid "in use"
+#~ msgstr "in use"
+
+#~ msgid "enabled Y/N"
+#~ msgstr "enabled Y/N"
+
+#~ msgid "Frontend display order"
+#~ msgstr "Frontend display order"
+
+#~ msgid "displays"
+#~ msgstr "displays"
+
+#~ msgid "if Empty"
+#~ msgstr "if Empty"
+
+#~ msgid ""
+#~ "only displayed if more than one gateway installed, activated and enabled"
+#~ msgstr ""
+#~ "only displayed if more than one gateway installed, activated and enabled"
+
+#~ msgid "Frontend: Additional Plugin Information"
+#~ msgstr "Frontend: Additional Plugin Information"
+
+#~ msgid "Admin Screen Label"
+#~ msgstr "Admin Screen Label"
+
+#~ msgid "optional, use to identify groups with the same labels. "
+#~ msgstr "optional, use to identify groups with the same labels. "
+
+#~ msgid "Label [Frontend]"
+#~ msgstr "Label [Frontend]"
+
+#~ msgid "Default Prices"
+#~ msgstr "Default Prices"
+
+#~ msgid "open from"
+#~ msgstr "open from"
+
+#~ msgid "to"
+#~ msgstr "to"
+
+#~ msgid "Custom Dates Above (if any)"
+#~ msgstr "Custom Dates Above (if any)"
+
+#~ msgid "closed from"
+#~ msgstr "closed from"
+
+#~ msgid "Gateways Settings"
+#~ msgstr "Gateways Settings"
+
+#~ msgid "Localization Settings"
+#~ msgstr "Localization Settings"
+
+#~ msgid "Orders Form"
+#~ msgstr "Orders Form"
+
+#~ msgid "Orders Setting"
+#~ msgstr "Orders Setting"
+
+#~ msgid "Global Settings"
+#~ msgstr "Global Settings"
+
+#~ msgid ""
+#~ "If you would like to contribute directly to the development of this "
+#~ "plugin<br/>feel free to do so via paypal below."
+#~ msgstr ""
+#~ "If you would like to contribute directly to the development of this "
+#~ "plugin<br/>feel free to do so via paypal below."
+
+#~ msgid "Thank you, much appreciated."
+#~ msgstr "Thank you, much appreciated."
+
+#~ msgid "price tier and prices"
+#~ msgstr "price tier and prices"
+
+#~ msgid "Manage Global Settings"
+#~ msgstr "Manage Global Settings"
+
+#~ msgid "Manage Order Settings"
+#~ msgstr "Manage Order Settings"
+
+#~ msgid "&middot; Order Settings"
+#~ msgstr "&middot; Order Settings"
+
+#~ msgid "Manage Order Form"
+#~ msgstr "Manage Order Form"
+
+#~ msgid "&middot; Order Form Settings"
+#~ msgstr "&middot; Order Form Settings"
+
+#~ msgid "Manage Opening Times"
+#~ msgstr "Manage Opening Times"
+
+#~ msgid "&middot; Opening Times"
+#~ msgstr "&middot; Opening Times"
+
+#~ msgid "Manage Gateways"
+#~ msgstr "Manage Gateways"
+
+#~ msgid "&middot; Gateways"
+#~ msgstr "&middot; Gateways"
+
+#~ msgid "Manage Meal Sizes"
+#~ msgstr "Manage Meal Sizes"
+
+#~ msgid "&middot; Meal Sizes"
+#~ msgstr "&middot; Meal Sizes"
+
+#~ msgid "Manage Additives"
+#~ msgstr "Manage Additives"
+
+#~ msgid "&middot; Additives"
+#~ msgstr "&middot; Additives"
+
+#~ msgid "Manage Layout"
+#~ msgstr "Manage Layout"
+
+#~ msgid "&middot; Layout"
+#~ msgstr "&middot; Layout"
+
+#~ msgid "Manage Localization"
+#~ msgstr "Manage Localization"
+
+#~ msgid "&middot; Localization"
+#~ msgstr "&middot; Localization"
+
+#~ msgid "Manage Order History"
+#~ msgstr "Manage Order History"
+
+#~ msgid "&middot; Order History"
+#~ msgstr "&middot; Order History"
+
+#~ msgid "Manage Access Rights"
+#~ msgstr "Manage Access Rights"
+
+#~ msgid "&middot; Access Rights"
+#~ msgstr "&middot; Access Rights"
+
+#~ msgid "&middot; Tools"
+#~ msgstr "&middot; Tools"
+
+#~ msgid "default [uses mail]"
+#~ msgstr "default [uses mail]"
+
+#~ msgid "Wordpress Mail Function [uses wp_mail]"
+#~ msgstr "Wordpress Mail Function [uses wp_mail]"
+
+#~ msgid "HTML and Plaintext [uses PHPMailer]"
+#~ msgstr "HTML and Plaintext [uses PHPMailer]"
+
+#~ msgid "no parent [default]"
+#~ msgstr "no parent [default]"
+
+#~ msgid "[not selectable]"
+#~ msgstr "[not selectable]"
+
+#~ msgid "delete images too ?"
+#~ msgstr "delete images too ?"
+
+#~ msgid "empty order table ?"
+#~ msgstr "empty order table ?"
+
+#~ msgid "Stylesheet Priority"
+#~ msgstr "Stylesheet Priority"
+
+#~ msgid ""
+#~ "By default, the stylesheet will be loaded AFTER the main theme stylesheet "
+#~ "(which should have a priority of \"10\"). If you experience strange "
+#~ "behaviour or layout issues (in conjunction with other plugins for "
+#~ "example), you can try adjusting this priority here (the bigger the "
+#~ "number, the later it gets loaded)."
+#~ msgstr ""
+#~ "By default, the stylesheet will be loaded AFTER the main theme stylesheet "
+#~ "(which should have a priority of \"10\"). If you experience strange "
+#~ "behaviour or layout issues (in conjunction with other plugins for "
+#~ "example), you can try adjusting this priority here (the bigger the "
+#~ "number, the later it gets loaded)."
+
+#~ msgid "do not show"
+#~ msgstr "do not show"
+
+#~ msgid "on left"
+#~ msgstr "on left"
+
+#~ msgid "on right"
+#~ msgstr "on right"
+
+#~ msgid "Hours"
+#~ msgstr "Hours"
+
+#~ msgid "24-hour format without leading zeros"
+#~ msgstr "24-hour format without leading zeros"
+
+#~ msgid "12-hour format without leading zeros"
+#~ msgstr "12-hour format without leading zeros"
+
+#~ msgid "24-hour format with leading zeros"
+#~ msgstr "24-hour format with leading zeros"
+
+#~ msgid "12-hour format with leading zeros"
+#~ msgstr "12-hour format with leading zeros"
+
+#~ msgid "Separator"
+#~ msgstr "Separator"
+
+#~ msgid "no seperator"
+#~ msgstr "no seperator"
+
+#~ msgid "space"
+#~ msgstr "space"
+
+#~ msgid "Minutes"
+#~ msgstr "Minutes"
+
+#~ msgid "hide minutes"
+#~ msgstr "hide minutes"
+
+#~ msgid "show minutes"
+#~ msgstr "show minutes"
+
+#~ msgid "Show AM/PM ?"
+#~ msgstr "Show AM/PM ?"
+
+#~ msgid "lowercase"
+#~ msgstr "lowercase"
+
+#~ msgid "UPPERCASE"
+#~ msgstr "UPPERCASE"
+
+#~ msgid "lowercase (with leading space)"
+#~ msgstr "lowercase (with leading space)"
+
+#~ msgid "UPPERCASE (width leading space)"
+#~ msgstr "UPPERCASE (width leading space)"
+
+#~ msgid ""
+#~ "see wppizza.prettyPhoto.custom.js.php if you want to adjust prettyPhoto "
+#~ "options"
+#~ msgstr ""
+#~ "see wppizza.prettyPhoto.custom.js.php if you want to adjust prettyPhoto "
+#~ "options"
+
+#~ msgid "add"
+#~ msgstr "add"
+
+#~ msgid "select your orderpage"
+#~ msgstr "select your orderpage"
+
+#~ msgid "Exclude from Navigation ?"
+#~ msgstr "Exclude from Navigation ?"
+
+#~ msgid "Sort"
+#~ msgstr "Sort"
+
+#~ msgid "Required"
+#~ msgstr "Required"
+
+#~ msgid "Prefill<br/>[if known]"
+#~ msgstr "Prefill<br/>[if known]"
+
+#~ msgid "Use when<br/>Registering ?"
+#~ msgstr "Use when<br/>Registering ?"
+
+#~ msgid "Type"
+#~ msgstr "Type"
+
+#~ msgid "separate multiple with comma"
+#~ msgstr "separate multiple with comma"
+
+#~ msgid ""
+#~ "Note: only this field can and should be used to send email notifications "
+#~ "of the order to the customer (if enabled).<br/>Furthermore, you cannot "
+#~ "select this field to show on the registration form. (Wordpress already "
+#~ "adds this field)"
+#~ msgstr ""
+#~ "Note: only this field can and should be used to send email notifications "
+#~ "of the order to the customer (if enabled).<br/>Furthermore, you cannot "
+#~ "select this field to show on the registration form. (Wordpress already "
+#~ "adds this field)"
+
+#~ msgid "Free delivery when total order value reaches"
+#~ msgstr "Free delivery when total order value reaches"
+
+#~ msgid ""
+#~ "Deliver even when total order value is below minimum (the difference "
+#~ "between total and \"Minimum Total\" above will be added to the Total as "
+#~ "\"Delivery Charges\")"
+#~ msgstr ""
+#~ "Deliver even when total order value is below minimum (the difference "
+#~ "between total and \"Minimum Total\" above will be added to the Total as "
+#~ "\"Delivery Charges\")"
+
+#~ msgid ""
+#~ "(If this is not selected and the total order is below the set value "
+#~ "above, the customer will not be able to submit the order to you)"
+#~ msgstr ""
+#~ "(If this is not selected and the total order is below the set value "
+#~ "above, the customer will not be able to submit the order to you)"
+
+#~ msgid ""
+#~ "Fixed Delivery charges if order has not reached total for free delivery "
+#~ "[0 to disable]"
+#~ msgstr ""
+#~ "Fixed Delivery charges if order has not reached total for free delivery "
+#~ "[0 to disable]"
+
+#~ msgid ""
+#~ "if set (i.e. not 0) \"Deliver even when total order value is below minimum"
+#~ "\" must be checked for this to have any effect"
+#~ msgstr ""
+#~ "if set (i.e. not 0) \"Deliver even when total order value is below minimum"
+#~ "\" must be checked for this to have any effect"
+
+#~ msgid "Fixed Delivery Charges [added to order total]"
+#~ msgstr "Fixed Delivery Charges [added to order total]"
+
+#~ msgid "Delivery Charges per item"
+#~ msgstr "Delivery Charges per item"
+
+#~ msgid "Do not apply delivery charges when total order value reaches "
+#~ msgstr "Do not apply delivery charges when total order value reaches "
+
+#~ msgid "[set to 0 to always apply charges per item]"
+#~ msgstr "[set to 0 to always apply charges per item]"
+
+#~ msgid ""
+#~ "minimum order value to offer delivery [will disable \"place order\" "
+#~ "button in cart and order page until set order value (before any discounts "
+#~ "etc) has been reached. 0 to disable. Customer can still choose \"self-"
+#~ "pickup\" (if enabled).]"
+#~ msgstr ""
+#~ "minimum order value to offer delivery [will disable \"place order\" "
+#~ "button in cart and order page until set order value (before any discounts "
+#~ "etc) has been reached. 0 to disable. Customer can still choose \"self-"
+#~ "pickup\" (if enabled).]"
+
+#~ msgid ""
+#~ "probably most useful with \"Fixed\" / \"Per Item\" delivery charges or "
+#~ "when \"Deliver even when total order value is below...etc\" is checked]"
+#~ msgstr ""
+#~ "probably most useful with \"Fixed\" / \"Per Item\" delivery charges or "
+#~ "when \"Deliver even when total order value is below...etc\" is checked]"
+
+#~ msgid ""
+#~ "<b>Exclude</b> following menu items when calculating if free delivery "
+#~ "applies"
+#~ msgstr ""
+#~ "<b>Exclude</b> following menu items when calculating if free delivery "
+#~ "applies"
+
+#~ msgid ""
+#~ "For example: you might want to offer free delivery only when total order "
+#~ "of *meals* exceeds the set free delivery amount. In this case, exclude "
+#~ "all your *drinks and non-meals* by selecting those below."
+#~ msgstr ""
+#~ "For example: you might want to offer free delivery only when total order "
+#~ "of *meals* exceeds the set free delivery amount. In this case, exclude "
+#~ "all your *drinks and non-meals* by selecting those below."
+
+#~ msgid "tick to enable"
+#~ msgstr "tick to enable"
+
+#~ msgid "Discount for self-pickup ?"
+#~ msgstr "Discount for self-pickup ?"
+
+#~ msgid "in % - 0 to disable"
+#~ msgstr "in % - 0 to disable"
+
+#~ msgid ""
+#~ "enable javascript alert when user selects self pickup (set corresponding "
+#~ "text in localization)"
+#~ msgstr ""
+#~ "enable javascript alert when user selects self pickup (set corresponding "
+#~ "text in localization)"
+
+#~ msgid "under cart only"
+#~ msgstr "under cart only"
+
+#~ msgid "on order page only"
+#~ msgstr "on order page only"
+
+#~ msgid "both"
+#~ msgstr "both"
+
+#~ msgid "No Discounts"
+#~ msgstr "No Discounts"
+
+#~ msgid "Percentage Discount"
+#~ msgstr "Percentage Discount"
+
+#~ msgid "If order total >"
+#~ msgstr "If order total >"
+
+#~ msgid "discount"
+#~ msgstr "discount"
+
+#~ msgid "percent"
+#~ msgstr "percent"
+
+#~ msgid "Standard Discount [money off]"
+#~ msgstr "Standard Discount [money off]"
+
+#~ msgid "get"
+#~ msgstr "get"
+
+#~ msgid "off"
+#~ msgstr "off"
+
+#~ msgid "apply tax to delivery/shipping  too"
+#~ msgstr "apply tax to delivery/shipping  too"
+
+#~ msgid "how many size option fields ?"
+#~ msgstr "how many size option fields ?"
+
+#~ msgid "Display Gateway choices as dropdowns instead of buttons"
+#~ msgstr "Display Gateway choices as dropdowns instead of buttons"
+
+#~ msgid ""
+#~ "[only applicable if more than one gateway installed, activated and "
+#~ "enabled]"
+#~ msgstr ""
+#~ "[only applicable if more than one gateway installed, activated and "
+#~ "enabled]"
+
+#~ msgid "Label:"
+#~ msgstr "Label:"
+
+#~ msgid ""
+#~ "by default displayed above if choices are displayed as full width "
+#~ "buttons, next to if dropdown. edit css as required"
+#~ msgstr ""
+#~ "by default displayed above if choices are displayed as full width "
+#~ "buttons, next to if dropdown. edit css as required"
+
+#~ msgid "Show Order Details on \"Thank You\" page (Y/N)"
+#~ msgstr "Show Order Details on \"Thank You\" page (Y/N)"
+
+#~ msgid ""
+#~ "Will add any order details after your thank you text on successful order"
+#~ msgstr ""
+#~ "Will add any order details after your thank you text on successful order"
+
+#~ msgid "Set the roles that are allowed to access these pages"
+#~ msgstr "Set the roles that are allowed to access these pages"
+
+#~ msgid "Menu Items and Categories are accessible just like \"normal\" posts"
+#~ msgstr "Menu Items and Categories are accessible just like \"normal\" posts"
+
+#~ msgid "show most recent *confirmed* orders"
+#~ msgstr "show most recent *confirmed* orders"
+
+#~ msgid "maximum results [0 to show all]"
+#~ msgstr "maximum results [0 to show all]"
+
+#~ msgid "poll for new orders every"
+#~ msgstr "poll for new orders every"
+
+#~ msgid "seconds"
+#~ msgstr "seconds"
+
+#~ msgid "Delete abandoned/cancelled orders from database older than"
+#~ msgstr "Delete abandoned/cancelled orders from database older than"
+
+#~ msgid "Days (minimum: 1)"
+#~ msgstr "Days (minimum: 1)"
+
+#~ msgid "delete failed, tampered or otherwise invalid entries too."
+#~ msgstr "delete failed, tampered or otherwise invalid entries too."
+
+#~ msgid "go"
+#~ msgstr "go"
+
+#~ msgid ""
+#~ "As soon as customers go to the order page an order will be initialized "
+#~ "and stored in the db to be checked against when going through with the "
+#~ "purchase to make sure nothing has been tampered with. However, not every "
+#~ "customer will actually go through with the purchase which leaves this "
+#~ "initialised order orphaned in the db.Click the \"ok\" button to clean "
+#~ "your db of these entries (it will NOT affect any completed or pending "
+#~ "orders)"
+#~ msgstr ""
+#~ "As soon as customers go to the order page an order will be initialized "
+#~ "and stored in the db to be checked against when going through with the "
+#~ "purchase to make sure nothing has been tampered with. However, not every "
+#~ "customer will actually go through with the purchase which leaves this "
+#~ "initialised order orphaned in the db.Click the \"ok\" button to clean "
+#~ "your db of these entries (it will NOT affect any completed or pending "
+#~ "orders)"
+
+#~ msgid ""
+#~ "Note: This will delete these entries PERMANENTLY from the db and is not "
+#~ "reversable."
+#~ msgstr ""
+#~ "Note: This will delete these entries PERMANENTLY from the db and is not "
+#~ "reversable."
+
+#~ msgid "Javascript in Footer:"
+#~ msgstr "Javascript in Footer:"
+
+#~ msgid ""
+#~ "[combines all jsVars in one tidy place, but requires wp_footer in theme]"
+#~ msgstr ""
+#~ "[combines all jsVars in one tidy place, but requires wp_footer in theme]"
+
+#~ msgid "Select Type of Mail Delivery:"
+#~ msgstr "Select Type of Mail Delivery:"
+
+#~ msgid ""
+#~ "[might be worth changing if you have trouble when sending/receiving "
+#~ "orders with the default settings or prefer html emails ]"
+#~ msgstr ""
+#~ "[might be worth changing if you have trouble when sending/receiving "
+#~ "orders with the default settings or prefer html emails ]"
+
+#~ msgid ""
+#~ "if using PHPMailer function you probably want to edit the html template. "
+#~ "To do so, move \"wppizza-order-html-email.php\" from the wppizza template "
+#~ "directory to your theme folder and edit as required"
+#~ msgstr ""
+#~ "if using PHPMailer function you probably want to edit the html template. "
+#~ "To do so, move \"wppizza-order-html-email.php\" from the wppizza template "
+#~ "directory to your theme folder and edit as required"
+
+#~ msgid ""
+#~ "Empty/Delete ALL WPPizza Categories and Items:<br/><span style=\"color:red"
+#~ "\">use with care<br/>if you select \"delete images too\", all featured "
+#~ "images used for any wppizza menu items will be deleted too.<br/>if you "
+#~ "use these images elsewhere, you should not select this !</span>"
+#~ msgstr ""
+#~ "Empty/Delete ALL WPPizza Categories and Items:<br/><span style=\"color:red"
+#~ "\">use with care<br/>if you select \"delete images too\", all featured "
+#~ "images used for any wppizza menu items will be deleted too.<br/>if you "
+#~ "use these images elsewhere, you should not select this !</span>"
+
+#~ msgid "Multisite Only:"
+#~ msgstr "Multisite Only:"
+
+#~ msgid ""
+#~ "Set cart contents and order on a per site basis when using "
+#~ "subdirectories. This has no effect/relevance when there's no multisite "
+#~ "setup or using different domains per site on the network. Chances are "
+#~ "that you want this on when you have a multisite/network install. THERE "
+#~ "ARE ONLY VERY FEW SECENARIOS WHERE YOU MIGHT WANT THIS OFF"
+#~ msgstr ""
+#~ "Set cart contents and order on a per site basis when using "
+#~ "subdirectories. This has no effect/relevance when there's no multisite "
+#~ "setup or using different domains per site on the network. Chances are "
+#~ "that you want this on when you have a multisite/network install. THERE "
+#~ "ARE ONLY VERY FEW SECENARIOS WHERE YOU MIGHT WANT THIS OFF"
+
+#~ msgid ""
+#~ "<b>Permalinks:<br/>(only used and relevant when using widget or shortcode "
+#~ "to display wppizza category navigation !!!)<br/><span style=\"color:red"
+#~ "\">when changing this setting, you MUST re-save your permalink settings</"
+#~ "span></b><br/>(page cannot be used as static post page (wp settings) or "
+#~ "have any children"
+#~ msgstr ""
+#~ "<b>Permalinks:<br/>(only used and relevant when using widget or shortcode "
+#~ "to display wppizza category navigation !!!)<br/><span style=\"color:red"
+#~ "\">when changing this setting, you MUST re-save your permalink settings</"
+#~ "span></b><br/>(page cannot be used as static post page (wp settings) or "
+#~ "have any children"
+
+#~ msgid "Set Gateway Options:"
+#~ msgstr "Set Gateway Options:"
+
+#~ msgid "Layout Settings"
+#~ msgstr "Layout Settings"
+
+#~ msgid "Include CSS:"
+#~ msgstr "Include CSS:"
+
+#~ msgid ""
+#~ "include frontend css that came with this plugin (untick if you want to "
+#~ "provide your own styles somewhere else)"
+#~ msgstr ""
+#~ "include frontend css that came with this plugin (untick if you want to "
+#~ "provide your own styles somewhere else)"
+
+#~ msgid "Menu Items per page:"
+#~ msgstr "Menu Items per page:"
+
+#~ msgid ""
+#~ "how many menu items per category page (displays pagination, if there are "
+#~ "more menu items for the selected category)<br/>[options: -1=all, >1=items "
+#~ "per page]<br/><span style=\"color:red\">if not set to -1, it must be >= "
+#~ "wordpress settings->reading->Blog pages show at most</span>"
+#~ msgstr ""
+#~ "how many menu items per category page (displays pagination, if there are "
+#~ "more menu items for the selected category)<br/>[options: -1=all, >1=items "
+#~ "per page]<br/><span style=\"color:red\">if not set to -1, it must be >= "
+#~ "wordpress settings->reading->Blog pages show at most</span>"
+
+#~ msgid "Which style to use (if enabled above):"
+#~ msgstr "Which style to use (if enabled above):"
+
+#~ msgid ""
+#~ "there is currently only one style available, but I may add more in the "
+#~ "future"
+#~ msgstr ""
+#~ "there is currently only one style available, but I may add more in the "
+#~ "future"
+
+#~ msgid "Format of openingtimes (if displayed):"
+#~ msgstr "Format of openingtimes (if displayed):"
+
+#~ msgid ""
+#~ "Add item to cart on click of *item title* if there is only one pricetier "
+#~ "for a menu item:"
+#~ msgstr ""
+#~ "Add item to cart on click of *item title* if there is only one pricetier "
+#~ "for a menu item:"
+
+#~ msgid "Display placeholder image when no image associated with meal item:"
+#~ msgstr "Display placeholder image when no image associated with meal item:"
+
+#~ msgid "Enable prettyPhoto (Lightbox Clone) on menu item images"
+#~ msgstr "Enable prettyPhoto (Lightbox Clone) on menu item images"
+
+#~ msgid "Set prettyPhoto Style"
+#~ msgstr "Set prettyPhoto Style"
+
+#~ msgid "Globally suppress headers above list of menu items:"
+#~ msgstr "Globally suppress headers above list of menu items:"
+
+#~ msgid "Hide cart icon next to prices:"
+#~ msgstr "Hide cart icon next to prices:"
+
+#~ msgid "Show a currency symbol directly next to each price"
+#~ msgstr "Show a currency symbol directly next to each price"
+
+#~ msgid "Hide *main* currency symbol next to each menu item:"
+#~ msgstr "Hide *main* currency symbol next to each menu item:"
+
+#~ msgid "won't affect cart, summaries or emails"
+#~ msgstr "won't affect cart, summaries or emails"
+
+#~ msgid "Show *main* currency symbol on the left - if not set to hidden"
+#~ msgstr "Show *main* currency symbol on the left - if not set to hidden"
+
+#~ msgid "Hide pricetier name and cart icon if item has only one size:"
+#~ msgstr "Hide pricetier name and cart icon if item has only one size:"
+
+#~ msgid "Hide prices altogether:"
+#~ msgstr "Hide prices altogether:"
+
+#~ msgid "this will disable the adding of any item to the shoppingcart."
+#~ msgstr "this will disable the adding of any item to the shoppingcart."
+
+#~ msgid ""
+#~ "Really only useful if you want to display your menu without offering "
+#~ "online orders"
+#~ msgstr ""
+#~ "Really only useful if you want to display your menu without offering "
+#~ "online orders"
+
+#~ msgid "Don't show decimals:"
+#~ msgstr "Don't show decimals:"
+
+#~ msgid "[prices will be rounded if necessary]"
+#~ msgstr "[prices will be rounded if necessary]"
+
+#~ msgid "Enable increase/decrease of items in cart via input field/textbox"
+#~ msgstr "Enable increase/decrease of items in cart via input field/textbox"
+
+#~ msgid "Enable \"empty cart\" button"
+#~ msgstr "Enable \"empty cart\" button"
+
+#~ msgid "Completely disable online orders:"
+#~ msgstr "Completely disable online orders:"
+
+#~ msgid ""
+#~ "this will still display prices (unless set to be hidden above), but will "
+#~ "disable shoppingcart and orderpage"
+#~ msgstr ""
+#~ "this will still display prices (unless set to be hidden above), but will "
+#~ "disable shoppingcart and orderpage"
+
+#~ msgid ""
+#~ "Useful if you want to display your menu and prices but without offering "
+#~ "online orders."
+#~ msgstr ""
+#~ "Useful if you want to display your menu and prices but without offering "
+#~ "online orders."
+
+#~ msgid "Standard opening times:"
+#~ msgstr "Standard opening times:"
+
+#~ msgid ""
+#~ "Any dates/days where opening times differ from the standard times above "
+#~ "(such as christmas etc)."
+#~ msgstr ""
+#~ "Any dates/days where opening times differ from the standard times above "
+#~ "(such as christmas etc)."
+
+#~ msgid "Closed (if you close for lunch for example):"
+#~ msgstr "Closed (if you close for lunch for example):"
+
+#~ msgid ""
+#~ "If you are closed on certain days for a number of hours, enter them "
+#~ "here<br/>i.e. if you are generally open on Tuesdays - as set above - from "
+#~ "9:30 to 23:00, but close for lunch between 12:00 and 14:00, enter "
+#~ "Tuesdays 12:00 - 14:00 here. If you are also closed on Tuesday between "
+#~ "17:30 and 18:00, set this as well and so on "
+#~ msgstr ""
+#~ "If you are closed on certain days for a number of hours, enter them "
+#~ "here<br/>i.e. if you are generally open on Tuesdays - as set above - from "
+#~ "9:30 to 23:00, but close for lunch between 12:00 and 14:00, enter "
+#~ "Tuesdays 12:00 - 14:00 here. If you are also closed on Tuesday between "
+#~ "17:30 and 18:00, set this as well and so on "
+
+#~ msgid ""
+#~ "Furthermore, do not enter times here that span midnight. If you are "
+#~ "however closed from - let's say - 11:00PM Mondays to 1:00AM Tuesdays, "
+#~ "enter \"Mondays 23:00 to 23:59\" as well as \"Tuesdays 0:00 to 1:00"
+#~ msgstr ""
+#~ "Furthermore, do not enter times here that span midnight. If you are "
+#~ "however closed from - let's say - 11:00PM Mondays to 1:00AM Tuesdays, "
+#~ "enter \"Mondays 23:00 to 23:59\" as well as \"Tuesdays 0:00 to 1:00"
+
+#~ msgid ""
+#~ "If you have setup any custom dates above (for example christmas or "
+#~ "whatever), select \"Custom Dates\" instead of the day of week if you want "
+#~ "to apply these closing times only to those dates"
+#~ msgstr ""
+#~ "If you have setup any custom dates above (for example christmas or "
+#~ "whatever), select \"Custom Dates\" instead of the day of week if you want "
+#~ "to apply these closing times only to those dates"
+
+#~ msgid ""
+#~ "Note: if you set anything here, it will not be reflected when displaying "
+#~ "openingtimes via shortcode or in the widget, so you might want to display "
+#~ "your openingtimes manually somewhere. It DOES, however close the "
+#~ "shoppingcart, the ability to order etc as required)"
+#~ msgstr ""
+#~ "Note: if you set anything here, it will not be reflected when displaying "
+#~ "openingtimes via shortcode or in the widget, so you might want to display "
+#~ "your openingtimes manually somewhere. It DOES, however close the "
+#~ "shoppingcart, the ability to order etc as required)"
+
+#~ msgid "Currency:"
+#~ msgstr "Currency:"
+
+#~ msgid "set to --none-- to have no currency displayed anywhere"
+#~ msgstr "set to --none-- to have no currency displayed anywhere"
+
+#~ msgid "Order Page:"
+#~ msgstr "Order Page:"
+
+#~ msgid ""
+#~ "ensure the page includes [wppizza type=\"orderpage\"] or the widget "
+#~ "equivalent. <b>You might also want to consider NOT displaying the "
+#~ "shopping cart on this page</b> (although it won't break things)"
+#~ msgstr ""
+#~ "ensure the page includes [wppizza type=\"orderpage\"] or the widget "
+#~ "equivalent. <b>You might also want to consider NOT displaying the "
+#~ "shopping cart on this page</b> (although it won't break things)"
+
+#~ msgid "Delivery Charges:"
+#~ msgstr "Delivery Charges:"
+
+#~ msgid "(Sales)Tax applied to items in cart [in % - 0 to disable]:"
+#~ msgstr "(Sales)Tax applied to items in cart [in % - 0 to disable]:"
+
+#~ msgid "Allow order pickup by customer:"
+#~ msgstr "Allow order pickup by customer:"
+
+#~ msgid ""
+#~ "Customer can choose to pickup the order him/herself. No delivery charges "
+#~ "will be applied if customer chooses to do so."
+#~ msgstr ""
+#~ "Customer can choose to pickup the order him/herself. No delivery charges "
+#~ "will be applied if customer chooses to do so."
+
+#~ msgid ""
+#~ "Where would you like to display the checkbox to let customer select self "
+#~ "pickup of order ?"
+#~ msgstr ""
+#~ "Where would you like to display the checkbox to let customer select self "
+#~ "pickup of order ?"
+
+#~ msgid "[if enabled above]"
+#~ msgstr "[if enabled above]"
+
+#~ msgid "Discounts:"
+#~ msgstr "Discounts:"
+
+#~ msgid ""
+#~ "Which email address should any orders be sent to [separated by comma if "
+#~ "multiple]:"
+#~ msgstr ""
+#~ "Which email address should any orders be sent to [separated by comma if "
+#~ "multiple]:"
+
+#~ msgid ""
+#~ "If you would like to BCC order emails add these here [separated by comma "
+#~ "if multiple]:"
+#~ msgstr ""
+#~ "If you would like to BCC order emails add these here [separated by comma "
+#~ "if multiple]:"
+
+#~ msgid ""
+#~ "If you want to set a static \"From\" email address set it here, otherwise "
+#~ "leave blank . All emails will appear to have been sent from this address. "
+#~ "(Some fax gateways for example require a distinct FROM email address). "
+#~ "However, the customers email address will still be stored in the db/order "
+#~ "history if entered"
+#~ msgstr ""
+#~ "If you want to set a static \"From\" email address set it here, otherwise "
+#~ "leave blank . All emails will appear to have been sent from this address. "
+#~ "(Some fax gateways for example require a distinct FROM email address). "
+#~ "However, the customers email address will still be stored in the db/order "
+#~ "history if entered"
+
+#~ msgid ""
+#~ "Instead of using the customers name - if enabled/entered in the order "
+#~ "form fields - you can set a static name here (useful in conjunction with "
+#~ "any \"From\" email address set above)."
+#~ msgstr ""
+#~ "Instead of using the customers name - if enabled/entered in the order "
+#~ "form fields - you can set a static name here (useful in conjunction with "
+#~ "any \"From\" email address set above)."
+
+#~ msgid "Order Form"
+#~ msgstr "Order Form"
+
+#~ msgid "Form Fields:"
+#~ msgstr "Form Fields:"
+
+#~ msgid "Size Options Available"
+#~ msgstr "Size Options Available"
+
+#~ msgid ""
+#~ "As meals and beverages can come in different sizes, please add/edit the "
+#~ "options you want to offer your customers. You will then be able to offer "
+#~ "these options on a per item basis:"
+#~ msgstr ""
+#~ "As meals and beverages can come in different sizes, please add/edit the "
+#~ "options you want to offer your customers. You will then be able to offer "
+#~ "these options on a per item basis:"
+
+#~ msgid ""
+#~ "Some meals and beverages may contain additives. Add any possible additves "
+#~ "here and select them at any meal/beravage that contains these additives. "
+#~ "This in turn will add a footnote to pages denoting which item contains "
+#~ "what additives:"
+#~ msgstr ""
+#~ "Some meals and beverages may contain additives. Add any possible additves "
+#~ "here and select them at any meal/beravage that contains these additives. "
+#~ "This in turn will add a footnote to pages denoting which item contains "
+#~ "what additives:"
+
+#~ msgid "Frontened Localization"
+#~ msgstr "Frontened Localization"
+
+#~ msgid "Edit as required:"
+#~ msgstr "Edit as required:"
+
+#~ msgid "Miscellaneous Tools"
+#~ msgstr "Miscellaneous Tools"
+
+#~ msgid "Set Options as required"
+#~ msgstr "Set Options as required"
+
+#~ msgid ""
+#~ "Set your opening times. It will not be possible to place an order outside "
+#~ "these times - USE 24 HOUR CLOCK."
+#~ msgstr ""
+#~ "Set your opening times. It will not be possible to place an order outside "
+#~ "these times - USE 24 HOUR CLOCK."
+
+#~ msgid ""
+#~ "If you are closed on a given day set both times to be the same, if you "
+#~ "are open 24 hours set times from 0:00 to 24:00"
+#~ msgstr ""
+#~ "If you are closed on a given day set both times to be the same, if you "
+#~ "are open 24 hours set times from 0:00 to 24:00"
+
+#~ msgid ""
+#~ "Ensure that the Wordpress timezone setting in Settings->Timezone is "
+#~ "correct"
+#~ msgstr ""
+#~ "Ensure that the Wordpress timezone setting in Settings->Timezone is "
+#~ "correct"
+
+#~ msgid "Set currency, minimum delivery prices and email addresses"
+#~ msgstr "Set currency, minimum delivery prices and email addresses"
+
+#~ msgid ""
+#~ "Set the form fields you would like to show when a customer places an order"
+#~ msgstr ""
+#~ "Set the form fields you would like to show when a customer places an order"
+
+#~ msgid "Define a selection of sizes that might be available per item."
+#~ msgstr "Define a selection of sizes that might be available per item."
+
+#~ msgid ""
+#~ "Add any additives (or other notes) that a meal may have and tick the "
+#~ "relevant box(es) of any meal that contain these additives "
+#~ msgstr ""
+#~ "Add any additives (or other notes) that a meal may have and tick the "
+#~ "relevant box(es) of any meal that contain these additives "
+
+#~ msgid "regular"
+#~ msgstr "regular"
+
+#~ msgid "small"
+#~ msgstr "small"
+
+#~ msgid "large"
+#~ msgstr "large"
+
+#~ msgid "medium"
+#~ msgstr "medium"
+
+#~ msgid "xxl"
+#~ msgstr "xxl"
+
+#~ msgid "0.25l"
+#~ msgstr "0.25l"
+
+#~ msgid "0.33l"
+#~ msgstr "0.33l"
+
+#~ msgid "0.75l"
+#~ msgstr "0.75l"
+
+#~ msgid "1.00l"
+#~ msgstr "1.00l"
+
+#~ msgid "1.50l"
+#~ msgstr "1.50l"
+
+#~ msgid "Food coloring"
+#~ msgstr "Food coloring"
+
+#~ msgid "Flavor enhancers"
+#~ msgstr "Flavor enhancers"
+
+#~ msgid "Preservatives"
+#~ msgstr "Preservatives"
+
+#~ msgid "Stabilizers"
+#~ msgstr "Stabilizers"
+
+#~ msgid "Sweeteners"
+#~ msgstr "Sweeteners"
+
+#~ msgid "Special Offers"
+#~ msgstr "Special Offers"
+
+#~ msgid "Pizza"
+#~ msgstr "Pizza"
+
+#~ msgid "Pasta"
+#~ msgstr "Pasta"
+
+#~ msgid "Salads"
+#~ msgstr "Salads"
+
+#~ msgid "Desserts"
+#~ msgstr "Desserts"
+
+#~ msgid "Beverages"
+#~ msgstr "Beverages"
+
+#~ msgid "Snacks"
+#~ msgstr "Snacks"
+
+#~ msgid "Our Menu"
+#~ msgstr "Our Menu"
+
+#~ msgid "Orders"
+#~ msgstr "Orders"
+
+#~ msgid "Special Pizza"
+#~ msgstr "Special Pizza"
+
+#~ msgid "Great Steak"
+#~ msgstr "Great Steak"
+
+#~ msgid "Yummy Pudding"
+#~ msgstr "Yummy Pudding"
+
+#~ msgid "Pizza A"
+#~ msgstr "Pizza A"
+
+#~ msgid "Pizza B"
+#~ msgstr "Pizza B"
+
+#~ msgid "Pizza C"
+#~ msgstr "Pizza C"
+
+#~ msgid "Pizza D"
+#~ msgstr "Pizza D"
+
+#~ msgid "Pizza E"
+#~ msgstr "Pizza E"
+
+#~ msgid "Pizza F"
+#~ msgstr "Pizza F"
+
+#~ msgid "Pasta A"
+#~ msgstr "Pasta A"
+
+#~ msgid "Pasta B"
+#~ msgstr "Pasta B"
+
+#~ msgid "Pasta C"
+#~ msgstr "Pasta C"
+
+#~ msgid "Pasta D"
+#~ msgstr "Pasta D"
+
+#~ msgid "Pasta E"
+#~ msgstr "Pasta E"
+
+#~ msgid "Pasta F"
+#~ msgstr "Pasta F"
+
+#~ msgid "Salad A"
+#~ msgstr "Salad A"
+
+#~ msgid "Salad B"
+#~ msgstr "Salad B"
+
+#~ msgid "Salad C"
+#~ msgstr "Salad C"
+
+#~ msgid "Salad D"
+#~ msgstr "Salad D"
+
+#~ msgid "Salad E"
+#~ msgstr "Salad E"
+
+#~ msgid "Salad F"
+#~ msgstr "Salad F"
+
+#~ msgid "Dessert A"
+#~ msgstr "Dessert A"
+
+#~ msgid "Dessert B"
+#~ msgstr "Dessert B"
+
+#~ msgid "Dessert C"
+#~ msgstr "Dessert C"
+
+#~ msgid "Dessert D"
+#~ msgstr "Dessert D"
+
+#~ msgid "Dessert E"
+#~ msgstr "Dessert E"
+
+#~ msgid "Dessert F"
+#~ msgstr "Dessert F"
+
+#~ msgid "Drink A"
+#~ msgstr "Drink A"
+
+#~ msgid "Drink B"
+#~ msgstr "Drink B"
+
+#~ msgid "Drink C"
+#~ msgstr "Drink C"
+
+#~ msgid "Drink D"
+#~ msgstr "Drink D"
+
+#~ msgid "Drink E"
+#~ msgstr "Drink E"
+
+#~ msgid "Drink F"
+#~ msgstr "Drink F"
+
+#~ msgid "Snack A"
+#~ msgstr "Snack A"
+
+#~ msgid "Snack B"
+#~ msgstr "Snack B"
+
+#~ msgid "Snack C"
+#~ msgstr "Snack C"
+
+#~ msgid "Snack D"
+#~ msgstr "Snack D"
+
+#~ msgid "Snack E"
+#~ msgstr "Snack E"
+
+#~ msgid "Snack F"
+#~ msgstr "Snack F"
+
+#~ msgid "Description of"
+#~ msgstr "Description of"
+
+#~ msgid "Name :"
+#~ msgstr "Name :"
+
+#~ msgid "Email :"
+#~ msgstr "Email :"
+
+#~ msgid "Address :"
+#~ msgstr "Address :"
+
+#~ msgid "Telephone :"
+#~ msgstr "Telephone :"
+
+#~ msgid "Comments :"
+#~ msgstr "Comments :"
+
+#~ msgid "Custom Field 1 :"
+#~ msgstr "Custom Field 1 :"
+
+#~ msgid "Custom Field 2 :"
+#~ msgstr "Custom Field 2 :"
+
+#~ msgid "Custom Field 3 :"
+#~ msgstr "Custom Field 3 :"
+
+#~ msgid "Custom Field 4 :"
+#~ msgstr "Custom Field 4 :"
+
+#~ msgid "Custom Field 5 :"
+#~ msgstr "Custom Field 5 :"
+
+#~ msgid "Custom Field 6 :"
+#~ msgstr "Custom Field 6 :"
+
+#~ msgid "Please select your payment method:"
+#~ msgstr "Please select your payment method:"
+
+#~ msgid "Menu Item: text to display when hovering over prices"
+#~ msgstr "Menu Item: text to display when hovering over prices"
+
+#~ msgid "add to cart"
+#~ msgstr "add to cart"
+
+#~ msgid ""
+#~ "Menu Item: alert when trying to add to cart but shop is closed (only "
+#~ "displayed when shoppingcart is displayed on page)"
+#~ msgstr ""
+#~ "Menu Item: alert when trying to add to cart but shop is closed (only "
+#~ "displayed when shoppingcart is displayed on page)"
+
+#~ msgid "sorry, we are currently closed"
+#~ msgstr "sorry, we are currently closed"
+
+#~ msgid ""
+#~ "Menu Item: alert when adding to cart by clicking on menu name but more "
+#~ "than one size is available. (Only relevant if \"Add item to cart on click "
+#~ "of *item title* \" is enabled)"
+#~ msgstr ""
+#~ "Menu Item: alert when adding to cart by clicking on menu name but more "
+#~ "than one size is available. (Only relevant if \"Add item to cart on click "
+#~ "of *item title* \" is enabled)"
+
+#~ msgid "please choose a size"
+#~ msgstr "please choose a size"
+
+#~ msgid "Menu Pagination : previous page"
+#~ msgstr "Menu Pagination : previous page"
+
+#~ msgid "< previous"
+#~ msgstr "< previous"
+
+#~ msgid "Menu Pagination : next page"
+#~ msgstr "Menu Pagination : next page"
+
+#~ msgid "next >"
+#~ msgstr "next >"
+
+#~ msgid "Shoppingcart: text to display when shop closed "
+#~ msgstr "Shoppingcart: text to display when shop closed "
+
+#~ msgid "Shoppingcart: empty cart button text"
+#~ msgstr "Shoppingcart: empty cart button text"
+
+#~ msgid "empty cart"
+#~ msgstr "empty cart"
+
+#~ msgid "Shoppingcart: text to display when cart is empty"
+#~ msgstr "Shoppingcart: text to display when cart is empty"
+
+#~ msgid "your cart is empty"
+#~ msgstr "your cart is empty"
+
+#~ msgid ""
+#~ "Shoppingcart: text to display when hovering over remove from cart icon"
+#~ msgstr ""
+#~ "Shoppingcart: text to display when hovering over remove from cart icon"
+
+#~ msgid "remove from cart"
+#~ msgstr "remove from cart"
+
+#~ msgid "Shoppingcart: text of button in cart to proceed to order page"
+#~ msgstr "Shoppingcart: text of button in cart to proceed to order page"
+
+#~ msgid "place your order"
+#~ msgstr "place your order"
+
+#~ msgid ""
+#~ "Shoppingcart - Self Pickup: text next to self pickup checkbox (if enabled)"
+#~ msgstr ""
+#~ "Shoppingcart - Self Pickup: text next to self pickup checkbox (if enabled)"
+
+#~ msgid "I would like to pickup the order myself"
+#~ msgstr "I would like to pickup the order myself"
+
+#~ msgid ""
+#~ "Shoppingcart - Self Pickup: text under total value (if selected by "
+#~ "customer)"
+#~ msgstr ""
+#~ "Shoppingcart - Self Pickup: text under total value (if selected by "
+#~ "customer)"
+
+#~ msgid "Delivery: pickup"
+#~ msgstr "Delivery: pickup"
+
+#~ msgid ""
+#~ "Shoppingcart - Self Pickup: javascript alert when customer selects self "
+#~ "pickup (if enabled)"
+#~ msgstr ""
+#~ "Shoppingcart - Self Pickup: javascript alert when customer selects self "
+#~ "pickup (if enabled)"
+
+#~ msgid ""
+#~ "You have chosen to pickup the order yourself. This order will not be "
+#~ "delivered. Please allow 30 min. for us to prepare your order."
+#~ msgstr ""
+#~ "You have chosen to pickup the order yourself. This order will not be "
+#~ "delivered. Please allow 30 min. for us to prepare your order."
+
+#~ msgid "Order Page: label above itemised order"
+#~ msgstr "Order Page: label above itemised order"
+
+#~ msgid "your order"
+#~ msgstr "your order"
+
+#~ msgid "Order Page: button label for sending order"
+#~ msgstr "Order Page: button label for sending order"
+
+#~ msgid "send order"
+#~ msgstr "send order"
+
+#~ msgid "Order Page: label above personal info"
+#~ msgstr "Order Page: label above personal info"
+
+#~ msgid "please enter the required information below"
+#~ msgstr "please enter the required information below"
+
+#~ msgid ""
+#~ "Order Page - Self Pickup: text on order page to highlight self pickup (if "
+#~ "applicable)"
+#~ msgstr ""
+#~ "Order Page - Self Pickup: text on order page to highlight self pickup (if "
+#~ "applicable)"
+
+#~ msgid ""
+#~ "Note: you have chosen to pickup the order yourself. This order will not "
+#~ "be delivered. Please allow 30 min. for us to prepare your order."
+#~ msgstr ""
+#~ "Note: you have chosen to pickup the order yourself. This order will not "
+#~ "be delivered. Please allow 30 min. for us to prepare your order."
+
+#~ msgid ""
+#~ "Order Page - Additional Handling Charges: text on order page if a "
+#~ "handling charge for payment processing has been made (if applicable)"
+#~ msgstr ""
+#~ "Order Page - Additional Handling Charges: text on order page if a "
+#~ "handling charge for payment processing has been made (if applicable)"
+
+#~ msgid "handling charge"
+#~ msgstr "handling charge"
+
+#~ msgid "Order Page: message when required field is missing"
+#~ msgstr "Order Page: message when required field is missing"
+
+#~ msgid "this is a required field"
+#~ msgstr "this is a required field"
+
+#~ msgid "Order Page: label of thank you page after order has been sent"
+#~ msgstr "Order Page: label of thank you page after order has been sent"
+
+#~ msgid "thank you"
+#~ msgstr "thank you"
+
+#~ msgid "Order Page: text of thank you page after order has been sent"
+#~ msgstr "Order Page: text of thank you page after order has been sent"
+
+#~ msgid "thank you, we have received your order"
+#~ msgstr "thank you, we have received your order"
+
+#~ msgid ""
+#~ "Order Page: label next to checkbox text to allow user to update profile"
+#~ msgstr ""
+#~ "Order Page: label next to checkbox text to allow user to update profile"
+
+#~ msgid "update my user data with the details above"
+#~ msgstr "update my user data with the details above"
+
+#~ msgid "Order Email: label for order details"
+#~ msgstr "Order Email: label for order details"
+
+#~ msgid "order details"
+#~ msgstr "order details"
+
+#~ msgid "Order Email: label to identify how the order was paid for"
+#~ msgstr "Order Email: label to identify how the order was paid for"
+
+#~ msgid "Paid By:"
+#~ msgstr "Paid By:"
+
+#~ msgid ""
+#~ "Order Email: Text you would like to display at the end of emails after "
+#~ "everything else."
+#~ msgstr ""
+#~ "Order Email: Text you would like to display at the end of emails after "
+#~ "everything else."
+
+#~ msgid "Label Discount (Spend): i.e \"spend\" 50.00 save 10.00"
+#~ msgstr "Label Discount (Spend): i.e \"spend\" 50.00 save 10.00"
+
+#~ msgid "spend"
+#~ msgstr "spend"
+
+#~ msgid "Label Discount (Save): i.e spend 50.00 \"save\" 10.00"
+#~ msgstr "Label Discount (Save): i.e spend 50.00 \"save\" 10.00"
+
+#~ msgid "save"
+#~ msgstr "save"
+
+#~ msgid "Label Info: i.e. \"free delivery for orders over\"..."
+#~ msgstr "Label Info: i.e. \"free delivery for orders over\"..."
+
+#~ msgid "free delivery for orders over"
+#~ msgstr "free delivery for orders over"
+
+#~ msgid "Label Info: required minimum order value (displayed if applicable)"
+#~ msgstr "Label Info: required minimum order value (displayed if applicable)"
+
+#~ msgid "minimum order"
+#~ msgstr "minimum order"
+
+#~ msgid ""
+#~ "Label Info: required minimum order value for delivery (displayed if "
+#~ "applicable)"
+#~ msgstr ""
+#~ "Label Info: required minimum order value for delivery (displayed if "
+#~ "applicable)"
+
+#~ msgid "minimum order for delivery"
+#~ msgstr "minimum order for delivery"
+
+#~ msgid "Price Labels (Sub)Totals: text to display when free delivery applies"
+#~ msgstr ""
+#~ "Price Labels (Sub)Totals: text to display when free delivery applies"
+
+#~ msgid "free delivery"
+#~ msgstr "free delivery"
+
+#~ msgid ""
+#~ "Price Labels (Sub)Totals: text delivery charges - when set to \"Fixed\" "
+#~ "or \"Free delivery over\" (if applicable)"
+#~ msgstr ""
+#~ "Price Labels (Sub)Totals: text delivery charges - when set to \"Fixed\" "
+#~ "or \"Free delivery over\" (if applicable)"
+
+#~ msgid "delivery charges"
+#~ msgstr "delivery charges"
+
+#~ msgid ""
+#~ "Price Labels (Sub)Totals: text delivery when set to \"Delivery Charges "
+#~ "per item\" (if applicable)"
+#~ msgstr ""
+#~ "Price Labels (Sub)Totals: text delivery when set to \"Delivery Charges "
+#~ "per item\" (if applicable)"
+
+#~ msgid "delivery charges per item"
+#~ msgstr "delivery charges per item"
+
+#~ msgid ""
+#~ "Price Labels (Sub)Totals: text before sum of discounts applied(if any)"
+#~ msgstr ""
+#~ "Price Labels (Sub)Totals: text before sum of discounts applied(if any)"
+
+#~ msgid ""
+#~ "Price Labels (Sub)Totals: text before sum of tax applied to all items(if "
+#~ "> 0)"
+#~ msgstr ""
+#~ "Price Labels (Sub)Totals: text before sum of tax applied to all items(if "
+#~ "> 0)"
+
+#~ msgid "Sales Tax"
+#~ msgstr "Sales Tax"
+
+#~ msgid "Price Labels (Sub)Totals: text before total sum of ORDER"
+#~ msgstr "Price Labels (Sub)Totals: text before total sum of ORDER"
+
+#~ msgid "total"
+#~ msgstr "total"
+
+#~ msgid "Price Labels (Sub)Totals: text before total sum of ITEMS in cart"
+#~ msgstr "Price Labels (Sub)Totals: text before total sum of ITEMS in cart"
+
+#~ msgid "your items"
+#~ msgstr "your items"
+
+#~ msgid "Openinghours: text to display when shop is closed that day "
+#~ msgstr "Openinghours: text to display when shop is closed that day "
+
+#~ msgid "closed"
+#~ msgstr "closed"
+
+#~ msgid "Mondays"
+#~ msgstr "Mondays"
+
+#~ msgid "Tuesdays"
+#~ msgstr "Tuesdays"
+
+#~ msgid "Wednesdays"
+#~ msgstr "Wednesdays"
+
+#~ msgid "Thursdays"
+#~ msgstr "Thursdays"
+
+#~ msgid "Fridays"
+#~ msgstr "Fridays"
+
+#~ msgid "Saturdays"
+#~ msgstr "Saturdays"
+
+#~ msgid "Sundays"
+#~ msgstr "Sundays"
+
+#~ msgid "Default"
+#~ msgstr "Default"
+
+#~ msgid "Responsive [Experimental]"
+#~ msgstr "Responsive [Experimental]"
+
+#~ msgid "Widget Title"
+#~ msgstr "Widget Title"
+
+#~ msgid "Suppress Title ?"
+#~ msgstr "Suppress Title ?"
+
+#~ msgid "Widget Type"
+#~ msgstr "Widget Type"
+
+#~ msgid "All Categories [default]"
+#~ msgstr "All Categories [default]"
+
+#~ msgid ""
+#~ "Please refer to <a href='http://wordpress.org/extend/plugins/wppizza/"
+#~ "faq/' target='_blank'>FAQ</a> when using the widget (or shortcode) to "
+#~ "display the navigation"
+#~ msgstr ""
+#~ "Please refer to <a href='http://wordpress.org/extend/plugins/wppizza/"
+#~ "faq/' target='_blank'>FAQ</a> when using the widget (or shortcode) to "
+#~ "display the navigation"
+
+#~ msgid ""
+#~ "You probably want to create a dedicated orderpage with the following "
+#~ "shortcode instead [wppizza type='orderpage']."
+#~ msgstr ""
+#~ "You probably want to create a dedicated orderpage with the following "
+#~ "shortcode instead [wppizza type='orderpage']."
+
+#~ msgid ""
+#~ "Displays openingtimes set in wppizza->settings->openingtimes. shortcode "
+#~ "[wppizza type='openingtimes']"
+#~ msgstr ""
+#~ "Displays openingtimes set in wppizza->settings->openingtimes. shortcode "
+#~ "[wppizza type='openingtimes']"
+
+#~ msgid "First Category [default]"
+#~ msgstr "First Category [default]"
+
+#~ msgid "Show Additives List at bottom of page ?"
+#~ msgstr "Show Additives List at bottom of page ?"
+
+#~ msgid "Auto [default]"
+#~ msgstr "Auto [default]"
+
+#~ msgid "Force Hide"
+#~ msgstr "Force Hide"
+
+#~ msgid "Force Show"
+#~ msgstr "Force Show"
+
+#~ msgid "Suppress Category Header ?"
+#~ msgstr "Suppress Category Header ?"
+
+#~ msgid "Cart visible on page when scrolling ?"
+#~ msgstr "Cart visible on page when scrolling ?"
+
+#~ msgid "Display Openingtimes ?"
+#~ msgstr "Display Openingtimes ?"
+
+#~ msgid "Display Order Info ?"
+#~ msgstr "Display Order Info ?"
+
+#~ msgid "Width [% or px]"
+#~ msgstr "Width [% or px]"
+
+#~ msgid "i.e. 200px or 85% - defaults to 100% if left blank"
+#~ msgstr "i.e. 200px or 85% - defaults to 100% if left blank"
+
+#~ msgid "Height [Integer]"
+#~ msgstr "Height [Integer]"
+
+#~ msgid "css defaults to 250px if left blank"
+#~ msgstr "css defaults to 250px if left blank"
+
+#~ msgid "Holds "
+#~ msgstr "Holds "
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "Add New "
+#~ msgstr "Add New "
+
+#~ msgid "Search "
+#~ msgstr "Search "
+
+#~ msgid ""
+#~ "(ensure the page includes [wppizza type=\"orderpage\"] or the widget "
+#~ "equivalent"
+#~ msgstr ""
+#~ "(ensure the page includes [wppizza type=\"orderpage\"] or the widget "
+#~ "equivalent"
+
+#~ msgid "You do not have sufficient permissions to access this page !"
+#~ msgstr "You do not have sufficient permissions to access this page !"
+
+#~ msgid "text to display when closed "
+#~ msgstr "text to display when closed "
+
+#~ msgid "alternative text to display when closed "
+#~ msgstr "alternative text to display when closed "
+
+#~ msgid "we are open"
+#~ msgstr "we are open"
+
+#~ msgid "text to display when shop is open [could be empty]"
+#~ msgstr "text to display when shop is open [could be empty]"
+
+#~ msgid "shoppingcart"
+#~ msgstr "shoppingcart"
+
+#~ msgid "text shoppingcart"
+#~ msgstr "text shoppingcart"
+
+#~ msgid "text to display when cart is empty"
+#~ msgstr "text to display when cart is empty"
+
+#~ msgid "text to display when empty"
+#~ msgstr "text to display when empty"
+
+#~ msgid "text to display when add to cart"
+#~ msgstr "text to display when add to cart"
+
+#~ msgid "text to display when added to cart"
+#~ msgstr "text to display when added to cart"
+
+#~ msgid "text to display remove from cart"
+#~ msgstr "text to display remove from cart"
+
+#~ msgid "checkout"
+#~ msgstr "checkout"
+
+#~ msgid "buttontext in cart to proceed to order page"
+#~ msgstr "buttontext in cart to proceed to order page"
+
+#~ msgid "free delivery for orders of"
+#~ msgstr "free delivery for orders of"
+
+#~ msgid "delivery_charges"
+#~ msgstr "delivery_charges"
+
+#~ msgid "free"
+#~ msgstr "free"
+
+#~ msgid "required field"
+#~ msgstr "required field"
+
+#~ msgid "thank_you"
+#~ msgstr "thank_you"
+
+#~ msgid "we have received your order"
+#~ msgstr "we have received your order"
+
+#~ msgid "order_details"
+#~ msgstr "order_details"
+
+#~ msgid "your_order"
+#~ msgstr "your_order"
+
+#~ msgid "send_order"
+#~ msgstr "send_order"
+
+#~ msgid "contains_additives"
+#~ msgstr "contains_additives"
+
+#~ msgid ""
+#~ "Empty/Delete ALL WPPizza Categories and Items: <span style=\"color:red"
+#~ "\">use with care</span>"
+#~ msgstr ""
+#~ "Empty/Delete ALL WPPizza Categories and Items: <span style=\"color:red"
+#~ "\">use with care</span>"
+
+#~ msgid "prices"
+#~ msgstr "prices"
+
+#~ msgid "contains"
+#~ msgstr "contains"
+
+#~ msgid "Ingredients"
+#~ msgstr "Ingredients"
+
+#~ msgid "Empty WPPizza Categories and Items:"
+#~ msgstr "Empty WPPizza Categories and Items:"

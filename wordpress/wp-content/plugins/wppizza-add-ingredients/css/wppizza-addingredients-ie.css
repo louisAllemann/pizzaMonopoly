@@ -1,0 +1,14 @@
+/*************************************************************************************************************
+*
+*
+*	if you want to target all IE, copy this file to your theme directory and add edit as required
+*	Note: this stylesheet DOES NOT GET LOADED until copied to your theme directory
+* 	Furthermore IE 10 does NOT read conditional stylesheets 
+*	
+*************************************************************************************************************/
+/**icons for half/quarter in ingredients selected**/
+.wppizza-current-ingredients .wppizza-multi-icon{font-size:130%;padding:0px 5px 0 0;position:relative;top:0px;}
+/**icons for half/quarter in cart**/
+.wppizza-cart-contents .wppizza-multi-icon{font-size:120%;}
+/**icons for half/quarter on order page**/
+#wppizza-send-order .wppizza-multi-icon{font-size:120%;}
